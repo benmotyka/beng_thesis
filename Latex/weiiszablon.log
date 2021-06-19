@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.4)  19 JUN 2021 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.4)  19 JUN 2021 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,17 +505,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [3])
+)
 \tf@toc=\write4
 \openout4 = `weiiszablon.toc'.
 
+ [3] [4
 
-[4] [5
+] [5
 
-] [6
+]
+[6
 
 ] [7
 
@@ -523,44 +522,42 @@ Underfull \vbox (badness 2302) has occurred while \output is active []
 
 ] [9
 
-] [10
-
 ]
-Overfull \hbox (14.2264pt too wide) in paragraph at lines 116--116
+Overfull \hbox (14.2264pt too wide) in paragraph at lines 133--133
 [][]| 
  []
 
 
-Overfull \hbox (14.2264pt too wide) in paragraph at lines 116--116
+Overfull \hbox (14.2264pt too wide) in paragraph at lines 133--133
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 [][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11] (./weiiszablon.aux) ) 
+[10] (./weiiszablon.aux) ) 
 Here is how much of TeX's memory you used:
- 6660 strings out of 481144
- 93712 string characters out of 5913431
+ 6661 strings out of 481144
+ 93735 string characters out of 5913431
  414451 words of memory out of 5000000
- 23500 multiletter control sequences out of 15000+600000
+ 23501 multiletter control sequences out of 15000+600000
  445722 words of font info for 54 fonts, out of 8000000 for 9000
  79 hyphenation exceptions out of 8191
- 83i,13n,88p,507b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,13n,88p,566b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/
 share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/l
 mr17.pfb>
-Output written on weiiszablon.pdf (11 pages, 769062 bytes).
+Output written on weiiszablon.pdf (10 pages, 774647 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
