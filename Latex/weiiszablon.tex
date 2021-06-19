@@ -1,0 +1,118 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% %
+%%% % weiiszablon.tex
+%%% % The Faculty of Electrical and Computer Engineering
+%%% % Rzeszow University Of Technology diploma thesis Template
+%%% % Szablon pracy dyplomowej Wydziału Elektrotechniki 
+%%% % i Informatyki PRz
+%%% % June, 2015
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,twoside]{article}
+
+\usepackage{weiiszablon}
+
+\author{Motyka Beniamin}
+
+% np. EF-123456, EN-654321, ...
+\studentID{EF-160780}
+
+\title{Bezpieczeństwo IT dla firm - opis i implementacja}
+\titleEN{Temat pracy po angielsku}
+
+
+%%% wybierz rodzaj pracy wpisując jeden z poniższych numerów: ...
+% 1 = inżynierska	% BSc
+% 2 = magisterska	% MSc
+% 3 = doktorska		% PhD
+%%% na miejsce zera w linijce poniżej
+\newcommand{\rodzajPracyNo}{1}
+
+
+%%% promotor
+\supervisor{dr Michał Piętal}
+%% przykład: dr hab. inż. Józef Nowak, prof. PRz
+
+%%% promotor ze stopniami naukowymi po angielsku
+\supervisorEN{(academic degree) Imię i nazwisko opiekuna}
+
+\abstract{Treść streszczenia po polsku}
+\abstractEN{Treść streszczenia po angielsku}
+
+\begin{document}
+
+% strona tytułowa
+\maketitle
+
+\blankpage
+
+% spis treści
+\tableofcontents
+
+\clearpage
+\blankpage
+
+\clearpage
+\section{Wprowadzenie}
+W dzisiejszych czasach śmiało można stwierdzić, iż	Internet stał się ważną częścią ludzkiego istnienia. Niewątpliwy wpływ na ten stan rzeczy miała pandemia COVID-19 - sprawiła ona bowiem, że pewne dziedziny życia, takie jak dydaktyka czy praca wykonywana umysłowo, przeszły swoistą transformację. Miejsca, w których spotykali się studenci wraz z wykładowcami, czy pracownicy w biurze, stały się puste. Zastąpiła je komunikacja zdalna -- przez Internet.
+
+Fakt, iż ludzkość zmuszona została by przenieść znaczną część swojego funkcjonowania w sieć, niesie ze sobą poważne implikacje.
+
+\clearpage
+\section{Technologie wykorzystane w aplikacji}
+
+\subsection{Node.js}
+\subsubsection{Express}
+\subsection{GraphQL}
+\subsection{MongoDB}
+\subsection{React.js}
+
+\clearpage
+\section{Zagrożenia bezpieczeństwa}
+
+\subsection{Phishing}
+\subsubsection{Opis}
+\subsubsection{Przykład implementacji}
+\subsection{Ransomware}
+\subsubsection{Opis}
+\subsubsection{Przykład implementacji}
+\subsection{Keylogger}
+\subsubsection{Opis}
+\subsubsection{Przykład implementacji}
+\subsection{Wstrzyknięcie SQL}
+\subsubsection{Opis}
+\subsubsection{Przykład implementacji}
+\subsection{DDOS}
+\subsubsection{Opis}
+\subsubsection{Przykład implementacji}
+\subsection{Ataki XSS}
+\subsubsection{Opis}
+\subsubsection{Przykład implementacji}
+\subsection{Zdalne wykonywanie kodu}
+\subsubsection{Opis}
+\subsubsection{Przykład implementacji}
+\subsection{Spoofing}
+\subsubsection{Opis}
+\subsubsection{Przykład implementacji}
+\clearpage
+\section{Podsumowanie i wnioski końcowe}
+
+
+
+\clearpage
+
+\addcontentsline{toc}{section}{Literatura}
+
+\begin{thebibliography}{4}
+\bibitem{str} http://weii.portal.prz.edu.pl/pl/materialy-do-pobrania. Dostęp 5.01.2015.
+\bibitem{Jakubczyk1997} Jakubczyk T., Klette A.: Pomiary w akustyce. WNT, Warszawa 1997.
+\bibitem{Barski2011} Barski S.: Modele transmitancji. Elektronika praktyczna, nr 7/2011, str. 15-18.
+\bibitem{dokum} Czujnik S200. Dokumentacja techniczno-ruchowa. Lumel, Zielona Góra, 2001.
+\bibitem{Pawluk2001} Pawluk K.: Jak pisać teksty techniczne poprawnie, Wiadomości Elektrotechniczne, Nr 12, 2001, str. 513-515.
+\end{thebibliography}
+
+\clearpage
+
+\makesummary
+
+\end{document} 

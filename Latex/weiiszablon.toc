@@ -1,0 +1,35 @@
+\babel@toc {polish}{}
+\contentsline {section}{\numberline {1}Wprowadzenie}{\footnotesize 6}{}%
+\contentsline {section}{\numberline {2}Technologie wykorzystane w aplikacji}{\footnotesize 7}{}%
+\contentsline {subsection}{\numberline {2.1}Node.js}{\footnotesize 7}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Express}{\footnotesize 7}{}%
+\contentsline {subsection}{\numberline {2.2}GraphQL}{\footnotesize 7}{}%
+\contentsline {subsection}{\numberline {2.3}MongoDB}{\footnotesize 7}{}%
+\contentsline {subsection}{\numberline {2.4}React.js}{\footnotesize 7}{}%
+\contentsline {section}{\numberline {3}Zagrożenia bezpieczeństwa}{\footnotesize 8}{}%
+\contentsline {subsection}{\numberline {3.1}Phishing}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Opis}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Przykład implementacji}{\footnotesize 8}{}%
+\contentsline {subsection}{\numberline {3.2}Ransomware}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Opis}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Przykład implementacji}{\footnotesize 8}{}%
+\contentsline {subsection}{\numberline {3.3}Keylogger}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Opis}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Przykład implementacji}{\footnotesize 8}{}%
+\contentsline {subsection}{\numberline {3.4}Wstrzyknięcie SQL}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}Opis}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Przykład implementacji}{\footnotesize 8}{}%
+\contentsline {subsection}{\numberline {3.5}DDOS}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.5.1}Opis}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.5.2}Przykład implementacji}{\footnotesize 8}{}%
+\contentsline {subsection}{\numberline {3.6}Ataki XSS}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.6.1}Opis}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.6.2}Przykład implementacji}{\footnotesize 8}{}%
+\contentsline {subsection}{\numberline {3.7}Zdalne wykonywanie kodu}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.7.1}Opis}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.7.2}Przykład implementacji}{\footnotesize 8}{}%
+\contentsline {subsection}{\numberline {3.8}Spoofing}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.8.1}Opis}{\footnotesize 8}{}%
+\contentsline {subsubsection}{\numberline {3.8.2}Przykład implementacji}{\footnotesize 8}{}%
+\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 9}{}%
+\contentsline {section}{Literatura}{\footnotesize 10}{}%
