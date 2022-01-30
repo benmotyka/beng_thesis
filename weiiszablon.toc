@@ -1,0 +1,20 @@
+\babel@toc {polish}{}
+\contentsline {section}{\numberline {1}Wprowadzenie}{\footnotesize 5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Cel i zakres pracy}{\footnotesize 5}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Technologie wykorzystane w aplikacji}{\footnotesize 7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}JavaScript}{\footnotesize 7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}React}{\footnotesize 8}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Node.js}{\footnotesize 9}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}GraphQL}{\footnotesize 10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}MongoDB}{\footnotesize 11}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}DeepL}{\footnotesize 11}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Zagrożenia bezpieczeństwa}{\footnotesize 13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}SQL Injection}{\footnotesize 13}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Blokada usług}{\footnotesize 18}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Phishing}{\footnotesize 22}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Ransomware}{\footnotesize 26}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Podatność XSS}{\footnotesize 28}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Keylogger}{\footnotesize 32}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}CSRF}{\footnotesize 33}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 35}{section.4}%
+\contentsline {section}{Literatura}{\footnotesize 36}{section.4}%

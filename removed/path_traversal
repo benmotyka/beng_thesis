@@ -1,0 +1,31 @@
+\subsection{Path Traversal}
+
+\emph{Path Traversal} to nazwa dla luki bezpieczeństwa aplikacji internetowych, której niedopatrzenie, w procesie tworzenia oprogramowania, może skutkować w wycieku wrażliwych danych z serwera, na którym umieszczona jest aplikacja. 
+
+Dzięki językom programowania działających po stronie serwera takim jak PHP, zewnętrzne skrypty i pliki mogą być dołączane do aplikacji w sposób dynamiczny. Krytycznym elementem w tego typu funkcjonalnościach jest odpowiednio zaimplementowana logika dołączania plików oraz walidacja danych wejściowych, gdyż w przeciwnym wypadku, atakujący może odczytywać zawartość plików lokalnych, jak i zdalnych. Celem tej podatności jest zlokalizowanie i odpowiednie wykorzystanie parametrów przekazywanych do aplikacji, poprzez które dynamicznie dołączane są różne skrypty. 
+
+Poniższy przykład prezentuje dołączenie pliku 'pl.php' jako parametr, celem ustawienia tekstu na stronie w języku polskim:
+
+\url{http://samplepage.com/index.php?lang=pl.php}
+
+Może to świadczyć o tym, że przyłączenie pliku do w kodzie źródłowym aplikacji wykonywane jest w następujący, przykładowy sposób:
+
+\
+
+\begin{lstlisting}[language=PHP,caption=Listing programu PHP,label={KodPHP1}]
+	include($_GET['lang']);
+\end{lstlisting}
+
+Mając na uwadze fakt, że do aplikacji dynamicznie dołączany jest skrypt przekazywany w parametrze 'lang', atakujący może dokonać próby otworzenia zupełnie innego pliku, niż było to zakładane:
+
+\
+
+\url{http://samplepage.com/index.php?lang=../../../etc/passwd}
+
+W rezultacie, zamiast wypisania tekstu w języku polskim, przekazana zostanie zawartość pliku `/etc/passwd`, w którym to znajdują się informacje o wszystkich użytkownikach w systemie po stronie serwera.
+
+@TODO praktyczny przyklad path traversal z htb
+
+Aby zapobiec tej luce, zamiast wykluczać lub usuwać dane ciągi znaków, należy odpowiednio sprawdzać dane wejściowe i zezwalać jedynie na wybrane znaki (lub ciągi znaków), na przykład z wykorzystaniem wyrażeń regularnych. 
+
+\clearpage
