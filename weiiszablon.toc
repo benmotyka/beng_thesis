@@ -10,11 +10,13 @@
 \contentsline {subsection}{\numberline {2.4}DeepL}{\footnotesize 11}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Zagrożenia bezpieczeństwa}{\footnotesize 13}{section.3}%
 \contentsline {subsection}{\numberline {3.1}SQL Injection}{\footnotesize 13}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Blokada usług}{\footnotesize 18}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Phishing}{\footnotesize 22}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Ransomware}{\footnotesize 26}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Podatność XSS}{\footnotesize 28}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Keylogger}{\footnotesize 32}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}CSRF}{\footnotesize 33}{subsection.3.7}%
-\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 35}{section.4}%
-\contentsline {section}{Literatura}{\footnotesize 36}{section.4}%
+\contentsline {subsubsection}{\numberline {3.1.1}Opis}{\footnotesize 13}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Implementacja}{\footnotesize 17}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Blokada usług}{\footnotesize 20}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Phishing}{\footnotesize 24}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Ransomware}{\footnotesize 28}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Podatność XSS}{\footnotesize 30}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Keylogger}{\footnotesize 34}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}CSRF}{\footnotesize 35}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 37}{section.4}%
+\contentsline {section}{Literatura}{\footnotesize 38}{section.4}%

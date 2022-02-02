@@ -64,7 +64,7 @@ Fakt, iż ludzkość została zmuszona, by przenieść znaczną część swojego
 
 Celem niniejszej pracy inżynierskiej jest wyeksponowanie, opis oraz implementacja najbardziej pospolitych zagrożeń i luk bezpieczeństwa w Internecie nie tylko z perspektywy zwykłych użytkowników, ale również dla małych i średnich przedsiębiorstw (MMŚP). Na podstawie wiedzy wyniesionej ze studiów stworzona została aplikacja internetowa, zwierająca interaktywne kursy o tematyce cyberbezpieczeństwa z elementami wirtualnej rzeczywistości oraz quizami, podsumowującymi wiedzę kursanta po kursie. Każdy kurs podzielić można na podstawowy, zawierający zasadnicze informacje na określony temat i zaawansowany, dla kursantów chcących bardziej zgłębić wybrany obszar. Kurs kończy się quizem jednokrotnego wyboru, na którego końcu zostaje przedstawiony wynik zdającego wraz z prawidłowymi odpowiedziami. Ma on na celu zweryfikowanie i ustrukturyzowanie wiedzy użytkownika po ukończonym szkoleniu. Celem zapewnienia większej dostępności szerszemu gronu odbiorców, aplikacja, wraz z treścią kursów, została w całości przetłumaczona na język angielski.
 
-Treść prezentowana podczas kursów wykorzystuje elementy wirtualnej rzeczywistości (VR) w podstawowym stopniu. Kursy pozwalają użytkownikom symulować sytuacje zagrożeń bezpieczeństwa na wirtualnym komputerze czy telefonie. Nie tylko polepsza to końcowe odczucia kursanta, poprzez dostarczenie mu bardziej jakościowej treści, ale także bezpośrednio wpływa na jakość przyswajanej wiedzy. Zostało bowiem udowodnione, że doświadczanie sytuacji zbliżonych do rzeczywistości poprzez interakcję i immersję polepsza proces uczenia się. \cite{VrLearning}
+Treść prezentowana podczas kursów wykorzystuje elementy wirtualnej rzeczywistości (VR) w podstawowym stopniu. Kursy pozwalają użytkownikom symulować sytuacje zagrożeń bezpieczeństwa na wirtualnym komputerze czy telefonie. Nie tylko polepsza to końcowe odczucia kursanta, poprzez dostarczenie mu bardziej jakościowej treści, ale także bezpośrednio wpływa na jakość przyswajanej wiedzy. Zostało bowiem udowodnione, że doświadczanie sytuacji zbliżonych do rzeczywistości poprzez interakcję i immersję polepsza proces uczenia się \cite{VrLearning}. 
 
 Dzięki temu, że powyższa idea została zrealizowana w formie aplikacji klasy e-learning wraz z elementami wirtualnej rzeczywistości, istnieje realna szansa na zwiększenie świadomości społecznej, edukację oraz poprawę zabezpieczeń systemów teleinformatycznych i infrastruktury sieciowej. W zakres pracy wlicza się takie zagadnienia jak:
 \begin{itemize}
@@ -120,7 +120,7 @@ Oprócz zastosowania w implementacji interfejsów użytkownika dla aplikacji int
 
 Z racji rosnącego zainteresowania JavaScript, zaczęto się zastanawiać nad możliwością użycia tego języka programowania poza przeglądarką internetową. W 2008 roku narodziła się idea, dzięki której stworzona została platforma na bazie silnika V8 przeglądarki Google Chrome - Node.js. 
 
-Node.js nie jest serwerem internetowym ani językiem programowania. Jest to wieloplatformowe środowisko uruchomieniowe klasy open source, umożliwiające programistom tworzenie wszelkiego rodzaju narzędzi i aplikacji po stronie serwera w języku JavaScript. \cite{NodejsWhatIs} Aplikacje wykonane w tej technologii mogą być uruchamiane na większości systemów operacyjnych, takich jak Microsoft Windows, Linux, macOS, FreeBSD, OpenBSD itd.
+Node.js nie jest serwerem internetowym ani językiem programowania. Jest to wieloplatformowe środowisko uruchomieniowe klasy open source, umożliwiające programistom tworzenie wszelkiego rodzaju narzędzi i aplikacji po stronie serwera w języku JavaScript \cite{NodejsWhatIs}. Aplikacje wykonane w tej technologii mogą być uruchamiane na większości systemów operacyjnych, takich jak Microsoft Windows, Linux, macOS, FreeBSD, OpenBSD itd.
 
 Środowisko jest przeznaczone do użytku poza przeglądarką -- działa bezpośrednio na systemie operacyjnym urządzenia, pomijając tym samym wszelkie specyficzne dla przeglądarki internetowej API JavaScript, jednocześnie dodając obsługę tradycyjnych interfejsów systemu operacyjnego takich jak biblioteki HTTP czy systemy plików.
 
@@ -151,20 +151,22 @@ Fakt ten sprawia, że bazy NoSQL doskonale wpisują się w trend Big Data (anali
 Baza MongoDB wykorzystywana jest w systemie celem przechowywania treści kursów i artykułów, danych logowania użytkowników, wyników quizów i nie tylko.
 
 \subsection{DeepL}
-DeepL to narzędzie stworzone przez firmę DeepL SE. Ten z pozoru zwyczajny translator online tłumaczy teksty za pomocą sztucznych sieci neuronowych. Sieci te trenowane są na milionach przetłumaczonych tekstów, co zapewnia bardzo precyzyjne rezultaty. Trening odbywa się metodą uczenia nadzorowanego -- sieciom pokazywane są różne przykłady tekstów, celem porównania wyników tłumaczenia z tłumaczeniami z danych treningowych. W sytuacji, gdy wystąpią ewentualne rozbieżności, wagi sieci są odpowiednio dostosowywane. \cite{Deepl} Wykorzystanie tej technologi pozwoliło na przetłumaczenie w całości treści strony oraz kursów na język angielski, jednak możliwości tego narzędzia pozwalają również na tłumaczenie tekstów na wiele innych języków. 
+DeepL to narzędzie stworzone przez firmę DeepL SE. Ten z pozoru zwyczajny translator online tłumaczy teksty za pomocą sztucznych sieci neuronowych. Sieci te trenowane są na milionach przetłumaczonych tekstów, co zapewnia bardzo precyzyjne rezultaty. Trening odbywa się metodą uczenia nadzorowanego -- sieciom pokazywane są różne przykłady tekstów, celem porównania wyników tłumaczenia z tłumaczeniami z danych treningowych. W sytuacji, gdy wystąpią ewentualne rozbieżności, wagi sieci są odpowiednio dostosowywane \cite{Deepl}. Wykorzystanie tej technologi pozwoliło na przetłumaczenie w całości treści strony oraz kursów na język angielski, jednak możliwości tego narzędzia pozwalają również na tłumaczenie tekstów na wiele innych języków. 
  
 \clearpage
 \section{Zagrożenia bezpieczeństwa}
 
-[FORMAT OPISAC DLACZEGO WYBRALEM AKURAT TE ZAGROZENIA]
+Zagrożenia opisywane w poniższych podrozdziałach są jednymi z najbardziej niebezpiecznych nie tylko z perspektywy zwykłych użytkowników (phishing, keylogger, ransomware) ale także dla małych i średnich przedsiębiorstw (MMŚP). Warto jednak mieć na uwadze, że opisywane zagrożenia stanowią jedynie małą część wszystkich niebezpieczeństw w sieci.
 
 \subsection{SQL Injection}
+
+\subsubsection{Opis}
 
 Wstrzyknięcie SQL to podatność aplikacji webowych polegająca na zmodyfikowaniu kwerendy bazodanowej wysyłanej do relacyjnej bazy danych. Celem tego ataku może być uzyskanie informacji, do których w zwyczajnych okolicznościach nie powinno się mieć dostępu: danych personalnych innych użytkowników, ich haseł, numerów kart kredytowych itd. Atak może być wykonany poprzez odpowiednią modyfikację danych wejściowych, np. hasła, produktów w wyszukiwarce, ale także adresu URL (wiedząc, że API działające po stronie serwera wykonane jest w technologii PHP). Podatność może również zostać wykorzystana poprzez zastosowanie serwera proxy, czyli serwera pośredniczącego pomiędzy użytkownikiem a serwerem. Dzięki niemu atakujący może zmodyfikować żądanie wychodzące, tym samym pominąć można wszelką walidację danych wejściowych. 
 
 Ciężko wyobrazić sobie w pełni funkcjonalny serwis internetowy niekorzystający z bazy danych. Proces rejestracji użytkownika, płacenia za zakupy czy zmiana zdjęcia profilowego -- te wszystkie czynności wymagają fizycznego przechowywania informacji. Zazwyczaj realizowane są one poprzez wysłanie odpowiedniego żądania do aplikacji działającej na serwerze, aby ta skomunikowała się z bazą danych i wykonała odpowiednią operację. 
 
-SQL \emph{(ang. Structured Query Language)} to język stworzony specjalnie w celu komunikowania się z relacyjnymi bazami danych. Posiada on niski próg wejścia (), ze względu na swoją przejrzystość oraz deklaratywną strukturę. Pozwala na łatwe zarządzanie, dostęp do informacji oraz tworzenie i modyfikację struktury bazy danych. Używany jest nie tylko przez programistów w procesie tworzenia API, ale także przez administratorów baz danych, celem dokonywania zmian struktury w schematach bazodanowych.
+SQL \emph{(ang. Structured Query Language)} to język stworzony specjalnie w celu komunikowania się z relacyjnymi bazami danych. Wykorzystywanie tego języka w celu podstawowych funkcjonalności może wydawać się proste, ze względu na jego przejrzystość oraz deklaratywną strukturę. Pozwala na łatwe zarządzanie, dostęp do informacji oraz tworzenie i modyfikację struktury bazy danych. Używany jest nie tylko przez programistów w procesie tworzenia API, ale także przez administratorów baz danych, celem dokonywania zmian struktury w schematach bazodanowych.
 
 Najprostsze zapytanie SQL, wypisujące wszystkie dane z tabeli 'clients' można zapisać w poniższej formie:
 
@@ -175,7 +177,7 @@ Najprostsze zapytanie SQL, wypisujące wszystkie dane z tabeli 'clients' można 
 	FROM clients
 \end{lstlisting}
 
-W zapytaniach bazodanowych może występować również \textbf{selekcja}, która filtruje rekordy wedle danego kryterium. Jest to powszechnie używany zabieg, gdyż zwrócenie jednego konkretnego rekordu, który obecnie jest potrzebny -- przykładowo użytkownika na podstawie jego identyfikatora -- zdecydowanie mniej obciąża zasoby instancji bazodanowej i zapobiega wysyłaniu zbędnych informacji poprzez sieć.
+W zapytaniach bazodanowych może występować również \textbf{selekcja}, która filtruje rekordy wedle danego kryterium. Jest to powszechnie używany zabieg, gdyż zwrócenie jednego konkretnego rekordu, który obecnie jest potrzebny -- przykładowo użytkownika na podstawie jego identyfikatora -- mniej obciąża zasoby instancji bazodanowej i zapobiega wysyłaniu zbędnych informacji poprzez sieć.
 
 \
 
@@ -185,7 +187,7 @@ W zapytaniach bazodanowych może występować również \textbf{selekcja}, któr
 	WHERE id = "1f168666-432e-401c-bcdc-a70938266a08"
 \end{lstlisting}
 
-W wielu sytuacjach, zapytania SQL tworzone są dynamicznie, na podstawie dostarczonych informacji w żądaniu. Przykładowo, użytkownik, wypełniając formularz rejestracji, przesyła do aplikacji 'login' i 'hasło'. Te dane -- jeśli aplikacja jest podatna na atak SQL Injection -- są wprost przekazywane do SQL. Poniższe przykłady zapytań aplikacji wykonanej w języku JavaScript prezentują dynamiczne wstawianie wartości, bazując na danych, które mogą pochodzić z formularza nadesłanego przez użytkownika.
+W wielu sytuacjach, zapytania SQL tworzone są dynamicznie, na podstawie dostarczonych informacji w żądaniu. Przykładowo, użytkownik, wypełniając formularz rejestracji, przesyła do aplikacji 'login' i 'hasło'. Te dane -- jeśli aplikacja jest podatna na atak \emph{SQL Injection} -- są wprost przekazywane do SQL. Poniższe przykłady zapytań aplikacji wykonanej w języku JavaScript prezentują dynamiczne wstawianie wartości, bazując na danych, które mogą pochodzić z formularza nadesłanego przez użytkownika.
 
 \
 
@@ -203,7 +205,7 @@ W wielu sytuacjach, zapytania SQL tworzone są dynamicznie, na podstawie dostarc
 	WHERE login = "jankowalski" AND password = "password123"
 \end{lstlisting}
 
-Z racji tego, że dane wejściowe nie są w żaden sposób walidowane po stronie serwera, ani odpowiednio formatowane, użytkownik końcowy może w bardzo prosty sposób zmodyfikować zapytanie. Kiedy to zamiast zwykłego loginu zostanie podany ciąg znaków: 
+Z racji tego, że dane wejściowe nie są w żaden sposób walidowane po stronie serwera, ani odpowiednio formatowane, użytkownik końcowy może w bardzo prosty sposób zmodyfikować zapytanie. Przykładowo, w sytuacji, w której zamiast zwykłego loginu zostanie podany ciąg znaków: 
 
 \begin{verbatim}
 	jankowalski" OR 1=1 --
@@ -253,11 +255,11 @@ Przypadek, w którym parametr \emph{password} równy jest:
 	WHERE login = "jankowalski" AND password = "password123"; DROP TABLE clients;--"
 \end{lstlisting}	
 
-Rezultatem zapytania będzie najpierw zwrócenie wszelkich rekordów o określonych polach \emph{login} i \emph{password}, a następnie usunięcie całej tabeli \emph{clients} wraz z wszystkimi danymi.
+Rezultatem zapytania będzie najpierw zwrócenie wszelkich rekordów o określonych polach \emph{login} i \emph{password}, a następnie usunięcie tabeli \emph{clients} ze wszystkimi danymi.
 
 Głównym powodem występowania podatności \emph{SQL Injection} jest zbyt mała uwaga poświęcana tworzeniu kwerend bazodanowych przez zespoły programistyczne, w procesie tworzenia aplikacji działających po stronie serwera. Parametry przekazywanego do zapytania powinny być filtrowane pod kątem występowania specjalnych symboli lub pod względem wystąpienia w parametrze określonych znaków, tj. wyłącznie litery i cyfry.
 
-Przy komunikacji z relacyjną bazą danych, dobrym rozwiązaniem może być stosowanie takich narzędzi jak Konstruktora Zapytań (ang. Query Builder) lub ORM (ang. Object-Relational Mapping) pozwala na uproszczenie komunikacji z bazą danych poprzez mapowanie tabel i relacji do obiektów, oraz eliminację możliwości wystąpienia takich luk bezpieczeństwa jak SQL Injection. Jako przykład Konstruktora zapytań można podać Knex.js - biblioteka o otwartych źródłach stworzona dla środowiska uruchomieniowego Node.js. Kwerendy tworzone w konstruktorach nie tylko są bezpieczniejsze niż zapytania SQL - są także uniwersalne dla każdego silnika bazodanowego. Konstrukcja zapytań - używając powyżej opisanego konstruktora - przedstawia się następująco:
+Przy komunikacji z relacyjną bazą danych, dobrym rozwiązaniem może być stosowanie takich narzędzi jak Konstruktora Zapytań (ang. Query Builder) lub ORM (ang. Object-Relational Mapping) pozwala na uproszczenie komunikacji z bazą danych poprzez mapowanie tabel i relacji do obiektów, oraz eliminację możliwości wystąpienia takich luk bezpieczeństwa jak \emph{SQL Injection}. Jako przykład Konstruktora zapytań można podać Knex.js - biblioteka o otwartych źródłach stworzona dla środowiska uruchomieniowego Node.js. Kwerendy tworzone w konstruktorach nie tylko są bezpieczniejsze niż zapytania SQL - są także uniwersalne dla każdego silnika bazodanowego. Konstrukcja zapytań - używając powyżej opisanego konstruktora - przedstawia się następująco:
 
 \
 
@@ -279,7 +281,42 @@ Próba wstrzyknięcia SQL do przekazywanego parametru zakończy się błędem w 
 	}).select('*')
 \end{lstlisting}	
 
-\emph{SQL Injection} jest luką bezpieczeństwa która może stanowić poważne zagrożenie nie tylko dla systemu bazodanowego, ale również dla całego przedsiębiorstwa. Przy braku odpowiedniej walidacji danych wejściowych można doprowadzić do sytuacji, w której to atakujący uzyska dostęp do poufnych informacji, lub nawet usunie część bazy danych. Mimo tego, iż należy do stosunkowo prostych podatności pod kątem wykonania, a jej początki sięgają roku 1998, wciąż stanowi ona jedną z najbardziej pospolitych i niebezpiecznych podatności aplikacji działających po stronie serwera.
+\emph{SQL Injection} jest luką bezpieczeństwa, która może stanowić poważne zagrożenie nie tylko dla systemu bazodanowego, ale również dla całego przedsiębiorstwa. Przy braku odpowiedniej walidacji danych wejściowych można doprowadzić do sytuacji, w której to atakujący uzyska dostęp do poufnych informacji, lub nawet usunie część bazy danych. Mimo tego, iż należy do stosunkowo prostych podatności pod kątem wykonania, a jej początki sięgają roku 1998, wciąż stanowi ona jedną z najbardziej pospolitych i niebezpiecznych podatności aplikacji działających po stronie serwera.
+
+\subsubsection{Implementacja}
+
+Kurs o tematyce \emph{SQL Injection} zawiera w sobie podstawowe informacje związane z budową strony internetowej i aplikacji działającej po stronie serwera. Istotną częścią kursu jest interaktywny slajd, w którym użytkownik może przeanalizować kod źródłowy wirtualnej strony internetowej. Na bazie przekazanych informacji w poprzednich slajdach oraz w opisie, kursant musi zaznaczyć kursorem myszy funkcję w kodzie źródłowym strony, odpowiadającą za przesłanie zawartości formularza.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/sql-slide-screenshot1.png}
+	\caption{Interaktywny slajd przedstawiający budowę omawianej strony}
+	\label{Fig:Interaktywny slajd przedstawiający budowę omawianej strony}
+\end{figure} 
+
+Użytkownicy o zaawansowanym typie konta mogą zdobyć wiedzę na temat serwerów pośredniczących, które są bardzo często wykorzystywane przy tego typu atakach oraz sposobach komunikacji aplikacji działającej po stronie serwera z bazą danych. 
+
+Dzięki tym informacjom, niedostępnym dla kursantów o zwykłym typie konta, są w stanie poszerzyć wiedzę w temacie opisywanej podatności, co bezpośrednio przekłada się na efekty kształcenia. Jednocześnie, aby w pełni zrozumieć treść slajdu dla użytkowników o zaawansowanym typie konta, wymagana jest znajomość opisywanych konceptów w stopniu podstawowym.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/sql-slide-screenshot3.png}
+	\caption{Slajd przedstawiający działanie serwerów pośredniczących}
+	\label{Fig:Interaktywny slajd przedstawiający budowę omawianej strony}
+\end{figure} 
+
+Kluczowym elementem kursu jest analiza kodu aplikacji działającej po stronie serwera, rozpoznanie miejsca, w którym występuje podatność \emph{SQL Injection} oraz próba wykorzystania tej podatności w sytuacji zbliżonej do rzeczywistości. Zawarta w interaktywnym slajdzie symulacja, pozwala kursantowi na dowolną manipulację danych wejściowych (formularza na stronie internetowej) i jednocześnie prezentuje, w jaki sposób wartość odczytywana jest po stronie serwera. 
+
+Mając na uwadze informacje przekazane w poprzednich slajdach, aby kontynuować, kursant musi samodzielnie wykorzystać podatność \emph{SQL Injection} w opisywanym serwisie.
+ 
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=1\linewidth]{figures/sql-slide-screenshot2.png}
+ 	\caption{Interaktywny slajd przedstawiający kod źródłowy aplikacji działającej po stronie serwera}
+ 	\label{Fig:Interaktywny slajd przedstawiający budowę omawianej strony}
+ \end{figure} 
+ 
+Opisywany kurs nie wyczerpuje wszystkich przykładów dla zagrożenia \emph{SQL Injection}. Jednocześnie mając na uwadze skomplikowaną naturę tego niebezpieczeństwa i konieczność posiadania podstawowej wiedzy na temat opisywanych zagadnień (bazy danych, język SQL, działanie serwerów webowych) w celu pełnego zrozumienia idei stojącej za tym zagrożeniem, większa ilość informacji mogłaby wydawać się przytłaczająca. Ze względu na fakt, iż w kursie zawarte są jedynie kluczowe informacje, jest on łatwiejszy do zrozumienia, a przez to efekt końcowy, w postaci zdobytej wiedzy może być lepszy.
 
 \clearpage
 

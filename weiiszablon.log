@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.4)  30 JAN 2022 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.4)  2 FEB 2022 01:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -504,6 +504,14 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 
 LaTeX Warning: Label `KodSQL1' multiply defined.
 
+
+LaTeX Warning: Label `Fig:Interaktywny slajd przedstawiajÄ…cy budowÄ™ omawianej
+ strony' multiply defined.
+
+
+LaTeX Warning: Label `Fig:Interaktywny slajd przedstawiajÄ…cy budowÄ™ omawianej
+ strony' multiply defined.
+
 )
 \openout1 = `weiiszablon.aux'.
 
@@ -602,7 +610,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<auxiliary/logoweii.jpg, id=79, 400.1349pt x 117.67966pt>
+<auxiliary/logoweii.jpg, id=87, 400.1349pt x 117.67966pt>
 File: auxiliary/logoweii.jpg Graphic file (type jpg)
 <use auxiliary/logoweii.jpg>
 Package pdftex.def Info: auxiliary/logoweii.jpg  used on input line 46.
@@ -1088,7 +1096,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\abovedisplayskip' on input line 78.
 
 [6]
-<figures/app-architecture.png, id=131, 829.0975pt x 121.45375pt>
+<figures/app-architecture.png, id=141, 829.0975pt x 121.45375pt>
 File: figures/app-architecture.png Graphic file (type png)
 <use figures/app-architecture.png>
 Package pdftex.def Info: figures/app-architecture.png  used on input line 86.
@@ -1329,73 +1337,142 @@ ze-nia funk-cjo-nal-no-±ci ±ro-do-wi-ska Node.js
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 143.
+(hyperref)                removing `\<let>-command' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 143.
+(hyperref)                removing `\@currsize' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 143.
+(hyperref)                removing `\abovedisplayskip' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 143.
+(hyperref)                removing `\p@' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 143.
+(hyperref)                removing `\p@' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 143.
+(hyperref)                removing `\p@' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 143.
+(hyperref)                removing `\abovedisplayshortskip' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 143.
+(hyperref)                removing `\z@' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 143.
+(hyperref)                removing `\p@' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 143.
+(hyperref)                removing `\belowdisplayshortskip' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 143.
+(hyperref)                removing `\p@' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 143.
+(hyperref)                removing `\p@' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 143.
+(hyperref)                removing `\p@' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 143.
+(hyperref)                removing `\<def>-command' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 143.
+(hyperref)                removing `\@listi' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 143.
+(hyperref)                removing `\belowdisplayskip' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 143.
+(hyperref)                removing `\abovedisplayskip' on input line 142.
 
 [10]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 155.
+
+[11]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 156.
@@ -1464,285 +1541,216 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\abovedisplayskip' on input line 156.
 
-[11]
+[12]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 157.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 157.
+(hyperref)                removing `\<let>-command' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 157.
+(hyperref)                removing `\@currsize' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 157.
+(hyperref)                removing `\abovedisplayskip' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 157.
+(hyperref)                removing `\p@' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 157.
+(hyperref)                removing `\p@' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 157.
+(hyperref)                removing `\p@' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 157.
+(hyperref)                removing `\abovedisplayshortskip' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 157.
+(hyperref)                removing `\z@' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 157.
+(hyperref)                removing `\p@' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 157.
+(hyperref)                removing `\belowdisplayshortskip' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 157.
+(hyperref)                removing `\p@' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 157.
+(hyperref)                removing `\p@' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 157.
+(hyperref)                removing `\p@' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 157.
+(hyperref)                removing `\<def>-command' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 157.
+(hyperref)                removing `\@listi' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 157.
+(hyperref)                removing `\belowdisplayskip' on input line 171.
 
-[12] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 171.
+
+[13
+
+] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 176.
+(hyperref)                removing `\<let>-command' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 176.
+(hyperref)                removing `\@currsize' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 176.
+(hyperref)                removing `\abovedisplayskip' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 176.
+(hyperref)                removing `\p@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 176.
+(hyperref)                removing `\p@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 176.
+(hyperref)                removing `\p@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 176.
+(hyperref)                removing `\abovedisplayshortskip' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 176.
+(hyperref)                removing `\z@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 176.
+(hyperref)                removing `\p@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 176.
+(hyperref)                removing `\belowdisplayshortskip' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 176.
+(hyperref)                removing `\p@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 176.
+(hyperref)                removing `\p@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 176.
+(hyperref)                removing `\p@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 176.
+(hyperref)                removing `\<def>-command' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 176.
+(hyperref)                removing `\@listi' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 176.
+(hyperref)                removing `\belowdisplayskip' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 176.
-
-[13
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 215.
+(hyperref)                removing `\abovedisplayskip' on input line 209.
 
 [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 255.
+(hyperref)                removing `\<let>-command' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 255.
+(hyperref)                removing `\@currsize' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 255.
+(hyperref)                removing `\abovedisplayskip' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 255.
+(hyperref)                removing `\p@' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 255.
+(hyperref)                removing `\p@' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 255.
+(hyperref)                removing `\p@' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 255.
+(hyperref)                removing `\abovedisplayshortskip' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 255.
+(hyperref)                removing `\z@' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 255.
+(hyperref)                removing `\p@' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 255.
+(hyperref)                removing `\belowdisplayshortskip' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 255.
+(hyperref)                removing `\p@' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 255.
+(hyperref)                removing `\p@' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 255.
+(hyperref)                removing `\p@' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 255.
+(hyperref)                removing `\<def>-command' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 255.
+(hyperref)                removing `\@listi' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 255.
+(hyperref)                removing `\belowdisplayskip' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 255.
+(hyperref)                removing `\abovedisplayskip' on input line 252.
 
 [15]
 
@@ -1814,88 +1822,264 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\abovedisplayskip' on input line 280.
 
 [16]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 285.
+<figures/sql-slide-screenshot1.png, id=235, 1445.4pt x 720.44156pt>
+File: figures/sql-slide-screenshot1.png Graphic file (type png)
+<use figures/sql-slide-screenshot1.png>
+Package pdftex.def Info: figures/sql-slide-screenshot1.png  used on input line 
+292.
+(pdftex.def)             Requested size: 441.01773pt x 219.8168pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 285.
+(hyperref)                removing `\<let>-command' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 285.
+(hyperref)                removing `\@currsize' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 285.
+(hyperref)                removing `\abovedisplayskip' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 285.
+(hyperref)                removing `\p@' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 285.
+(hyperref)                removing `\p@' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 285.
+(hyperref)                removing `\p@' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 285.
+(hyperref)                removing `\abovedisplayshortskip' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 285.
+(hyperref)                removing `\z@' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 285.
+(hyperref)                removing `\p@' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 285.
+(hyperref)                removing `\belowdisplayshortskip' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 285.
+(hyperref)                removing `\p@' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 285.
+(hyperref)                removing `\p@' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 285.
+(hyperref)                removing `\p@' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 285.
+(hyperref)                removing `\<def>-command' on input line 298.
 
-[17]
-<figures/3-way-handshake.png, id=236, 602.25pt x 258.21469pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 298.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 298.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 298.
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.298 
+       <./figures/sql-slide-screenshot1.png (PNG copy)>]
+<figures/sql-slide-screenshot3.png, id=246, 1446.15282pt x 718.93594pt>
+File: figures/sql-slide-screenshot3.png Graphic file (type png)
+<use figures/sql-slide-screenshot3.png>
+Package pdftex.def Info: figures/sql-slide-screenshot3.png  used on input line 
+303.
+(pdftex.def)             Requested size: 441.01773pt x 219.24771pt.
+<figures/sql-slide-screenshot2.png, id=247, 1445.4pt x 713.66624pt>
+File: figures/sql-slide-screenshot2.png Graphic file (type png)
+<use figures/sql-slide-screenshot2.png>
+Package pdftex.def Info: figures/sql-slide-screenshot2.png  used on input line 
+314.
+(pdftex.def)             Requested size: 441.01773pt x 217.74956pt.
+
+Underfull \vbox (badness 2600) has occurred while \output is active []
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 318.
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.318 
+       <./figures/sql-slide-screenshot3.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 321.
+
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.321 \clearpage
+                 <./figures/sql-slide-screenshot2.png (PNG copy)>]
+<figures/3-way-handshake.png, id=261, 602.25pt x 258.21469pt>
 File: figures/3-way-handshake.png Graphic file (type png)
 <use figures/3-way-handshake.png>
-Package pdftex.def Info: figures/3-way-handshake.png  used on input line 304.
+Package pdftex.def Info: figures/3-way-handshake.png  used on input line 340.
 (pdftex.def)             Requested size: 308.71106pt x 132.36543pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-[]\T1/lmr/m/n/12 Rysunek 3.2: []Graficzna re-pre-zen-ta-cja uzgad-nia-nia trój-
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[]\T1/lmr/m/n/12 Rysunek 3.5: []Graficzna re-pre-zen-ta-cja uzgad-nia-nia trój-
 etapowego,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
 \T1/lmr/m/n/12 https://www.luxoft-training.com/news/building-java-client-server
 -applications-with-
  []
@@ -1906,73 +2090,73 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 308.
+(hyperref)                removing `\<let>-command' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 308.
+(hyperref)                removing `\@currsize' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 308.
+(hyperref)                removing `\abovedisplayskip' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 308.
+(hyperref)                removing `\p@' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 308.
+(hyperref)                removing `\p@' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 308.
+(hyperref)                removing `\p@' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 308.
+(hyperref)                removing `\abovedisplayshortskip' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 308.
+(hyperref)                removing `\z@' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 308.
+(hyperref)                removing `\p@' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 308.
+(hyperref)                removing `\belowdisplayshortskip' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 308.
+(hyperref)                removing `\p@' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 308.
+(hyperref)                removing `\p@' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 308.
+(hyperref)                removing `\p@' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 308.
+(hyperref)                removing `\<def>-command' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 308.
+(hyperref)                removing `\@listi' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 308.
+(hyperref)                removing `\belowdisplayskip' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 308.
+(hyperref)                removing `\abovedisplayskip' on input line 344.
 
-[18
+[20
 
 ]
 Underfull \vbox (badness 1596) has occurred while \output is active []
@@ -1980,314 +2164,78 @@ Underfull \vbox (badness 1596) has occurred while \output is active []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 316.
+(hyperref)                removing `\<let>-command' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 316.
+(hyperref)                removing `\@currsize' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 316.
+(hyperref)                removing `\abovedisplayskip' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 316.
+(hyperref)                removing `\p@' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 316.
+(hyperref)                removing `\p@' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 316.
+(hyperref)                removing `\p@' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 316.
+(hyperref)                removing `\abovedisplayshortskip' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 316.
+(hyperref)                removing `\z@' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 316.
+(hyperref)                removing `\p@' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 316.
+(hyperref)                removing `\belowdisplayshortskip' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 316.
+(hyperref)                removing `\p@' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 316.
+(hyperref)                removing `\p@' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 316.
+(hyperref)                removing `\p@' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 316.
+(hyperref)                removing `\<def>-command' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 316.
+(hyperref)                removing `\@listi' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 316.
+(hyperref)                removing `\belowdisplayskip' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 316.
+(hyperref)                removing `\abovedisplayskip' on input line 352.
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.316 
+l.352 
        <./figures/3-way-handshake.png (PNG copy)>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 327.
-
-[20]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 329.
-
-[21]
-<figures/phishing-organisations.png, id=265, 546.54187pt x 386.94562pt>
-File: figures/phishing-organisations.png Graphic file (type png)
-<use figures/phishing-organisations.png>
-Package pdftex.def Info: figures/phishing-organisations.png  used on input line
- 336.
-(pdftex.def)             Requested size: 396.91325pt x 281.00958pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 345.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 345.
-
-[22
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.345 	
-        <./figures/phishing-organisations.png (PNG copy)>]
-<figures/phishing-example.png, id=273, 481.8pt x 298.86656pt>
-File: figures/phishing-example.png Graphic file (type png)
-<use figures/phishing-example.png>
-Package pdftex.def Info: figures/phishing-example.png  used on input line 348.
-(pdftex.def)             Requested size: 441.01773pt x 273.57422pt.
-<figures/phishing-example2.png, id=277, 729.47531pt x 322.20375pt>
-File: figures/phishing-example2.png Graphic file (type png)
-<use figures/phishing-example2.png>
-Package pdftex.def Info: figures/phishing-example2.png  used on input line 359.
-
-(pdftex.def)             Requested size: 423.37997pt x 187.0012pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 363.
@@ -2356,316 +2304,552 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\abovedisplayskip' on input line 363.
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.363 
-       <./figures/phishing-example.png (PNG copy)>]
+[22]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 371.
+(hyperref)                removing `\<let>-command' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 371.
+(hyperref)                removing `\@currsize' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 371.
+(hyperref)                removing `\abovedisplayskip' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 371.
+(hyperref)                removing `\p@' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 371.
+(hyperref)                removing `\p@' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 371.
+(hyperref)                removing `\p@' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 371.
+(hyperref)                removing `\abovedisplayshortskip' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 371.
+(hyperref)                removing `\z@' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 371.
+(hyperref)                removing `\p@' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 371.
+(hyperref)                removing `\belowdisplayshortskip' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 371.
+(hyperref)                removing `\p@' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 371.
+(hyperref)                removing `\p@' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 371.
+(hyperref)                removing `\p@' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 371.
+(hyperref)                removing `\<def>-command' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 371.
+(hyperref)                removing `\@listi' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 371.
+(hyperref)                removing `\belowdisplayskip' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 371.
+(hyperref)                removing `\abovedisplayskip' on input line 365.
 
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.371 N
-       aleÅ¼y takÅ¼e uwaÅ¼nie sprawdzaÄ‡ adresy URL stron internetowych, na ...
- <./figures/phishing-example2.png (PNG copy)>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 373.
+[23]
+<figures/phishing-organisations.png, id=290, 546.54187pt x 386.94562pt>
+File: figures/phishing-organisations.png Graphic file (type png)
+<use figures/phishing-organisations.png>
+Package pdftex.def Info: figures/phishing-organisations.png  used on input line
+ 372.
+(pdftex.def)             Requested size: 396.91325pt x 281.00958pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 373.
+(hyperref)                removing `\<let>-command' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 373.
+(hyperref)                removing `\@currsize' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 373.
+(hyperref)                removing `\abovedisplayskip' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 373.
+(hyperref)                removing `\p@' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 373.
+(hyperref)                removing `\p@' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 373.
+(hyperref)                removing `\p@' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 373.
+(hyperref)                removing `\abovedisplayshortskip' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 373.
+(hyperref)                removing `\z@' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 373.
+(hyperref)                removing `\p@' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 373.
+(hyperref)                removing `\belowdisplayshortskip' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 373.
+(hyperref)                removing `\p@' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 373.
+(hyperref)                removing `\p@' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 373.
+(hyperref)                removing `\p@' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 373.
+(hyperref)                removing `\<def>-command' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 373.
+(hyperref)                removing `\@listi' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 373.
-
-[25]
-Overfull \hbox (2.72818pt too wide) in paragraph at lines 377--378
-[]\T1/lmr/m/n/12 Ten ro-dzaj szko-dli-wego opro-gra-mo-wa-nia jest szcze-gól-ni
-e nie-bez-pieczny dla przed-
- []
-
-<figures/ransomware-attack-vectors.png, id=300, 712.6625pt x 483.8075pt>
-File: figures/ransomware-attack-vectors.png Graphic file (type png)
-<use figures/ransomware-attack-vectors.png>
-Package pdftex.def Info: figures/ransomware-attack-vectors.png  used on input l
-ine 382.
-(pdftex.def)             Requested size: 369.88582pt x 251.1015pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 388.
+(hyperref)                removing `\belowdisplayskip' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 388.
+(hyperref)                removing `\abovedisplayskip' on input line 381.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 388.
-
-[26
+[24
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.388 
+l.381 	
+        <./figures/phishing-organisations.png (PNG copy)>]
+<figures/phishing-example.png, id=298, 481.8pt x 298.86656pt>
+File: figures/phishing-example.png Graphic file (type png)
+<use figures/phishing-example.png>
+Package pdftex.def Info: figures/phishing-example.png  used on input line 384.
+(pdftex.def)             Requested size: 441.01773pt x 273.57422pt.
+<figures/phishing-example2.png, id=302, 729.47531pt x 322.20375pt>
+File: figures/phishing-example2.png Graphic file (type png)
+<use figures/phishing-example2.png>
+Package pdftex.def Info: figures/phishing-example2.png  used on input line 395.
+
+(pdftex.def)             Requested size: 423.37997pt x 187.0012pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 399.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 399.
+
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.399 
+       <./figures/phishing-example.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 407.
+
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.407 N
+       aleÅ¼y takÅ¼e uwaÅ¼nie sprawdzaÄ‡ adresy URL stron internetowych, na ...
+ <./figures/phishing-example2.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 409.
+
+[27]
+Overfull \hbox (2.72818pt too wide) in paragraph at lines 413--414
+[]\T1/lmr/m/n/12 Ten ro-dzaj szko-dli-wego opro-gra-mo-wa-nia jest szcze-gól-ni
+e nie-bez-pieczny dla przed-
+ []
+
+<figures/ransomware-attack-vectors.png, id=324, 712.6625pt x 483.8075pt>
+File: figures/ransomware-attack-vectors.png Graphic file (type png)
+<use figures/ransomware-attack-vectors.png>
+Package pdftex.def Info: figures/ransomware-attack-vectors.png  used on input l
+ine 418.
+(pdftex.def)             Requested size: 369.88582pt x 251.1015pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 424.
+
+[28
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.424 
        <./figures/ransomware-attack-vectors.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 395.
+(hyperref)                removing `\<let>-command' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 395.
+(hyperref)                removing `\@currsize' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 395.
+(hyperref)                removing `\abovedisplayskip' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 395.
+(hyperref)                removing `\p@' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 395.
+(hyperref)                removing `\p@' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 395.
+(hyperref)                removing `\p@' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 395.
+(hyperref)                removing `\abovedisplayshortskip' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 395.
+(hyperref)                removing `\z@' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 395.
+(hyperref)                removing `\p@' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 395.
+(hyperref)                removing `\belowdisplayshortskip' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 395.
+(hyperref)                removing `\p@' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 395.
+(hyperref)                removing `\p@' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 395.
+(hyperref)                removing `\p@' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 395.
+(hyperref)                removing `\<def>-command' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 395.
+(hyperref)                removing `\@listi' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 395.
+(hyperref)                removing `\belowdisplayskip' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 395.
+(hyperref)                removing `\abovedisplayskip' on input line 431.
 
-[27]
-<figures/xss-popularity.png, id=316, 1008.76875pt x 752.8125pt>
+[29]
+<figures/xss-popularity.png, id=340, 1008.76875pt x 752.8125pt>
 File: figures/xss-popularity.png Graphic file (type png)
 <use figures/xss-popularity.png>
-Package pdftex.def Info: figures/xss-popularity.png  used on input line 406.
+Package pdftex.def Info: figures/xss-popularity.png  used on input line 442.
 (pdftex.def)             Requested size: 396.91325pt x 296.20323pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2673,358 +2857,218 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 410.
+(hyperref)                removing `\<let>-command' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 410.
+(hyperref)                removing `\@currsize' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 410.
+(hyperref)                removing `\abovedisplayskip' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 410.
+(hyperref)                removing `\p@' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 410.
+(hyperref)                removing `\p@' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 410.
+(hyperref)                removing `\p@' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 410.
+(hyperref)                removing `\abovedisplayshortskip' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 410.
+(hyperref)                removing `\z@' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 410.
+(hyperref)                removing `\p@' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 410.
+(hyperref)                removing `\belowdisplayshortskip' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 410.
+(hyperref)                removing `\p@' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 410.
+(hyperref)                removing `\p@' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 410.
+(hyperref)                removing `\p@' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 410.
+(hyperref)                removing `\<def>-command' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 410.
+(hyperref)                removing `\@listi' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 410.
+(hyperref)                removing `\belowdisplayskip' on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 410.
+(hyperref)                removing `\abovedisplayskip' on input line 446.
 
-[28
+[30
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 420.
+(hyperref)                removing `\<let>-command' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 420.
+(hyperref)                removing `\@currsize' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 420.
+(hyperref)                removing `\abovedisplayskip' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 420.
+(hyperref)                removing `\p@' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 420.
+(hyperref)                removing `\p@' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 420.
+(hyperref)                removing `\p@' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 420.
+(hyperref)                removing `\abovedisplayshortskip' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 420.
+(hyperref)                removing `\z@' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 420.
+(hyperref)                removing `\p@' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 420.
+(hyperref)                removing `\belowdisplayshortskip' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 420.
+(hyperref)                removing `\p@' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 420.
+(hyperref)                removing `\p@' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 420.
+(hyperref)                removing `\p@' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 420.
+(hyperref)                removing `\<def>-command' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 420.
+(hyperref)                removing `\@listi' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 420.
+(hyperref)                removing `\belowdisplayskip' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 420.
+(hyperref)                removing `\abovedisplayskip' on input line 456.
 
-[29pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
- has been already used, duplicate ignored
+[31pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.420 
+l.456 
        <./figures/xss-popularity.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 436.
+(hyperref)                removing `\<let>-command' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 436.
+(hyperref)                removing `\@currsize' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 436.
+(hyperref)                removing `\abovedisplayskip' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 436.
+(hyperref)                removing `\p@' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 436.
+(hyperref)                removing `\p@' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 436.
+(hyperref)                removing `\p@' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 436.
+(hyperref)                removing `\abovedisplayshortskip' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 436.
+(hyperref)                removing `\z@' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 436.
+(hyperref)                removing `\p@' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 436.
+(hyperref)                removing `\belowdisplayshortskip' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 436.
+(hyperref)                removing `\p@' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 436.
+(hyperref)                removing `\p@' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 436.
+(hyperref)                removing `\p@' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 436.
+(hyperref)                removing `\<def>-command' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 436.
+(hyperref)                removing `\@listi' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 436.
+(hyperref)                removing `\belowdisplayskip' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 436.
+(hyperref)                removing `\abovedisplayskip' on input line 472.
 
-[30]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 440.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 440.
-
-[31]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 453.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 453.
-
-[32
-
-]
+[32]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 476.
@@ -3093,78 +3137,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\abovedisplayskip' on input line 476.
 
-[33
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 478.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 478.
-
-[34]
+[33]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 489.
@@ -3233,43 +3206,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\abovedisplayskip' on input line 489.
 
-[35
+[34
 
 ]
-Overfull \hbox (69.48903pt too wide) in paragraph at lines 498--499
-[]\T1/lmr/m/n/12 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Firs
-t_steps/What_is_JavaScript.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
-[]\T1/lmr/m/n/12 https://developer.mozilla.org/en-US/docs/Web/API/Document_Obje
-ct_Model.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
-[]\T1/lmr/m/n/12 https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies. Do-
-st¦p
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
-[]\T1/lmr/m/n/12 https://docs.microsoft.com/en-us/troubleshoot/windows-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
-[]\T1/lmr/m/n/12 https://www.coveware.com/blog/ransomware-attack-vectors-shift-
-as-new-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
-[]\T1/lmr/m/n/12 https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack
-. Do-st¦p
- []
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 512.
@@ -3338,112 +3277,357 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\abovedisplayskip' on input line 512.
 
-[36
+[35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 514--515
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 514.
+
+[36]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 525.
+
+[37
+
+]
+Overfull \hbox (69.48903pt too wide) in paragraph at lines 534--535
+[]\T1/lmr/m/n/12 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Firs
+t_steps/What_is_JavaScript.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
+[]\T1/lmr/m/n/12 https://developer.mozilla.org/en-US/docs/Web/API/Document_Obje
+ct_Model.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+[]\T1/lmr/m/n/12 https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies. Do-
+st¦p
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
+[]\T1/lmr/m/n/12 https://docs.microsoft.com/en-us/troubleshoot/windows-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+[]\T1/lmr/m/n/12 https://www.coveware.com/blog/ransomware-attack-vectors-shift-
+as-new-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+[]\T1/lmr/m/n/12 https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack
+. Do-st¦p
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@currsize' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayshortskip' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayshortskip' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\p@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@listi' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\belowdisplayskip' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\abovedisplayskip' on input line 548.
+
+[38
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 []\T1/lmr/m/n/12 https://www.sciencedirect.com/topics/computer-science/three-wa
 y-handshake.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 []\T1/lmr/m/n/12 https://www.wordfence.com/learn/how-to-prevent-cross-site-scri
 pting-attacks.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 []\T1/lmr/m/n/12 https://www.imperva.com/learn/application-security/web-scrapin
 g-attack.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
 []\T1/lmr/m/n/12 https://www.egospodarka.pl/art/galeria/39266,Bankowosc-online-
 a-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 529.
+(hyperref)                removing `\<let>-command' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 529.
+(hyperref)                removing `\@currsize' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 529.
+(hyperref)                removing `\abovedisplayskip' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 529.
+(hyperref)                removing `\p@' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 529.
+(hyperref)                removing `\p@' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 529.
+(hyperref)                removing `\p@' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 529.
+(hyperref)                removing `\abovedisplayshortskip' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 529.
+(hyperref)                removing `\z@' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 529.
+(hyperref)                removing `\p@' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 529.
+(hyperref)                removing `\belowdisplayshortskip' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 529.
+(hyperref)                removing `\p@' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 529.
+(hyperref)                removing `\p@' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 529.
+(hyperref)                removing `\p@' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 529.
+(hyperref)                removing `\<def>-command' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 529.
+(hyperref)                removing `\@listi' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 529.
+(hyperref)                removing `\belowdisplayskip' on input line 565.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 529.
+(hyperref)                removing `\abovedisplayskip' on input line 565.
 
-[37]
-Overfull \hbox (14.2264pt too wide) in paragraph at lines 531--531
+[39]
+Overfull \hbox (14.2264pt too wide) in paragraph at lines 567--567
 [][]| 
  []
 
 
-Overfull \hbox (14.2264pt too wide) in paragraph at lines 531--531
+Overfull \hbox (14.2264pt too wide) in paragraph at lines 567--567
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--531
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
 [][]
  []
 
@@ -3452,101 +3636,101 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 533.
+(hyperref)                removing `\<let>-command' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@currsize' on input line 533.
+(hyperref)                removing `\@currsize' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 533.
+(hyperref)                removing `\abovedisplayskip' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 533.
+(hyperref)                removing `\p@' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 533.
+(hyperref)                removing `\p@' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 533.
+(hyperref)                removing `\p@' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayshortskip' on input line 533.
+(hyperref)                removing `\abovedisplayshortskip' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 533.
+(hyperref)                removing `\z@' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 533.
+(hyperref)                removing `\p@' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayshortskip' on input line 533.
+(hyperref)                removing `\belowdisplayshortskip' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 533.
+(hyperref)                removing `\p@' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 533.
+(hyperref)                removing `\p@' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\p@' on input line 533.
+(hyperref)                removing `\p@' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 533.
+(hyperref)                removing `\<def>-command' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@listi' on input line 533.
+(hyperref)                removing `\@listi' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\belowdisplayskip' on input line 533.
+(hyperref)                removing `\belowdisplayskip' on input line 569.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\abovedisplayskip' on input line 533.
+(hyperref)                removing `\abovedisplayskip' on input line 569.
 
-[38] (./weiiszablon.aux)
+[40] (./weiiszablon.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `weiiszablon.out' has not changed.
-(rerunfilecheck)             Checksum: 953A6B4867569F6E21EF55EE680FE023;1136.
+(rerunfilecheck)             Checksum: 2EE8FE066B8E972A3C4F358922061F69;1273.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 415 ({)
+### simple group (level 1) entered at line 451 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11542 strings out of 481144
- 167133 string characters out of 5913431
- 769516 words of memory out of 5000000
- 28120 multiletter control sequences out of 15000+600000
+ 11570 strings out of 481144
+ 167945 string characters out of 5913431
+ 763485 words of memory out of 5000000
+ 28138 multiletter control sequences out of 15000+600000
  456926 words of font info for 60 fonts, out of 8000000 for 9000
  79 hyphenation exceptions out of 8191
- 83i,13n,88p,1194b,2146s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,13n,88p,1194b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texm
 f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
 12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on weiiszablon.pdf (38 pages, 1420081 bytes).
+Output written on weiiszablon.pdf (40 pages, 1978599 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 136 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
