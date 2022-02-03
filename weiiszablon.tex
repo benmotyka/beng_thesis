@@ -320,13 +320,141 @@ Opisywany kurs nie wyczerpuje wszystkich przykładów dla zagrożenia \emph{SQL 
 
 \clearpage
 
-\subsection{Blokada usług}
+\subsection{Phishing}
+\subsubsection{Opis}
+Phishing jest pewną formą socjotechniki, w której to atakujący, poprzez podszywanie się pod zaufane osoby lub instytucje, próbuje dokonać nieuczciwego przejęcia poufnych informacji od ofiary. Socjotechnika (inżynieria społeczna) to pewien zestaw sposobów wywierania wpływu na człowieka, aby ten dokonał czegoś wbrew swojej woli. Ataki phishingowe skierowane są zarówno do zwykłych użytkowników, jak i pracowników organizacji rządowych czy korporacji. Organizacja ulegająca atakowi może nie tylko ponieść poważne straty finansowe, ale również stracić reputację i zaufanie konsumentów. Badanie z 2021 r. firmy Kaspersky Lab, tworzącej popularne oprogramowanie antywirusowe Kaspersky wykazuje, że najpopularniejszymi organizacjami wykorzystywanymi przez phisherów są sklepy, portale internetowe i banki.  \cite{PhishingChart}	
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figures/phishing-organisations}
+	\caption{Ranking organizacji wykorzystywanych w atakach phishingowych, źródło: https://securelist.com/spam-and-phishing-in-q2-2021/103548/}
+	\label{fig:phishing-organisations}
+\end{figure}
+
+Ataki przeprowadzone mogą być używając psychologicznej manipulacji wybranych osób celem uzyskania ich danych osobowych - forma inżynierii społecznej - albo przy użyciu dostępnych narzędzi informatycznych. Najczęściej występujące rodzaje phishingu to:
+
+\begin{itemize}
+	\item E-maile phishingowe - spreparowana wiadomość phishingowa wysyłana jest na wiele skrzynek pocztowych, celem zwiększenia prawdopodobieństwa sukcesu ataku. Fałszywe wiadomości mogą zawierać cechy rzekomych organizacji, które miałyby być nadawcami, takie jak logo, stopkę, formatowanie celem skłonienia odbiorców do ujawnienia poufnych informacji, lub wejścia w złośliwe hiperłącze. \cite{PhishingEmails}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\linewidth]{figures/phishing-example}
+		\caption{Przykład phishingu w formie wiadomości e-mail \cite{PhishingExample}}
+		\label{fig:phishing-example}
+		
+	\end{figure}
+	
+	\item Fałszywa strona internetowa - polega na stworzeniu zwodniczo podobnej kopii strony internetowej poprzez tzw. \emph{Web Scrapping} \cite{WebScrapping} której celem jest przejęcie wrażliwych danych lub kradzież tożsamości użytkownika. Adres strony może być rozpowszechniany poprzez wiadomości SMS lub e-mail. \cite{WhatIsPhishing} 
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.96\linewidth]{figures/phishing-example2}
+		\caption{Przykład phishingu w formie spreparowanej strony internetowej}
+		\label{fig:phishing-example2}
+	\end{figure}
+	
+	\item Phishing telefoniczny - przeprowadzany specyficznie za pomocą wiadomości SMS lub połączeń telefonicznych. Numery telefonów potencjalnych ofiar często pozyskiwane są w wyniku wycieków baz danych przedsiębiorstw lub organizacji. Atakujący kontaktując się z ofiarą, może podawać się za znaną jej osobę lub pracownika zaufanej instytucji, na przykład banku, celem zmanipulowania interlokutora do wykonania określonych akcji.
+	\item \emph{Pharming} - rodzaj phishingu, który jest znacznie trudniejszy w detekcji. Polega na zainfekowaniu serwera DNS lub urządzenia użytkownika w ten sposób, aby za każdym razem, gdy odwiedzana jest zaufana strona, nastąpiło przekierowanie na złośliwą, spreparowaną stronę internetową. 
+	
+\end{itemize}
+
+Wektorami ataków phishingowych w większości przypadków są ludzie, a nie urządzenia. Szczególnie zagrożone są osoby niemające na co dzień styczności z internetem. Dobrym pomysłem jest - tam gdzie to możliwe - stosowanie uwierzytelniania wieloskładnikowego. Polega ono na potwierdzeniu próby autoryzacji poprzez dodatkowy element: kod wysyłany wiadomością SMS lub e-mail. Zapobiega to sytuacjom, w których to dane autoryzacyjne poszkodowanego takie jak adres e-mail i login zostaną użyte przez niewłaściwe osoby. Nie będą one mogły w pełni się uwierzytelnić, jeśli nie posiadają kodu autoryzacyjnego. Dodatkowo może stanowić ostrzeżenie dla ofiary, że ktoś próbuje zalogować się na jej konto. Zaufanym rozwiązaniem są również programy antywirusowe, ostrzegające użytkownika przed fałszywymi domenami oraz odpowiednio skonfigurowane filtry anty-spamowe w poczcie e-mail.
+
+Należy także uważnie sprawdzać adresy URL stron internetowych, na których podaje się wrażliwe dane. Phisherzy często wykorzystują podobieństwo niektórych cyfr i liter, na przykład ``0'' i ``o'' celem stworzenia złudzenia, że użytkownik znajduje się na właściwej stronie. Istotnym elementem jest również protokół, który użyty został do połączenia ze stroną. Zdecydowana większość organizacji korzysta z ważnych certyfikatów SSL, sprawiając, że połączenie między klientem a serwerem jest szyfrowane (HTTPS).
+
+\subsubsection{Implementacja}
+
+Kurs poświęcony tematyce szeroko pojętego phishingu opisuje między innymi typy tego niebezpieczeństwa i metody ochrony przeciw atakom phishingowym. W dzisiejszych czasach, zagrożenie to jest niezwykle powszechne, szczególnie w postaci phishingu SMS, telefonicznego czy stron phishingowych. Właśnie dlatego przedstawione interaktywne slajdy w kursie pozwalają użytkownikowi kontrolować wirtualny smartfon -- urządzenie, które na co dzień używa każdy z nas. 
+
+Kursanci mogą bezpiecznie doświadczyć, jakie mogą być konsekwencje wejścia w podejrzaną stronę internetową w wiadomości SMS.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/phishing-slide-screenshot1.png}
+	\caption{Interaktywny slajd przedstawiający otrzymanie phishingowej wiadomości SMS na wirtualnym smartfonie}
+	\label{fig:phishing-organisations}
+\end{figure}
+
+Dodatkowo uwypuklone są najistotniejsze elementy ataku, dzięki czemu istnieje realna szansa, że osoba, która ukończy kurs, będzie zwracała większą uwagę i nie padnie ofiarą ataku phishingowego.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/phishing-slide-screenshot2.png}
+	\caption{Interaktywny slajd przedstawiający stronę phishingwą na wirtualnym smartfonie}
+	\label{fig:phishing-organisations}
+\end{figure}
+
+Obszar zagrożeń phishingu jest bardzo szeroki i może obejmować różne typy ataków, jednak w zdecydowanej większości przypadków sprowadza się do wykradnięcia danych ofiary, co jest przedstawione i opisane w treści kursu.
+
+\clearpage
+
+\subsection{Podatność XSS}
+\subsubsection{Opis}
+
+\emph{Cross-site scripting} (XSS) jest jedną z najbardziej niebezpiecznych podatności zagrażających współczesnym aplikacjom webowym. XSS jest atakiem skierowanym na klienta korzystającego serwisu webowego, w przeciwieństwie do np. \emph{SQL Injection}, którego celem jest aplikacja działająca po stronie serwera. \emph{Cross-site scripting} opiera się głównie na wstrzyknięciu do strony internetowej złośliwego skryptu, który, dla przykładu, może odczytać ciasteczka użytkownika lub inne poufne informacje, które przechowuje przeglądarka, wysłać je do atakującego, aby ten -- używając zapisanych w ciasteczkach danych -- mógł zalogować się na konto użytkownika, który nieświadomie uruchomił dany skrypt. % Poprzez ten atak, można również uruchomić Keyloggera (narzędzie do przechwytywania aktywności klawiatury) działającego w przeglądarce, lub całkowicie zmienić zawartość strony internetowej. 
+
+W raporcie przygotowanym w 2017 roku przez Wordfence, komercyjną organizację zajmującą się zabezpieczaniem stron internetowych przed wszelkimi niebezpieczeństwami, wynika, iż ten typ podatności stanowi blisko połowę wszystkich podatności w sieci \cite{XSSReport}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figures/xss-popularity}
+	\caption{Klasyfikacja podatności aplikacji internetowych pod kątem częstotliwości występowania}
+	\label{fig:xss-popularity}
+\end{figure}
+
+
+
+Opisując XSS nie sposób nie wspomnieć o Regule Tego Samego Pochodzenia (\emph{Same-Origin Policy}) \cite{SameOriginPolicy}. Jest to jeden z wielu fundamentalnych mechanizmów bezpieczeństwa, zaimplementowany w każdej przeglądarce internetowej. Nie pozwala on żadnej stronie na podjęcie akcji lub odczytania zawartości innej strony, na przykład w dwóch kartach przeglądarki. W związku z tym, wszystko, co się dzieje na stronie internetowej otwartej przez użytkownika, jest izolowane i nie będzie miało wpływu na pozostałe otwarte strony. Narzędziami powiązanymi z opisaną polityką są piaskownice (ang. sandbox), pozwalające na uruchamianie programów komputerowych nieznanego pochodzenia w odizolowanym środowisku. Dzięki temu, uruchomienie jakiegokolwiek wirusa bądź wejście w podejrzany link nie zainfekuje urządzenia.
+	
+	Cała struktura strony internetowej zakodowana językiem HTML może być zmieniana poprzez JavaScript, używając DOM API \cite{DOM}. Jako rezultat, prosty skrypt może całkowicie zmienić zawartość, wygląd, a przede wszystkim funkcjonalność strony internetowej.
+	
+	Ciasteczkami (ang. cookies) \cite{Cookies} nazywa się niewielkie porcje informacji wysyłane przez serwer do przeglądarki internetowej urządzenia końcowego. Służą do tego, by zapisać obiekty danych w plikach przeglądarki, które przy ponownym odwiedzeniu strony, mogą być przesłane do tego samego serwera, z którego przyszły. W związku z tym, przy odwiedzaniu różnorakich stron wymagających autoryzacji, użytkownik nie musi się za każdym razem logować, gdyż wszystkie potrzebne dane są zawarte w ciasteczkach, które przesyłane są razem z żądaniem. 
+	
+	Ataki XSS można podzielić na trzy główne kategorie:
+	
+	\begin{itemize}
+		\item \emph{Reflected XSS} - złośliwy skrypt umieszczony jest w adresie URL. Po wejściu w hiperłącze, ofiara nieświadomie wykonuje wcześniej przygotowany skrypt, rezultatem czego jest wykonanie kodu w przeglądarce.
+		\item \emph{Stored XSS} - polega na umieszczeniu skryptu po stronie serwera, przykładowo jako wiadomość w serwisie społecznościowym. Po odczytaniu jej przez ofiarę, automatycznie wykonywany jest wcześniej przygotowany skrypt, co może skutkować wysłaniem ciasteczka sesyjnego innego użytkownika do atakującego, pozwalając mu na umieszczenie skradzionego ciasteczka w przeglądarce i nieautoryzowany dostęp do konta ofiary.
+		\item \emph{DOM Based XSS} - atak ściśle powiązany z modyfikacją struktury DOM. Sama odpowiedź HTTP nie ulega zmianie, jednak kod po stronie klienta zawarty w aplikacji wykonywany jest w inny sposób z powodu modyfikacji, które miały miejsce w DOM.
+	\end{itemize}
+	
+Przeglądarki internetowe zostały wyposażone wiele narzędzi do walki z tą podatnością, takich jak system wykrywania złośliwego kodu JavaScript. Mechanizm ten składa się z wbudowanego w przeglądarkę komponentu analizy skryptów oraz systemu IDS (ang. Intrusion Detection System), przetwarzającego aktywność po stronie klienta, i porównującego ją ze znanymi złośliwymi skryptami. Dzięki temu systemowi możliwe jest wykrywanie różnego rodzaju ataków XSS. Jednak system ma znaczną wadę: może wykryć tylko sytuacje, których zachowanie jest mu znane -- nie jest odporny na nowe typy ataku. \cite{XSSProtection}
+
+Najczęstszym miejscem, w którym można spotkać tę podatność, są formularze, do których użytkownik wpisuje dane, które mogą następnie być wyświetlane. Jeśli przesłane dane nie zostaną odpowiednio wyczyszczone, atakujący może wstrzyknąć złośliwy skrypt, który następnie zostanie wykonany przez przeglądarkę. Pomimo wielu zabezpieczeń, które są wbudowane w przeglądarki, te nie są w stanie odróżnić czy dany skrypt jest złośliwy, czy nie - dlatego też odporność aplikacji internetowej na tego typu atak stoi przede wszystkim po stronie programistów.
+	
+Najskuteczniejszą ochroną przed atakami XSS jest filtrowanie danych przychodzących od użytkownika przed tym, kiedy to mają zostać wyświetlone w aplikacji, na przykład poprzez zamianę znaków tagów HTML na znaki specjalne \cite{XSSSpecialTags}. Skutecznym rozwiązaniem może być także oczyszczanie wprowadzonej treści użytkownika z elementów wspólnych dla każdego ataku XSS, na przykład tagów <script></script>.
+	
+\subsubsection{Implementacja}
+
+Kurs oprócz opisania cech omawianej podatności pozwala także użytkownikowi na zaznajomienie się z konsekwencjami ataku \emph{Cross-site scripting}. W części interaktywnej kursantowi przedstawiona jest wirtualna strona internetowa podatna na atak Reflected XSS, której główną funkcjonalnością jest wyszukanie znajomych. Poprzez efekt immersji, użytkownik jest w stanie łatwiej przyswoić przekazywane mu informacje, gdyż okoliczności mogą wydawać mu się znajome i dotyczą codziennych sytuacji.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/xss-slide-screenshot1}
+	\caption{Interaktywny slajd przedstawiający podstawowe funkcjonalności wirtualnej strony internetowej}
+\end{figure}
+
+Na bazie informacji zdobytych na wcześniejszych slajdach, w kolejnym interaktywnym ćwiczeniu zadaniem jest wpisanie w pole wyszukiwarki dowolnego elementu HTML. Wyszukanie tagu spowoduje dodanie go do DOM i adresu URL wirtualnego serwisu.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/xss-slide-screenshot2}
+	\caption{Interaktywny slajd przedstawiający podatność XSS}
+\end{figure}
+
+Dzięki zawartości interaktywnych slajdów kursant ma szansę doświadczyć krok po kroku, w jaki sposób wyszukiwana jest opisywana podatność w serwisie internetowym i jakie mogą być jej efekty końcowe. 
+
+Przedstawiony kurs pokrywa tylko jeden typ ataku \emph{Cross-site scripting}. Podobnie jak kurs \emph{SQL Injection}, od użytkownika wymagana jest znajomość technologii składających się na dHTML w stopniu podstawowym. W ramach rozwoju projektu kurs może zostać rozszerzony o przedstawienie innych typów ataku: Stored i DOM Based XSS.
+
+
+\clearpage
+
+\subsection{Blokada usług}
+\subsubsection{Opis}
 Celem Blokady usług (ang. Denial Of Service, DOS) są zazwyczaj serwisy internetowe małych i średnich przedsiębiorstw. Atak ten polega na wykonaniu tak wielu żądań do serwera w jednostkowym czasie, aby ten przestał odpowiadać. Są relatywnie proste w wykonaniu i mogą być powodem poważnych strat dla sieci i systemów komputerowych. Większa część ataków typu \emph{Flood} odbywa się w oparciu o luki w protokole TCP, co prowadzi do takich ataków jak \emph{TCP SYN Flood DoS} \cite{Ddos}.
 
-Rodzaj DOS może różnić się w zależności od warstwy modelu OSI, na której wysyłane są pakiety. Do głównych rodzajów tego ataku zaliczyć można: SYN Flood, HTTP Flood, Smurf Attack.
-
-W momencie, w którym klient chce nawiązać połączenie z serwerem, obie maszyny sekwencyjnie wymieniają zestaw komunikatów, znany także jako uzgadnianie trój-etapowe - \emph{3-Way Handshake} \cite{3WayHandshake}. 
+Rodzaj DOS może różnić się w zależności od warstwy modelu OSI, na której wysyłane są pakiety. Do głównych rodzajów tego ataku zaliczyć można: SYN Flood, HTTP Flood, Smurf Attack. W momencie, w którym klient chce nawiązać połączenie z serwerem, obie maszyny sekwencyjnie wymieniają zestaw komunikatów, znany także jako uzgadnianie trój-etapowe - \emph{3-Way Handshake} \cite{3WayHandshake}. 
 
 \begin{enumerate}
 	\item W pierwszym kroku klient wysyła segment z SYN (ang. Synchronize Sequence Number), który informuje serwer, że klient prawdopodobnie rozpocznie komunikację i z jakim numerem sekwencyjnym uruchamia segmenty.
@@ -338,11 +466,12 @@ W momencie, w którym klient chce nawiązać połączenie z serwerem, obie maszy
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{figures/3-way-handshake}
-	\caption{Graficzna reprezentacja uzgadniania trój-etapowego, https://www.luxoft-training.com/news/building-java-client-server-applications-with-tcp/}
+	\caption{Graficzna reprezentacja uzgadniania trój-etapowego}
+	%https://www.luxoft-training.com/news/building-java-client-server-applications-with-tcp/
 	\label{fig:3-way-handshake}
 \end{figure}
 
-\emph{SYN Flood} polega na nadużyciu wyżej opisanej procedury. Atakujący przesyła do serwera falę komunikatów SYN, używając spreparowanych adresów IP. Niczego nieświadomy serwer odpowiada na żądania komunikatem SYN-ACK, po czym oczekuje na odpowiedź ACK od klienta celem sfinalizowania uzgodnienia trój-etapowego. Z racji faktu, iż serwer oczekuje na zakończenie komunikatu z fałszywymi adresami IP, połączenie to nigdy nie dojdzie do skutku. Efektem tego jest przeładowanie kolejki połączeń i ostatecznie pamięci operacyjnej serwera, powodując brak odpowiedzi na żądania zwykłych użytkowników. \cite{DDosHowItWorks}
+\emph{SYN Flood} polega na nadużyciu wyżej opisanej procedury. Atakujący przesyła do serwera falę komunikatów SYN, używając spreparowanych adresów IP. Niczego nieświadomy serwer odpowiada na żądania komunikatem SYN-ACK, po czym oczekuje na odpowiedź ACK od klienta celem sfinalizowania uzgodnienia trój-etapowego. Ze względu na fakt, iż serwer oczekuje na zakończenie komunikatu z fałszywymi adresami IP, połączenie to nigdy nie dojdzie do skutku. Efektem tego jest przeładowanie kolejki połączeń i ostatecznie pamięci operacyjnej serwera, powodując brak odpowiedzi na żądania zwykłych użytkowników. \cite{DDosHowItWorks}
 
 Blokada danego adresu IP, z którego przychodzi wiele żądań w krótkim okresie czasu, nie stanowi większego problemu dla firewalli (zapór ogniowych), dlatego też coraz powszechniejszymi stają się ataki DDOS - \emph{Distributed Denial-Of-Service}. Różnica polega na tym, że żądania wysyłane są z wielu lokacji jednocześnie, co znacznie bardziej utrudnia identyfikację i zablokowanie nagłego ruchu przez zaporę ogniową.
 
@@ -361,52 +490,11 @@ Dobrym rozwiązaniem na tego typu ataki może być również użycie systemu ró
 
 Ataki DOS są bezpośrednim zagrożeniem dla dostępności aplikacji webowych. Jeśli złośliwy ruch jest odpowiednio duży i nie zostanie szybko zidentyfikowany, może z łatwością przyczynić się do wyłączenia strony internetowej na nieokreślony czas. Dzięki wielu łatwo dostępnym narzędziom, takim jak systemy równoważenia obciążenia, grupy auto-skalujące, firewalle, ochrona przed tego typu zagrożeniem stała się dużo łatwiejsza niż kiedykolwiek.
 
+\subsubsection{Implementacja}
+
 ...W kolejnej iteracji zawartość strony może zostać rozszerzona o dodatkowe elementy kursu, które pozwolą użytkowniki na "wirtualne" przeprowadzenie ataku, w którym będzie mógł zauważyć że strona która do tej pory działała, po uruchomieniu ataku jest niedostępna. 
 \clearpage
 
-\subsection{Phishing}
-Phishing jest pewną formą socjotechniki, w której to atakujący, poprzez podszywanie się pod zaufane osoby lub instytucje, próbuje dokonać nieuczciwego przejęcia poufnych informacji od ofiary. Socjotechnika (inżynieria społeczna) to pewien zestaw sposobów wywierania wpływu na człowieka, aby ten dokonał czegoś wbrew swojej woli. Ataki phishingowe skierowane są zarówno do zwykłych użytkowników, jak i pracowników organizacji rządowych czy korporacji. Organizacja ulegająca atakowi może nie tylko ponieść poważne straty finansowe, ale również stracić reputację i zaufanie konsumentów. Badanie z 2021 r. firmy Kaspersky Lab, tworzącej popularne oprogramowanie antywirusowe Kaspersky wykazuje, że najpopularniejszymi organizacjami wykorzystywanymi przez phisherów są sklepy, portale internetowe i banki.  \cite{PhishingChart}	
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\linewidth]{figures/phishing-organisations}
-	\caption{Ranking organizacji wykorzystywanych w atakach phishingowych, źródło: https://securelist.com/spam-and-phishing-in-q2-2021/103548/}
-	\label{fig:phishing-organisations}
-\end{figure}
-
-Ataki przeprowadzone mogą być używając psychologicznej manipulacji wybranych osób celem uzyskania ich danych osobowych - forma inżynierii społecznej - albo przy użyciu dostępnych narzędzi informatycznych. Najczęściej występujące rodzaje phishingu to:
-
-\begin{itemize}
-	 \item E-maile phishingowe - spreparowana wiadomość phishingowa wysyłana jest na wiele skrzynek pocztowych, celem zwiększenia prawdopodobieństwa sukcesu ataku. Fałszywe wiadomości mogą zawierać cechy rzekomych organizacji, które miałyby być nadawcami, takie jak logo, stopkę, formatowanie celem skłonienia odbiorców do ujawnienia poufnych informacji, lub wejścia w złośliwe hiperłącze. \cite{PhishingEmails}
-	 
-	 \begin{figure}[H]
-	 	\centering
-	 	\includegraphics[width=1\linewidth]{figures/phishing-example}
-	 	\caption{Przykład phishingu w formie wiadomości e-mail \cite{PhishingExample}}
-	 	\label{fig:phishing-example}
-	 	
-	 \end{figure}
- 
-	 \item Fałszywa strona internetowa - polega na stworzeniu zwodniczo podobnej kopii strony internetowej poprzez tzw. \emph{Web Scrapping} \cite{WebScrapping} której celem jest przejęcie wrażliwych danych lub kradzież tożsamości użytkownika. Adres strony może być rozpowszechniany poprzez wiadomości SMS lub e-mail. \cite{WhatIsPhishing} 
-	 
-	 
-	 \begin{figure}[H]
-	 	\centering
-	 	\includegraphics[width=0.96\linewidth]{figures/phishing-example2}
-	 	\caption{Przykład phishingu w formie spreparowanej strony internetowej}
-	 	\label{fig:phishing-example2}
-	 \end{figure}
- 
-	 \item Phishing telefoniczny - przeprowadzany specyficznie za pomocą wiadomości SMS lub połączeń telefonicznych. Numery telefonów potencjalnych ofiar często pozyskiwane są w wyniku wycieków baz danych przedsiębiorstw lub organizacji. Atakujący kontaktując się z ofiarą, może podawać się za znaną jej osobę lub pracownika zaufanej instytucji, na przykład banku, celem zmanipulowania interlokutora do wykonania określonych akcji.
-	 \item \emph{Pharming} - rodzaj phishingu, który jest znacznie trudniejszy w detekcji. Polega na zainfekowaniu serwera DNS lub urządzenia użytkownika w ten sposób, aby za każdym razem, gdy odwiedzana jest zaufana strona, nastąpiło przekierowanie na złośliwą, spreparowaną stronę internetową. 
-
-\end{itemize}
-
-Wektorami ataków phishingowych w większości przypadków są ludzie, a nie urządzenia. Szczególnie zagrożone są osoby niemające na co dzień styczności z internetem. Dobrym pomysłem jest - tam gdzie to możliwe - stosowanie uwierzytelniania wieloskładnikowego. Polega ono na potwierdzeniu próby autoryzacji poprzez dodatkowy element: kod wysyłany wiadomością SMS lub e-mail. Zapobiega to sytuacjom, w których to dane autoryzacyjne poszkodowanego takie jak adres e-mail i login zostaną użyte przez niewłaściwe osoby. Nie będą one mogły w pełni się uwierzytelnić, jeśli nie posiadają kodu autoryzacyjnego. Dodatkowo może stanowić ostrzeżenie dla ofiary, że ktoś próbuje zalogować się na jej konto. Zaufanym rozwiązaniem są również programy antywirusowe, ostrzegające użytkownika przed fałszywymi domenami oraz odpowiednio skonfigurowane filtry anty-spamowe w poczcie e-mail.
-
-Należy także uważnie sprawdzać adresy URL stron internetowych, na których podaje się wrażliwe dane. Phisherzy często wykorzystują podobieństwo niektórych cyfr i liter, na przykład ``0'' i ``o'' celem stworzenia złudzenia, że użytkownik znajduje się na właściwej stronie. Istotnym elementem jest również protokół, który użyty został do połączenia ze stroną. Zdecydowana większość organizacji korzysta z ważnych certyfikatów SSL, sprawiając, że połączenie między klientem a serwerem jest szyfrowane (HTTPS).
-
-\clearpage
 \subsection{Ransomware}
 \emph{Ransomware} to typ złośliwego oprogramowania (ang. malware), którego celem jest zablokowanie dostępu do komputera osobistego poprzez zaszyfrowanie wszystkich możliwych plików. Czas trwania tej procedury zależy między innymi od wybranego algorytmu szyfrowania i danych na szyfrowanym urządzeniu, jednak w przypadku zwykłego użytkownika domowego może wykonać się w czasie zaledwie dwóch godzin \cite{RansomwareTime}. Zazwyczaj ten czas jest znacznie dłuższy, gdyż przed rozpoczęciem procesu wymagany jest dokładny rekonesans systemu i struktury katalogów. Tym sposobem użytkownik traci możliwość odczytu danych na swoim urządzeniu, a do odszyfrowania plików, wymagany jest klucz posiadany przez atakującego. 
 
@@ -428,51 +516,6 @@ Istotną regułą, którą należy się kierować przeciw tego typu złośliwem
 
 Najlepszą metodą przeciwko tego  jest systematyczne wykonywanie archiwizacji danych. W sytuacji w której \emph{ransomware} trafi do komputera i zaszyfruje wszystkie pliki, pozostaje jedynie odtworzyć kopię zapasową. Dobrym sposobem jest także częste aktualizowanie systemu operacyjnego, celem eliminowania potencjalnych luk bezpieczeństwa.
 
-\clearpage
-
-
-\subsection{Podatność XSS}
-
-\emph{Cross-site scripting} (XSS) jest jedną z najbardziej niebezpiecznych podatności zagrażających współczesnym aplikacjom webowym. XSS jest atakiem skierowanym na klienta korzystającego serwisu webowego, w przeciwieństwie do np. \emph{SQL Injection}, którego celem jest aplikacja działająca po stronie serwera. \emph{Cross-site scripting} opiera się głównie na wstrzyknięciu do strony internetowej złośliwego skryptu, który, dla przykładu, może odczytać ciasteczka użytkownika lub inne poufne informacje, które przechowuje przeglądarka, wysłać je do atakującego, aby ten -- używając zapisanych w ciasteczkach danych -- mógł zalogować się na konto użytkownika, który nieświadomie uruchomił dany skrypt. Poprzez ten atak, można również uruchomić Keyloggera (narzędzie do przechwytywania aktywności klawiatury) działającego w przeglądarce, lub całkowicie zmienić zawartość strony internetowej. 
-
-W raporcie przygotowanym w 2017 roku przez Wordfence, komercyjną organizację zajmującą się zabezpieczaniem stron internetowych przed wszelkimi niebezpieczeństwami, wynika, iż ten typ podatności stanowi blisko połowę wszystkich podatności w sieci. \cite{XSSReport}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\linewidth]{figures/xss-popularity}
-	\caption{Klasyfikacja podatności aplikacji internetowych pod kątem częstotliwości występowania}
-	\label{fig:xss-popularity}
-\end{figure}
-
-
-
-Opisując XSS nie sposób nie wspomnieć o Regule Tego Samego Pochodzenia (\emph{Same-Origin Policy}) \cite{SameOriginPolicy}. Jest to jeden z wielu fundamentalnych mechanizmów bezpieczeństwa, zaimplementowany w każdej przeglądarce internetowej. Nie pozwala on żadnej stronie na podjęcie akcji lub odczytania zawartości innej strony, na przykład w dwóch kartach przeglądarki. W związku z tym, wszystko, co się dzieje na stronie internetowej otwartej przez użytkownika, jest izolowane i nie będzie miało wpływu na pozostałe otwarte strony.
-
-[FORMAT] Tworem powiązanym z {\emph{Same-Origin Policy} są narzędzia pozwalające na sandboxing...
-
-Cała struktura strony internetowej zakodowana językiem HTML może być zmieniana poprzez JavaScript, używając DOM API \cite{DOM}. Jako rezultat, prosty skrypt może całkowicie zmienić zawartość, wygląd, a przede wszystkim funkcjonalność strony internetowej.
-
-Ciasteczkami (ang. cookies) \cite{Cookies} nazywa się niewielkie porcje informacji wysyłane przez serwer do przeglądarki internetowej urządzenia końcowego. Służą do tego, by zapisać obiekty danych w plikach przeglądarki, które przy ponownym odwiedzeniu strony, mogą być przesłane do tego samego serwera, z którego przyszły. W związku z tym, przy odwiedzaniu różnorakich stron wymagających autoryzacji, użytkownik nie musi się za każdym razem logować, gdyż wszystkie potrzebne dane są zawarte w ciasteczkach, które przesyłane są razem z żądaniem. 
-
-Ataki XSS można podzielić na trzy główne kategorie:
-
-\begin{itemize}
-	\item \emph{Reflected XSS} - złośliwy skrypt umieszczony jest w adresie URL. Po wejściu w hiperłącze, ofiara nieświadomie wykonuje wcześniej przygotowany skrypt, rezultatem czego jest wykonanie kodu w przeglądarce.
-	\item \emph{Stored XSS} - polega na umieszczeniu skryptu po stronie serwera, przykładowo jako wiadomość w serwisie społecznościowym. Po odczytaniu jej przez ofiarę, automatycznie wykonywany jest wcześniej przygotowany skrypt, co może skutkować wysłaniem ciasteczka sesyjnego innego użytkownika do atakującego, pozwalając mu na umieszczenie skradzionego ciasteczka w przeglądarce i nieautoryzowany dostęp do konta ofiary.
-	\item \emph{DOM Based XSS} - atak ściśle powiązany z modyfikacją struktury DOM. Sama odpowiedź HTTP nie ulega zmianie, jednak kod po stronie klienta zawarty w aplikacji wykonywany jest w inny sposób z powodu modyfikacji, które miały miejsce w DOM.
-\end{itemize}
-
-Najczęstszym miejscem, w którym można spotkać tę podatność, są formularze, do których użytkownik wpisuje treść, która następnie jest wyświetlana. Jeśli treść którą przesłał użytkownik nie zostanie odpowiednio wyczyszczona, może dojść do sytuacji, w której to użytkownik wstrzyknie złośliwy skrypt.
-
-[FORMAT WYJASNIC O CO CHODZI]
-
-Przeglądarki internetowe zostały wyposażone wiele narzędzi do walki z tą podatnością, takich jak system wykrywania złośliwego kodu JavaScript. Mechanizm ten składa się z wbudowanego w przeglądarkę komponentu analizy skryptów oraz systemu IDS (ang. Intrusion Detection System), przetwarzającego aktywność po stronie klienta, i porównującego ją ze znanymi złośliwymi skryptami. Dzięki temu systemowi możliwe jest wykrywanie różnego rodzaju ataków XSS. Jednak system ma znaczną wadę: może wykryć tylko sytuacje, których zachowanie jest mu znane -- nie jest odporny na nowe typy ataku. \cite{XSSProtection}
-
-Pomimo wielu zabezpieczeń, które są wbudowane w przeglądarki, te nie są w stanie odróżnić czy dany skrypt jest złośliwy, czy nie - dlatego też odporność aplikacji internetowej na tego typu atak stoi przede wszystkim po stronie programistów.
-
-Najskuteczniejszą ochroną przed atakami XSS jest filtrowanie danych przychodzących od użytkownika przed tym, kiedy to mają zostać wyświetlone w aplikacji, na przykład poprzez zamianę znaków tagów HTML na znaki specjalne \cite{XSSSpecialTags}. Skutecznym rozwiązaniem może być także oczyszczanie wprowadzonej treści użytkownika z elementów wspólnych dla każdego ataku XSS, na przykład tagów <script></script>.
-
-TODO - dopisac jeszcze jak sie bronic, i dodac przyklad na podstawie kodu i przegladarki
 \clearpage
 
 \subsection{Keylogger}

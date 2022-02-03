@@ -11,11 +11,17 @@
 \BOOKMARK [2][-]{subsection.3.1}{SQL Injection}{section.3}% 11
 \BOOKMARK [3][-]{subsubsection.3.1.1}{Opis}{subsection.3.1}% 12
 \BOOKMARK [3][-]{subsubsection.3.1.2}{Implementacja}{subsection.3.1}% 13
-\BOOKMARK [2][-]{subsection.3.2}{Blokada us\233ug}{section.3}% 14
-\BOOKMARK [2][-]{subsection.3.3}{Phishing}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.4}{Ransomware}{section.3}% 16
-\BOOKMARK [2][-]{subsection.3.5}{Podatnosc XSS}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.6}{Keylogger}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.7}{CSRF}{section.3}% 19
-\BOOKMARK [1][-]{section.4}{Podsumowanie i wnioski koncowe}{}% 20
-\BOOKMARK [1][-]{section.4}{Literatura}{}% 21
+\BOOKMARK [2][-]{subsection.3.2}{Phishing}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Opis}{subsection.3.2}% 15
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Implementacja}{subsection.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.3}{Podatnosc XSS}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Opis}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Implementacja}{subsection.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.4}{Blokada us\233ug}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Opis}{subsection.3.4}% 21
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Implementacja}{subsection.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.5}{Ransomware}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.6}{Keylogger}{section.3}% 24
+\BOOKMARK [2][-]{subsection.3.7}{CSRF}{section.3}% 25
+\BOOKMARK [1][-]{section.4}{Podsumowanie i wnioski koncowe}{}% 26
+\BOOKMARK [1][-]{section.4}{Literatura}{}% 27
