@@ -12,6 +12,8 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{weiiszablon}
 \usepackage{float}
+\usepackage{comment}
+
 
 \author{Beniamin Motyka}
 
@@ -158,6 +160,17 @@ DeepL to narzędzie stworzone przez firmę DeepL SE. Ten z pozoru zwyczajny tran
 
 Zagrożenia opisywane w poniższych podrozdziałach są jednymi z najbardziej niebezpiecznych nie tylko z perspektywy zwykłych użytkowników (phishing, keylogger, ransomware) ale także dla małych i średnich przedsiębiorstw (MMŚP). Warto jednak mieć na uwadze, że opisywane zagrożenia stanowią jedynie małą część wszystkich niebezpieczeństw w sieci.
 
+Każde z opisanych w niniejszej pracy zagrożeń jest rozszerzone w postaci interaktywnego kursu w aplikacji internetowej. W skład kursu wchodzą slajdy, które dzielą się na zaawansowane -- dla użytkowników chcących bardziej zgłębić temat -- oraz podstawowe, dostępne dla wszystkich kursantów. 
+
+Slajd może być interaktywny, o czym świadczą wskaźniki w kształcie rombu, znajdujące się w panelu nawigacji, w dolnej części ekranu. Interaktywne slajdy wymagają od użytkownika wykonania określonej akcji, celem kontynuowania kursu. Dla każdego slajdu dostarczony również jest tekst, sytuację przedstawioną na ekranie. Dodatkowym elementem strony, wspomagającym naukę jest panel notatek, który pozwala na zapisywanie najistotniejszych elementów kursu.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/slide-tutorial}
+	\caption{Przykładowy slajd z kursu o phishingu prezentujący rodzaje ataków phishingowych}
+\end{figure}
+
+\clearpage
 \subsection{SQL Injection}
 
 \subsubsection{Opis}
@@ -285,7 +298,9 @@ Próba wstrzyknięcia SQL do przekazywanego parametru zakończy się błędem w 
 
 \subsubsection{Implementacja}
 
-Kurs o tematyce \emph{SQL Injection} zawiera w sobie podstawowe informacje związane z budową strony internetowej i aplikacji działającej po stronie serwera. Istotną częścią kursu jest interaktywny slajd, w którym użytkownik może przeanalizować kod źródłowy wirtualnej strony internetowej. Na bazie przekazanych informacji w poprzednich slajdach oraz w opisie, kursant musi zaznaczyć kursorem myszy funkcję w kodzie źródłowym strony, odpowiadającą za przesłanie zawartości formularza.
+Kurs o tematyce \emph{SQL Injection} zawiera w sobie podstawowe informacje związane z budową strony internetowej i aplikacji działającej po stronie serwera. Istotną częścią kursu jest interaktywny slajd, w którym użytkownik może przeanalizować kod źródłowy wirtualnej strony internetowej. 
+
+Na bazie przekazanych informacji w poprzednich slajdach oraz w opisie, kursant musi zaznaczyć kursorem myszy funkcję w kodzie źródłowym strony, odpowiadającą za przesłanie zawartości formularza.
 
 \begin{figure}[H]
 	\centering
@@ -305,7 +320,9 @@ Dzięki tym informacjom, niedostępnym dla kursantów o zwykłym typie konta, s�
 	\label{Fig:Interaktywny slajd przedstawiający budowę omawianej strony}
 \end{figure} 
 
-Kluczowym elementem kursu jest analiza kodu aplikacji działającej po stronie serwera, rozpoznanie miejsca, w którym występuje podatność \emph{SQL Injection} oraz próba wykorzystania tej podatności w sytuacji zbliżonej do rzeczywistości. Zawarta w interaktywnym slajdzie symulacja, pozwala kursantowi na dowolną manipulację danych wejściowych (formularza na stronie internetowej) i jednocześnie prezentuje, w jaki sposób wartość odczytywana jest po stronie serwera. 
+Kluczowym elementem kursu jest analiza kodu aplikacji działającej po stronie serwera, rozpoznanie miejsca, w którym występuje podatność \emph{SQL Injection} oraz próba wykorzystania tej podatności w sytuacji zbliżonej do rzeczywistości.
+
+Zawarta w interaktywnym slajdzie symulacja, pozwala kursantowi na dowolną manipulację danych wejściowych (formularza na stronie internetowej) i jednocześnie prezentuje, w jaki sposób wartość odczytywana jest po stronie serwera. 
 
 Mając na uwadze informacje przekazane w poprzednich slajdach, aby kontynuować, kursant musi samodzielnie wykorzystać podatność \emph{SQL Injection} w opisywanym serwisie.
  
@@ -313,10 +330,11 @@ Mając na uwadze informacje przekazane w poprzednich slajdach, aby kontynuować,
  	\centering
  	\includegraphics[width=1\linewidth]{figures/sql-slide-screenshot2.png}
  	\caption{Interaktywny slajd przedstawiający kod źródłowy aplikacji działającej po stronie serwera}
- 	\label{Fig:Interaktywny slajd przedstawiający budowę omawianej strony}
  \end{figure} 
  
-Opisywany kurs nie wyczerpuje wszystkich przykładów dla zagrożenia \emph{SQL Injection}. Jednocześnie mając na uwadze skomplikowaną naturę tego niebezpieczeństwa i konieczność posiadania podstawowej wiedzy na temat opisywanych zagadnień (bazy danych, język SQL, działanie serwerów webowych) w celu pełnego zrozumienia idei stojącej za tym zagrożeniem, większa ilość informacji mogłaby wydawać się przytłaczająca. Ze względu na fakt, iż w kursie zawarte są jedynie kluczowe informacje, jest on łatwiejszy do zrozumienia, a przez to efekt końcowy, w postaci zdobytej wiedzy może być lepszy.
+Opisywany kurs nie wyczerpuje wszystkich przykładów dla zagrożenia \emph{SQL Injection}. Jednocześnie mając na uwadze skomplikowaną naturę tego niebezpieczeństwa i konieczność posiadania podstawowej wiedzy na temat opisywanych zagadnień (bazy danych, język SQL, działanie serwerów webowych) w celu pełnego zrozumienia idei stojącej za tym zagrożeniem, większa ilość informacji mogłaby wydawać się przytłaczająca. 
+
+Ze względu na fakt, iż w kursie zawarte są jedynie kluczowe informacje, jest on łatwiejszy do zrozumienia, a przez to efekt końcowy, w postaci zdobytej wiedzy może być lepszy.
 
 \clearpage
 
@@ -450,6 +468,66 @@ Przedstawiony kurs pokrywa tylko jeden typ ataku \emph{Cross-site scripting}. Po
 
 \clearpage
 
+\subsection{Ransomware}
+\subsubsection{Opis}
+\emph{Ransomware} to typ złośliwego oprogramowania (ang. malware), którego celem jest zablokowanie dostępu do komputera osobistego poprzez zaszyfrowanie wszystkich możliwych plików. Czas trwania tej procedury zależy między innymi od wybranego algorytmu szyfrowania i danych na szyfrowanym urządzeniu, jednak w przypadku zwykłego użytkownika domowego może wykonać się w czasie zaledwie dwóch godzin \cite{RansomwareTime}. Zazwyczaj ten czas jest znacznie dłuższy, gdyż przed rozpoczęciem procesu wymagany jest dokładny rekonesans systemu i struktury katalogów. Tym sposobem użytkownik traci możliwość odczytu danych na swoim urządzeniu, a do odszyfrowania plików, wymagany jest klucz posiadany przez atakującego. 
+
+Ten rodzaj szkodliwego oprogramowania jest szczególnie niebezpieczny dla przedsiębiorstw, gdyż utrata ważnych dokumentów czy danych finansowych, może się wiązać z poważnymi konsekwencjami, lub brakiem możliwości reakcji na czas (np. złożeniu oferty w terminie). Celem \emph{ransomware} nie jest usunięcie lub kradzież plików, ale zablokowane ich, i oczekiwanie na ewentualną zapłatę okupu przez ofiarę. Sposoby, poprzez które złośliwe oprogramowanie dostaje się do przedsiębiorstw, przedstawione są na poniższym rysunku, przygotowanym przez organizację CoveWare \cite{RansomwareAttackVectors}, specjalizującą się w przeciwdziałaniu rozprzestrzeniania się tego typu atakom:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{figures/ransomware-attack-vectors.png}
+	\caption{Wektory ataku ransomware}
+	\label{Fig:Wektory ataku ransomware}
+\end{figure} 
+
+Jak można zauważyć, obecnie wiodącym źródłem dystrybucji tego złośliwego oprogramowania jest Remote Desktop Protocol (RDP) \cite{RDP} - protokół umożliwiający połączenie się z maszyną z systemem MS Windows, oraz przejęcie nad nim pełnej kontroli, używany w firmach jako narzędzie do konfiguracji urządzeń. 
+
+Kolejno znajdują się e-maile phishingowe, opisane w poprzednim rozdziale. Ten sposób polega zazwyczaj na odpowiednim wykorzystaniu inżynierii społecznej, celem zmanipulowania ofiary do udzielenia poufnych danych dostępowych lub uruchomienia oprogramowania szyfrującego na swoim urządzeniu.  
+
+Istotną regułą, którą należy się kierować przeciw tego typu złośliwemu oprogramowaniu w przedsiębiorstwie jest Zasada najmniejszego uprzywilejowania (ang. Principle of least privilege). Polega ona na zapewnieniu pracownikom dostępu tylko do tych zasobów, do których jest to konieczne przy wykonywaniu standardowej pracy. Ogranicza to dostęp do wrażliwych danych do minimum, co znacznie utrudnia infekcję najbardziej krytycznych elementów infrastruktury takich jak serwery produkcyjne, miejsca do przechowywania wrażliwych danych lub kopii zapasowych. 
+
+Najlepszą metodą przeciwko tego  jest systematyczne wykonywanie archiwizacji danych. W sytuacji w której \emph{ransomware} trafi do komputera i zaszyfruje wszystkie pliki, pozostaje jedynie odtworzyć kopię zapasową. Dobrym sposobem jest także częste aktualizowanie systemu operacyjnego, celem eliminowania potencjalnych luk bezpieczeństwa.
+
+\subsubsection{Implementacja}
+
+Kurs ransomware rozpoczyna się od przedstawienia użytkownikowi podstawowych elementów związanych z tego typu atakiem, takich jak metody infekcji, generowanie kluczy szyfrujących czy sposoby ochrony przed ransomware. Użytkownicy o zaawansowanym typie konta mogą dowiedzieć się na temat działania filtrów antyspamowych, które stosowane są w zdecydowanej większości usług poczty elektronicznej.
+
+Istotnym elementem kursu ransomware jest interaktywny slajd, który pozwala użytkownikowi na symulację pobrania złośliwego załącznika od nieznanego adresata w wirtualnym kliencie pocztowym w symulowanej przeglądarce internetowej. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\linewidth]{figures/ransomware-slide-screenshot1}
+	\caption{Interaktywny slajd przedstawiający sytuację pobrania ransomware}
+\end{figure}
+
+Po pobraniu ransomware, kursantowi przedstawiony jest widok ekranu, na którym uruchomiony jest system Microsoft Windows 10. Warto zauważyć, że pobrany wcześniej plik znajduje się na liście plików w systemie. Zadaniem użytkownika jest uruchomienie omawianego złośliwego pliku.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\linewidth]{figures/ransomware-slide-screenshot2}
+	\caption{Interaktywny slajd przedstawiający widok urządzenia z systemem operacyjnym Microsoft Windows 10}
+\end{figure}
+
+Zgodnie z opisem slajdu, uruchomienie ransomware będzie skutkowało rozpoczęciem szyfrowania wrażliwych plików na urządzeniu, jednak użytkownikowi przedstawiony zostanie fałszywy dokument. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.98\linewidth]{figures/ransomware-slide-screenshot3}
+	\caption{Interaktywny slajd przedstawiający widok urządzenia z systemem operacyjnym Microsoft Windows 10}
+\end{figure}
+
+W kolejnym slajdzie, zauważyć można, że wszystkie ważne dokumenty na urządzeniu zostały zaszyfrowane.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/ransomware-slide-screenshot4}
+	\caption{Interaktywny slajd przedstawiający widok po uruchomieniu ransomware}
+\end{figure}
+
+Poprzez możliwie najlepsze odwzorowanie codziennych warunków, z którymi kursant może mieć do czynienia, efekty infekcji ransomware mogą być dużo bardziej przystępne do zrozumienia, niż opis w formie pisemnej. Interaktywne slajdy pozwalają kursantowi wczuć się w role ofiary, dzięki czemu będzie w stanie bezpiecznie zainfekować urządzenie ransomware. 
+
+\clearpage
 \subsection{Blokada usług}
 \subsubsection{Opis}
 Celem Blokady usług (ang. Denial Of Service, DOS) są zazwyczaj serwisy internetowe małych i średnich przedsiębiorstw. Atak ten polega na wykonaniu tak wielu żądań do serwera w jednostkowym czasie, aby ten przestał odpowiadać. Są relatywnie proste w wykonaniu i mogą być powodem poważnych strat dla sieci i systemów komputerowych. Większa część ataków typu \emph{Flood} odbywa się w oparciu o luki w protokole TCP, co prowadzi do takich ataków jak \emph{TCP SYN Flood DoS} \cite{Ddos}.
@@ -492,31 +570,36 @@ Ataki DOS są bezpośrednim zagrożeniem dla dostępności aplikacji webowych. J
 
 \subsubsection{Implementacja}
 
-...W kolejnej iteracji zawartość strony może zostać rozszerzona o dodatkowe elementy kursu, które pozwolą użytkowniki na "wirtualne" przeprowadzenie ataku, w którym będzie mógł zauważyć że strona która do tej pory działała, po uruchomieniu ataku jest niedostępna. 
-\clearpage
+Kurs o tematyce blokady usług przedstawia użytkownikowi podstawowe koncepty związane z działaniem serwerów webowych oraz atakami typu DOS/DDOS. Poprzez slajdy obrazujące natężenie ruchu przykładowego serwera, kursant jest w stanie w łatwy sposób zwizualizować sobie okoliczności i skutki omawianego ataku.
 
-\subsection{Ransomware}
-\emph{Ransomware} to typ złośliwego oprogramowania (ang. malware), którego celem jest zablokowanie dostępu do komputera osobistego poprzez zaszyfrowanie wszystkich możliwych plików. Czas trwania tej procedury zależy między innymi od wybranego algorytmu szyfrowania i danych na szyfrowanym urządzeniu, jednak w przypadku zwykłego użytkownika domowego może wykonać się w czasie zaledwie dwóch godzin \cite{RansomwareTime}. Zazwyczaj ten czas jest znacznie dłuższy, gdyż przed rozpoczęciem procesu wymagany jest dokładny rekonesans systemu i struktury katalogów. Tym sposobem użytkownik traci możliwość odczytu danych na swoim urządzeniu, a do odszyfrowania plików, wymagany jest klucz posiadany przez atakującego. 
-
-Ten rodzaj szkodliwego oprogramowania jest szczególnie niebezpieczny dla przedsiębiorstw, gdyż utrata ważnych dokumentów czy danych finansowych, może się wiązać z poważnymi konsekwencjami, lub brakiem możliwości reakcji na czas (np. złożeniu oferty w terminie). Celem \emph{ransomware} nie jest usunięcie lub kradzież plików, ale zablokowane ich, i oczekiwanie na ewentualną zapłatę okupu przez ofiarę. 
-
-Sposoby, poprzez które złośliwe oprogramowanie dostaje się do przedsiębiorstw, przedstawione są na poniższym rysunku, przygotowanym przez organizację CoveWare \cite{RansomwareAttackVectors}, specjalizującą się w przeciwdziałaniu rozprzestrzeniania się tego typu atakom:
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=13cm]{figures/ransomware-attack-vectors.png}
-	\caption{Wektory ataku ransomware}
-	\label{Fig:Wektory ataku ransomware}
-\end{figure} 
+	\includegraphics[width=1\linewidth]{figures/dos-slide-screenshot1}
+	\caption{Slajd przedstawiający różnicę pomiędzy atakiem DOS a DDOS}
+\end{figure}
 
-Jak można zauważyć, obecnie wiodącym źródłem dystrybucji tego złośliwego oprogramowania jest Remote Desktop Protocol (RDP) \cite{RDP} - protokół umożliwiający połączenie się z maszyną z systemem MS Windows, oraz przejęcie nad nim pełnej kontroli, używany w firmach jako narzędzie do konfiguracji urządzeń. 
+Szczegółowo omawiane są także typy ataków DDOS i metody ochrony przeciw nim.
+Pozwala to kursantowi na dostrzeżenie skali niebezpieczeństwa, poprzez fakt, że ataki DDOS mogą występować na wielu różnych poziomach, często niezależnych od siebie oraz możliwości łączenia typów ataku
 
-Kolejno znajdują się e-maile phishingowe, opisane w poprzednim rozdziale. Ten sposób zazwyczaj polega na odpowiednim wykorzystaniu inżynierii społecznej, celem zmanipulowania ofiary do udzielenia poufnych danych dostępowych lub uruchomienia oprogramowania szyfrującego na swoim urządzeniu.  
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/dos-slide-screenshot2}
+	\caption{Slajd przedstawiający typy ataków DDOS}
+\end{figure}
 
-Istotną regułą, którą należy się kierować przeciw tego typu złośliwemu oprogramowaniu w przedsiębiorstwie jest Zasada najmniejszego uprzywilejowania (ang. Principle of least privilege). Polega ona na zapewnieniu dostępu ... tylko do tych zasobów do których jest to konieczne przy wykonywaniu standardowych działań. Ogranicza to dostęp do wrażliwych ... do minimum, co znacznie utrudnia infekcję najbardziej krytycznych elementów infrastruktury takich jak serwery produkcyjne, [miejsca do przechowywania wrazliwych danych, backupow itp]. Opisac tez Zasade Ograniczonego zaufania
+Użytkownicy o zaawansowanym typie konta mogą dowiedzieć się o metodach ochrony przeciw atakom DDOS, które w dzisiejszych czasach są stosowane przez zdecydowaną większość usług hostingowych. 
 
-Najlepszą metodą przeciwko tego  jest systematyczne wykonywanie archiwizacji danych. W sytuacji w której \emph{ransomware} trafi do komputera i zaszyfruje wszystkie pliki, pozostaje jedynie odtworzyć kopię zapasową. Dobrym sposobem jest także częste aktualizowanie systemu operacyjnego, celem eliminowania potencjalnych luk bezpieczeństwa.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/dos-slide-screenshot3}
+	\caption{Slajd przedstawiający sposoby wykorzystania sztucznej inteligencji w ochronie przed atakami DDOS}
+\end{figure}
 
+
+W ramach rozbudowy projektu zawartość kursu może zostać rozszerzona o dodatkowe elementy, które pozwolą użytkownikowi na przeprowadzenie symulacji ataku DDOS, w którym będzie mógł zauważyć, że strona, która do tej pory działała, po uruchomieniu symulowanego ataku jest niedostępna.
+ 
 \clearpage
+
 
 \subsection{Keylogger}
 
@@ -530,7 +613,7 @@ Keyloggery oprócz formy programowej istnieją również jako osobne urządzenia
 
 Sposobem na unikanie tego typu oprogramowania jest przede wszystkim systematyczne sprawdzanie uruchomionych procesów, ale także używanie odpowiedniego antywirusa.
 \clearpage
-
+\begin{comment}
 \subsection{CSRF}
 Cross Site Request Forgery (CSRF) jest atakiem na aplikacje internetowe, którego celem jest wykonanie przez użytkownika końcowego niechcianej akcji w serwisie w którym aktualnie jest on zalogowany. 
 [FORMAT ROZBIC WYZEJ NA DWA]
@@ -555,6 +638,7 @@ W dzisiejszych czasach, zdecydowana większość szkieletów do tworzenia aplika
 
 
 \clearpage
+\end{comment}
 
 \section{Podsumowanie i wnioski końcowe}
 

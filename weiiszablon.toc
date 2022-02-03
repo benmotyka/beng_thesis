@@ -9,20 +9,21 @@
 \contentsline {subsection}{\numberline {2.3}MongoDB}{\footnotesize 11}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}DeepL}{\footnotesize 11}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Zagrożenia bezpieczeństwa}{\footnotesize 13}{section.3}%
-\contentsline {subsection}{\numberline {3.1}SQL Injection}{\footnotesize 13}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Opis}{\footnotesize 13}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Implementacja}{\footnotesize 17}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Phishing}{\footnotesize 20}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Opis}{\footnotesize 20}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Implementacja}{\footnotesize 23}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Podatność XSS}{\footnotesize 25}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Opis}{\footnotesize 25}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Implementacja}{\footnotesize 27}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Blokada usług}{\footnotesize 30}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Opis}{\footnotesize 30}{subsubsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.1}SQL Injection}{\footnotesize 14}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Opis}{\footnotesize 14}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Implementacja}{\footnotesize 18}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Phishing}{\footnotesize 21}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Opis}{\footnotesize 21}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Implementacja}{\footnotesize 24}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Podatność XSS}{\footnotesize 26}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Opis}{\footnotesize 26}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Implementacja}{\footnotesize 28}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Ransomware}{\footnotesize 31}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Opis}{\footnotesize 31}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Implementacja}{\footnotesize 32}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Ransomware}{\footnotesize 33}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Keylogger}{\footnotesize 35}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}CSRF}{\footnotesize 36}{subsection.3.7}%
-\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 38}{section.4}%
-\contentsline {section}{Literatura}{\footnotesize 39}{section.4}%
+\contentsline {subsection}{\numberline {3.5}Blokada usług}{\footnotesize 36}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Opis}{\footnotesize 36}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Implementacja}{\footnotesize 38}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Keylogger}{\footnotesize 41}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 42}{section.4}%
+\contentsline {section}{Literatura}{\footnotesize 43}{section.4}%
