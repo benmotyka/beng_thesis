@@ -144,9 +144,9 @@ Zapytania GraphQL nie są w żaden sposób szybsze niż zapytania REST -- cechuj
 
 \subsection{MongoDB}
 
-MongoDB jest nierelacyjną bazą danych zorientowaną na obiekty zwane dokumentami. W przeciwieństwie do baz relacyjnych nie używa ona tabel, rzędów czy kolumn do składowania i odczytu danych. W zamian wykorzystuje kolekcje - w nich znajdują się zestawy dokumentów i funkcji, które odpowiadają tabelom w relacyjnych bazach danych. Dokumenty składają się z par klucz-wartość. Są to podstawowe jednostki danych. 
+MongoDB jest nierelacyjną bazą danych zorientowaną na obiekty zwane dokumentami. W przeciwieństwie do baz relacyjnych nie używa ona tabel, rzędów czy kolumn do składowania i odczytu danych. W zamian wykorzystuje kolekcje, w których znajdują się zestawy dokumentów i funkcji, odpowiadające tabelom w relacyjnych bazach danych. Dokumenty składają się z par klucz-wartość. Są to podstawowe jednostki danych. 
 
-Nierelacyjne bazy danych - w przeciwieństwie do relacyjnych - cechują się rozszerzalnością horyzontalną, czyli możliwością rozbudowy bazy o dodatkową pamięć masową. Skalowalność wertykalna z kolei skupia się na zwiększeniu mocy obliczeniowej serwera bazy danych, poprzez ulepszenie procesora czy zwiększenie pamięci operacyjnej co generuje znacznie większe koszty, szczególnie przy bazach danych składających się z milionów rekordów. 
+Nierelacyjne bazy danych -- w przeciwieństwie do relacyjnych -- cechują się rozszerzalnością horyzontalną, czyli możliwością rozbudowy bazy o dodatkową pamięć masową. Skalowalność wertykalna z kolei skupia się na zwiększeniu mocy obliczeniowej serwera bazy danych, poprzez ulepszenie procesora czy zwiększenie pamięci operacyjnej co generuje znacznie większe koszty, szczególnie przy bazach danych składających się z milionów rekordów. 
 
 Fakt ten sprawia, że bazy NoSQL doskonale wpisują się w trend Big Data (analizy dużych zbiorów danych), ponieważ – w przeciwieństwie do klasycznych silników – pozwalają na szybką analizę niestrukturyzowanych danych i badanie korelacji pomiędzy nimi. W tradycyjnej bazie schemat i relacje są w narzucone z góry, a za pomocą odpowiednich zapytań SQL można uzyskać strukturalne odpowiedzi mieszczące się we wcześniej opisanych ramach. W bazie NoSQL nie występuje coś takiego jak schemat - zapewnia to szybszą operację zapisu niż relacyjne bazy, co dodatkowo sprawia, iż nierelacyjne bazy są lepszym wyborem w projektowaniu większych systemów.
  
@@ -158,7 +158,7 @@ DeepL to narzędzie stworzone przez firmę DeepL SE. Ten z pozoru zwyczajny tran
 \clearpage
 \section{Zagrożenia bezpieczeństwa}
 
-Zagrożenia opisywane w poniższych podrozdziałach są jednymi z najbardziej niebezpiecznych nie tylko z perspektywy zwykłych użytkowników (phishing, keylogger, ransomware) ale także dla małych i średnich przedsiębiorstw (MMŚP). Warto jednak mieć na uwadze, że opisywane zagrożenia stanowią jedynie małą część wszystkich niebezpieczeństw w sieci.
+Zagrożenia opisywane w poniższych podrozdziałach są jednymi z najbardziej niebezpiecznych nie tylko z perspektywy zwykłych użytkowników (phishing, keylogger, ransomware), ale także dla małych i średnich przedsiębiorstw (MMŚP). Warto jednak mieć na uwadze, że opisywane zagrożenia stanowią jedynie małą część wszystkich niebezpieczeństw w sieci.
 
 Każde z opisanych w niniejszej pracy zagrożeń jest rozszerzone w postaci interaktywnego kursu w aplikacji internetowej. W skład kursu wchodzą slajdy, które dzielą się na zaawansowane -- dla użytkowników chcących bardziej zgłębić temat -- oraz podstawowe, dostępne dla wszystkich kursantów. 
 
@@ -167,7 +167,7 @@ Slajd może być interaktywny, o czym świadczą wskaźniki w kształcie rombu, 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/slide-tutorial}
-	\caption{Przykładowy slajd z kursu o phishingu prezentujący rodzaje ataków phishingowych}
+	\caption{Przykładowy slajd kursu związanego z tematyką phishingu prezentujący rodzaje ataków phishingowych}
 \end{figure}
 
 \clearpage
@@ -218,7 +218,7 @@ W wielu sytuacjach, zapytania SQL tworzone są dynamicznie, na podstawie dostarc
 	WHERE login = "jankowalski" AND password = "password123"
 \end{lstlisting}
 
-Z racji tego, że dane wejściowe nie są w żaden sposób walidowane po stronie serwera, ani odpowiednio formatowane, użytkownik końcowy może w bardzo prosty sposób zmodyfikować zapytanie. Przykładowo, w sytuacji, w której zamiast zwykłego loginu zostanie podany ciąg znaków: 
+Z racji tego, że dane wejściowe nie są w żaden sposób walidowane po stronie serwera, ani odpowiednio formatowane, użytkownik może w bardzo prosty sposób zmodyfikować zapytanie. Przykładowo, w sytuacji, w której zamiast zwykłego loginu zostanie podany ciąg znaków: 
 
 \begin{verbatim}
 	jankowalski" OR 1=1 --
@@ -427,7 +427,7 @@ Opisując XSS nie sposób nie wspomnieć o Regule Tego Samego Pochodzenia (\emph
 	
 	Cała struktura strony internetowej zakodowana językiem HTML może być zmieniana poprzez JavaScript, używając DOM API \cite{DOM}. Jako rezultat, prosty skrypt może całkowicie zmienić zawartość, wygląd, a przede wszystkim funkcjonalność strony internetowej.
 	
-	Ciasteczkami (ang. cookies) \cite{Cookies} nazywa się niewielkie porcje informacji wysyłane przez serwer do przeglądarki internetowej urządzenia końcowego. Służą do tego, by zapisać obiekty danych w plikach przeglądarki, które przy ponownym odwiedzeniu strony, mogą być przesłane do tego samego serwera, z którego przyszły. W związku z tym, przy odwiedzaniu różnorakich stron wymagających autoryzacji, użytkownik nie musi się za każdym razem logować, gdyż wszystkie potrzebne dane są zawarte w ciasteczkach, które przesyłane są razem z żądaniem. 
+	Ciasteczkami (ang. cookies) \cite{Cookies} nazywa się niewielkie porcje informacji wysyłane przez serwer do przeglądarki internetowej. Służą do tego, by zapisać obiekty danych w plikach przeglądarki, które przy ponownym odwiedzeniu strony, mogą być przesłane do tego samego serwera, z którego przyszły. W związku z tym, przy odwiedzaniu różnorakich stron wymagających autoryzacji, użytkownik nie musi się za każdym razem logować, gdyż wszystkie potrzebne dane są zawarte w ciasteczkach, które przesyłane są razem z żądaniem. 
 	
 	Ataki XSS można podzielić na trzy główne kategorie:
 	
@@ -602,17 +602,53 @@ W ramach rozbudowy projektu zawartość kursu może zostać rozszerzona o dodatk
 
 
 \subsection{Keylogger}
+\subsubsection{Opis}
+Keylogger to całkowicie legalne narzędzie rejestrujące zdarzenia związane z obsługą klawiatury systemu operacyjnego, na którym się znajduje, zazwyczaj bez wiedzy użytkownika. Pierwsze keyloggery powstały w latach 70 XX wieku i miały służyć służbom specjalnym do przechwytywania informacji na maszynach do pisania w publicznych miejscach.
 
-Keyloggery występują zazwyczaj w formie złośliwego, ukrytego oprogramowania. Nie są widoczne na pierwszy rzut oka dla użytkownika i w zdecydowanej większości przypadków działają w tle, często podszywając się pod inną aplikację, tym samym maskując swoją obecność. 
+To narzędzie może być wykorzystywane w miejscach pracy do badania aktywności pracowników, jako rodzaj kontroli rodzicielskiej lub przez oszustów próbujących wykraść wrażliwe dane ofiary. Ich celem jest zazwyczaj zarejestrowanie aktywności klawiatury użytkownika i przechwycenie tych informacji, celem wydobycia takich danych jak dane uwierzytelniające czy numery kart kredytowych.
 
-Podstawowe właściwości tego typu programu można opisać jako przejmowanie kontroli nad procedurami związanymi z obsługą klawiatury systemu operacyjnego, na którym się znajduje.
+Keyloggery mogą dzielić się na:
 
+\begin{itemize}
+	\item sprzętowe, przypominają pamięci przenośne (pendrive). Podłączane do urządzenia zazwyczaj poprzez interfejs USB, jednak mogą występować jako urządzenie pośredniczące pomiędzy klawiaturą a złączem USB komputera. Ich zaletą jest obszar działania - potrafią rejestrować aktywność, nawet jeśli użytkownik nie uruchomił systemu operacyjnego i co do zasady potrafią być cięższe w detekcji dla antywirusa.
+	\item programowe, są formą oprogramowania działającego w tle. Dostają się na urządzenie poprzez zainstalowanie programu. W zależności od celu keyloggera (miejsce pracy, kontrola rodzicielska, wirus), może on maskować swoją obecność, utrudniając tym samym detekcję. Podstawową funkcją tego programu jest przejmowanie kontroli nad procedurami związanymi z obsługą klawiatury systemu operacyjnego, na którym się znajduje.
+\end{itemize}
+
+Wraz z biegiem czasu, zaczęto nadużywać to narzędzie, stosując je do złośliwych celów. Obecnie, częstym zastosowaniem keyloggerów jest infekcja, a wykradanie wrażliwych danych, takich jak dane bankowe, kart kredytowych czy loginy i hasła. Do bardziej zaawansowanych funkcji keyloggera może należeć przechwytywanie ekranu zainfekowanej ofiary, poprzez tworzenie zrzutów ekranu, lub przechwytywanie skopiowanych informacji. Keyloggery stanowią wyjątkowe zagrożenie dla przedsiębiorstw - wykradzione dane mogą zapewnić dostęp atakującemu do najbardziej wrażliwych elementów przedsiębiorstwa lub wyjawić konfidencjonalne plany firmy.
+
+Urządzenie może zostać zainfekowane keyloggerem na wiele sposobów, które różnią się w zależności od rodzaju tego narzędzia. Keyloggery sprzętowe, jak sama nazwa wskazuje, zazwyczaj wymagają fizycznej obecności atakującego przy sprzęcie ofiary, celem podłączenia keyloggera do urządzenia. W związku z tym stanowią one mniejsze zagrożenie dla zwykłych użytkowników niż keyloggery programowe.
+
+Infekcja keyloggerem programowym jest znacznie prostsza, przez co ogólnie rzecz biorąc stanowi on większe zagrożenie, szczególnie jeśli urządzenie nie jest chronione antywirusem. Najczęstszą formą instalacji tego rodzaju złośliwego oprogramowania jest pobranie i uruchomienie podejrzanego załącznika z sieci lub z wiadomości phishingowych.
+
+\subsubsection{Implementacja}
+
+W kursie związanym z opisywanym zagrożeniem użytkownicy mogą dowiedzieć się informacji na temat historii keyloggerów, typami tego narzędzia oraz stosowaniem go do złośliwych celów. Kursanci mogą także zaznajomić się z procesem detekcji zagrożenia na wirtualnym ekranie, na którym uruchomiony jest system Microsoft Windows 10. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/keylogger-slide-screenshot1}
+	\caption{Interaktywny slajd przedstawiający aktualnie działające procesy w wirtualnym systemie}
+\end{figure}
+
+Kursanci mogą również zdobyć informacje na temat metod ochrony przed tego typu atakiem, korzystając między innymi z menedżerów haseł, uwierzytelniania dwuskładnikowego czy antywirusa.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/keylogger-slide-screenshot2}
+	\caption{Interaktywny slajd przedstawiający aktualnie działające procesy w wirtualnym systemie}
+\end{figure}
+
+Kurs prezentuje scenariusz urządzenia zainfekowanego keyloggerem programowym oraz opisuje podstawowe elementy składające się na to zagrożenie. Poprzez udział w tym kursie, użytkownicy mają szansę zaznajomić się z mechanizmami działania keyloggerów oraz ich typami, dzięki czemu istnieje szansa, że będą zwracali większą uwagę na podejrzane procesy działające w tle, czy nieznane urządzenia podłączone do ich komputera w biurze.
+
+\begin{comment}
 Głównym celem tego oprogramowania jest zbieranie danych o tym, jakie klawisze na klawiaturze zostały naciśnięte przez użytkownika w jakiej kolejności, a następnie okresowe wysyłanie zebranych informacji do atakującego. Posiadając wiedzę na temat tego, co zostało wpisane na urządzeniu, można bez problemu uzyskać dostęp do wrażliwych informacji takich jak prywatna korespondencja, poufne dane czy hasła. Do bardziej zaawansowanych funkcji należy między innymi przesyłanie zrzutów ekranu, rejestrowanie historii otwieranych programów i przekazywanie tych informacji dalej.
 
 Keyloggery oprócz formy programowej istnieją również jako osobne urządzenia, które podłączane są do jednostki zazwyczaj poprzez interfejs USB. Mogą także występować jako urządzenie pośredniczące pomiędzy klawiaturą a złączem USB komputera. 
 
 Sposobem na unikanie tego typu oprogramowania jest przede wszystkim systematyczne sprawdzanie uruchomionych procesów, ale także używanie odpowiedniego antywirusa.
+\end{comment}
 \clearpage
+
 \begin{comment}
 \subsection{CSRF}
 Cross Site Request Forgery (CSRF) jest atakiem na aplikacje internetowe, którego celem jest wykonanie przez użytkownika końcowego niechcianej akcji w serwisie w którym aktualnie jest on zalogowany. 

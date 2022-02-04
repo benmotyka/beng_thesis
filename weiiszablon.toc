@@ -25,5 +25,7 @@
 \contentsline {subsubsection}{\numberline {3.5.1}Opis}{\footnotesize 36}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}Implementacja}{\footnotesize 38}{subsubsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.6}Keylogger}{\footnotesize 41}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 42}{section.4}%
-\contentsline {section}{Literatura}{\footnotesize 43}{section.4}%
+\contentsline {subsubsection}{\numberline {3.6.1}Opis}{\footnotesize 41}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Implementacja}{\footnotesize 42}{subsubsection.3.6.2}%
+\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 44}{section.4}%
+\contentsline {section}{Literatura}{\footnotesize 45}{section.4}%
