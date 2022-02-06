@@ -21,7 +21,7 @@
 \studentID{EF-160780}
 
 \title{Interaktywny system e-learningowy o zagrożeniach w obszarze cyberbezpieczeństwa}
-\titleEN{Temat pracy po angielsku}
+\titleEN{Interactive e-learning system regarding cybersecurity threats}
 
 
 %%% wybierz rodzaj pracy wpisując jeden z poniższych numerów: ...
@@ -37,7 +37,7 @@
 %% przykład: dr hab. inż. Józef Nowak, prof. PRz
 
 %%% promotor ze stopniami naukowymi po angielsku
-\supervisorEN{(academic degree) Imię i nazwisko opiekuna}
+\supervisorEN{dr Michał Piętal}
 
 \abstract{Treść streszczenia po polsku}
 \abstractEN{Treść streszczenia po angielsku}
@@ -345,7 +345,7 @@ Phishing jest pewną formą socjotechniki, w której to atakujący, poprzez pods
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{figures/phishing-organisations}
-	\caption{Ranking organizacji wykorzystywanych w atakach phishingowych, źródło: https://securelist.com/spam-and-phishing-in-q2-2021/103548/}
+	\caption{Ranking organizacji wykorzystywanych w atakach phishingowych \cite{PhishingRanking}}
 	\label{fig:phishing-organisations}
 \end{figure}
 
@@ -412,12 +412,12 @@ Obszar zagrożeń phishingu jest bardzo szeroki i może obejmować różne typy 
 
 \emph{Cross-site scripting} (XSS) jest jedną z najbardziej niebezpiecznych podatności zagrażających współczesnym aplikacjom webowym. XSS jest atakiem skierowanym na klienta korzystającego serwisu webowego, w przeciwieństwie do np. \emph{SQL Injection}, którego celem jest aplikacja działająca po stronie serwera. \emph{Cross-site scripting} opiera się głównie na wstrzyknięciu do strony internetowej złośliwego skryptu, który, dla przykładu, może odczytać ciasteczka użytkownika lub inne poufne informacje, które przechowuje przeglądarka, wysłać je do atakującego, aby ten -- używając zapisanych w ciasteczkach danych -- mógł zalogować się na konto użytkownika, który nieświadomie uruchomił dany skrypt. % Poprzez ten atak, można również uruchomić Keyloggera (narzędzie do przechwytywania aktywności klawiatury) działającego w przeglądarce, lub całkowicie zmienić zawartość strony internetowej. 
 
-W raporcie przygotowanym w 2017 roku przez Wordfence, komercyjną organizację zajmującą się zabezpieczaniem stron internetowych przed wszelkimi niebezpieczeństwami, wynika, iż ten typ podatności stanowi blisko połowę wszystkich podatności w sieci \cite{XSSReport}.
+W raporcie przygotowanym w 2017 roku przez Wordfence, komercyjną organizację zajmującą się zabezpieczaniem stron internetowych przed wszelkimi niebezpieczeństwami, wynika, iż ten typ podatności stanowi blisko połowę wszystkich podatności w sieci.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{figures/xss-popularity}
-	\caption{Klasyfikacja podatności aplikacji internetowych pod kątem częstotliwości występowania}
+	\caption{Klasyfikacja podatności aplikacji internetowych pod kątem częstotliwości występowania \cite{XSSReport}}
 	\label{fig:xss-popularity}
 \end{figure}
 
@@ -472,11 +472,11 @@ Przedstawiony kurs pokrywa tylko jeden typ ataku \emph{Cross-site scripting}. Po
 \subsubsection{Opis}
 \emph{Ransomware} to typ złośliwego oprogramowania (ang. malware), którego celem jest zablokowanie dostępu do komputera osobistego poprzez zaszyfrowanie wszystkich możliwych plików. Czas trwania tej procedury zależy między innymi od wybranego algorytmu szyfrowania i danych na szyfrowanym urządzeniu, jednak w przypadku zwykłego użytkownika domowego może wykonać się w czasie zaledwie dwóch godzin \cite{RansomwareTime}. Zazwyczaj ten czas jest znacznie dłuższy, gdyż przed rozpoczęciem procesu wymagany jest dokładny rekonesans systemu i struktury katalogów. Tym sposobem użytkownik traci możliwość odczytu danych na swoim urządzeniu, a do odszyfrowania plików, wymagany jest klucz posiadany przez atakującego. 
 
-Ten rodzaj szkodliwego oprogramowania jest szczególnie niebezpieczny dla przedsiębiorstw, gdyż utrata ważnych dokumentów czy danych finansowych, może się wiązać z poważnymi konsekwencjami, lub brakiem możliwości reakcji na czas (np. złożeniu oferty w terminie). Celem \emph{ransomware} nie jest usunięcie lub kradzież plików, ale zablokowane ich, i oczekiwanie na ewentualną zapłatę okupu przez ofiarę. Sposoby, poprzez które złośliwe oprogramowanie dostaje się do przedsiębiorstw, przedstawione są na poniższym rysunku, przygotowanym przez organizację CoveWare \cite{RansomwareAttackVectors}, specjalizującą się w przeciwdziałaniu rozprzestrzeniania się tego typu atakom:
+Ten rodzaj szkodliwego oprogramowania jest szczególnie niebezpieczny dla przedsiębiorstw, gdyż utrata ważnych dokumentów czy danych finansowych, może się wiązać z poważnymi konsekwencjami, lub brakiem możliwości reakcji na czas (np. złożeniu oferty w terminie). Celem \emph{ransomware} nie jest usunięcie lub kradzież plików, ale zablokowane ich, i oczekiwanie na ewentualną zapłatę okupu przez ofiarę. Sposoby, poprzez które złośliwe oprogramowanie dostaje się do przedsiębiorstw, przedstawione są na poniższym rysunku, przygotowanym przez organizację CoveWare, specjalizującą się w przeciwdziałaniu rozprzestrzeniania się tego typu atakom:
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.75\linewidth]{figures/ransomware-attack-vectors.png}
-	\caption{Wektory ataku ransomware}
+	\includegraphics[width=0.77\linewidth]{figures/ransomware-attack-vectors.png}
+	\caption{Wektory ataku ransomware  \cite{RansomwareAttackVectors}} 
 	\label{Fig:Wektory ataku ransomware}
 \end{figure} 
 
@@ -544,8 +544,7 @@ Rodzaj DOS może różnić się w zależności od warstwy modelu OSI, na której
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{figures/3-way-handshake}
-	\caption{Graficzna reprezentacja uzgadniania trój-etapowego}
-	%https://www.luxoft-training.com/news/building-java-client-server-applications-with-tcp/
+	\caption{Graficzna reprezentacja uzgadniania trój-etapowego \cite{ThreeWayHandshakePicture}}
 	\label{fig:3-way-handshake}
 \end{figure}
 
@@ -641,6 +640,7 @@ Kursanci mogą również zdobyć informacje na temat metod ochrony przed tego ty
 Kurs prezentuje scenariusz urządzenia zainfekowanego keyloggerem programowym oraz opisuje podstawowe elementy składające się na to zagrożenie. Poprzez udział w tym kursie, użytkownicy mają szansę zaznajomić się z mechanizmami działania keyloggerów oraz ich typami, dzięki czemu istnieje szansa, że będą zwracali większą uwagę na podejrzane procesy działające w tle, czy nieznane urządzenia podłączone do ich komputera w biurze.
 
 \begin{comment}
+//v1 
 Głównym celem tego oprogramowania jest zbieranie danych o tym, jakie klawisze na klawiaturze zostały naciśnięte przez użytkownika w jakiej kolejności, a następnie okresowe wysyłanie zebranych informacji do atakującego. Posiadając wiedzę na temat tego, co zostało wpisane na urządzeniu, można bez problemu uzyskać dostęp do wrażliwych informacji takich jak prywatna korespondencja, poufne dane czy hasła. Do bardziej zaawansowanych funkcji należy między innymi przesyłanie zrzutów ekranu, rejestrowanie historii otwieranych programów i przekazywanie tych informacji dalej.
 
 Keyloggery oprócz formy programowej istnieją również jako osobne urządzenia, które podłączane są do jednostki zazwyczaj poprzez interfejs USB. Mogą także występować jako urządzenie pośredniczące pomiędzy klawiaturą a złączem USB komputera. 
@@ -650,6 +650,7 @@ Sposobem na unikanie tego typu oprogramowania jest przede wszystkim systematyczn
 \clearpage
 
 \begin{comment}
+not finished
 \subsection{CSRF}
 Cross Site Request Forgery (CSRF) jest atakiem na aplikacje internetowe, którego celem jest wykonanie przez użytkownika końcowego niechcianej akcji w serwisie w którym aktualnie jest on zalogowany. 
 [FORMAT ROZBIC WYZEJ NA DWA]
@@ -680,13 +681,15 @@ W dzisiejszych czasach, zdecydowana większość szkieletów do tworzenia aplika
 
 W dzisiejszych czasach powszechnej komunikacji zdalnej wiedza na temat zagrożeń w sieci jest bardzo poszukiwana i cenna. Tematyka cyberbezpieczeństwa przechodzi do codzienności, czego dowodem mogą być liczne szkolenia organizowane przez firmy lub komiksy dla dzieci, przedstawiające podstawy tego obszernego zagadnienia \cite{Edukomiks}.
 
-Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów komercyjnych, przykładowo w małych i średnich przedsiębiorstwach, do edukacji pracowników zmieniających tryb pracy na zdalny. Istnieje również szansa na utworzenie kursów premium dla zwykłych użytkowników, które dostępne byłyby tylko dla kursantów, którzy zechcą wesprzeć projekt finansowo. Wiedza dostarczana w kursach jest uniwersalna, gdyż podstawowe koncepty zagrożeń oraz metody ochrony przed nimi rzadko są zmienne. W kursach zostały wykorzystane elementy usprawniające naukę, takie jak wykorzystanie wirtualnej rzeczywistości w stopniu podstawowym, interaktywne slajdy, notatnik pozwalający na zapisywanie cennych informacji czy quiz podsumowujący dany kurs i przedstawiający wynik kursanta. Dodatkowo, wykorzystanie narzędzia pozwalającego na przetłumaczenie aplikacji oraz treści kursów, pozwala rozszerzyć grupę docelową na nowe, zagraniczne rynki.
+%Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów komercyjnych, przykładowo w małych i średnich przedsiębiorstwach, do edukacji pracowników zmieniających tryb pracy na zdalny. Istnieje również szansa na utworzenie kursów premium dla zwykłych użytkowników, które dostępne byłyby tylko dla kursantów, którzy zechcą wesprzeć projekt finansowo. Wiedza dostarczana w kursach jest uniwersalna, gdyż podstawowe koncepty zagrożeń oraz metody ochrony przed nimi rzadko są zmienne. W kursach zostały wykorzystane elementy usprawniające naukę, takie jak wykorzystanie wirtualnej rzeczywistości w stopniu podstawowym, interaktywne slajdy, notatnik pozwalający na zapisywanie cennych informacji czy quiz podsumowujący dany kurs i przedstawiający wynik kursanta. Dodatkowo, wykorzystanie narzędzia pozwalającego na przetłumaczenie aplikacji oraz treści kursów, pozwala rozszerzyć grupę docelową na nowe, zagraniczne rynki.
 
-Doświadczenie pisania manuskryptu pracy inżynierskiej, jak i tworzenia aplikacji internetowej przyniosło mi wiele korzyści: nie tylko pogłębiłem wiedzę z zakresu programowania aplikacji webowych i tych działających po stronie serwera, ale również dowiedziałem się wiele informacji z szeroko pojętego zakresu cyberbezpieczeństwa. 
+Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów komercyjnych, przykładowo w małych i średnich przedsiębiorstwach, do edukacji pracowników zmieniających tryb pracy na zdalny. W aplikacji zaimplementowana została funkcjonalność pobierania zawartości kursów w formacie \emph{pdf}, jednak jest ona dostępna tylko dla kursantów, którzy zechcą wesprzeć projekt finansowo. W przyszłości mogą zostać również dodanie kursy z dostępem wyłącznie dla użytkowników o typie konta premium. 
 
-Poprzez staranne opisanie i zaprezentowanie różnych zagadnień niebezpieczeństw w sieci, wiedza zdobyta podczas studiów, jak i zgłębiania się w literaturę pozwoliła mi na usystematyzowanie i poznanie klasyfikacji opisywanych cyberzagrożeń. 
+Wiedza dostarczana w kursach jest uniwersalna, gdyż podstawowe koncepty zagrożeń oraz metody ochrony przed nimi rzadko są zmienne. W kursach zostały wykorzystane elementy usprawniające naukę, takie jak wykorzystanie wirtualnej rzeczywistości w stopniu podstawowym, interaktywne slajdy, notatnik pozwalający na zapisywanie cennych informacji czy quiz podsumowujący dany kurs i przedstawiający wynik kursanta. Dodatkowo, wykorzystanie narzędzia pozwalającego na przetłumaczenie aplikacji oraz treści kursów, pozwala rozszerzyć grupę docelową na nowe, zagraniczne rynki.
 
-Jeśli ktoś nadal uważa, że kwestie związane z zagrożeniami w sieci są marginalne, lub obecnie stanowią jedynie mniej istotną część szeroko rozumianej teleinformatyki, a skutki nie mają tak znaczącego wpływu na indywidualne osoby, powinien zwrócić uwagę na niedawną lukę typu 0-day w postaci błędu w oprogramowaniu Log4j, która dotyczyła tysięcy przedsiębiorstw na całym świecie i wywołała panikę w branży technologii informatycznych \cite{Log4j}.
+Doświadczenie pisania manuskryptu pracy inżynierskiej, jak i tworzenia aplikacji internetowej przyniosło mi wiele korzyści: nie tylko pogłębiłem wiedzę z zakresu programowania aplikacji webowych i tych działających po stronie serwera, ale również dowiedziałem się wiele informacji z szeroko pojętego zakresu cyberbezpieczeństwa. Poprzez staranne opisanie i zaprezentowanie różnych zagadnień niebezpieczeństw w sieci, wiedza zdobyta podczas studiów, jak i zgłębiania się w literaturę pozwoliła mi na usystematyzowanie i poznanie klasyfikacji opisywanych zagrożeń. 
+
+Jeśli ktoś nadal uważa, że kwestie związane z zagrożeniami w sieci są marginalne, lub obecnie stanowią jedynie mniej istotną część szeroko rozumianej teleinformatyki, a skutki nie mają tak znaczącego wpływu na indywidualne osoby, powinien zwrócić uwagę na niedawną lukę typu 0-day w postaci błędu w oprogramowaniu Log4j, która dotyczyła tysięcy przedsiębiorstw na całym świecie i wywołała panikę w branży technologii teleinformatycznych \cite{Log4j}.
 
 \clearpage
 
@@ -703,6 +706,7 @@ Virtual Reality in the Learning Process, Bayron Chavez, Sussy Bayona
 \bibitem{Deepl}
 https://www.deepl.com/en/blog/how-does-deepl-work. Dostęp 30.01.2022
 \bibitem{PhishingChart} https://securelist.com/spam-and-phishing-in-q1-2021/102018. Dostęp 02.09.2021.
+\bibitem{PhishingRanking} https://securelist.com/spam-and-phishing-in-q2-2021/103548. Dostęp 14.09.2021
 \bibitem{PhishingEmails} Phishing Attacks: A Recent Comprehensive Study and a New Anatomy, Chaminda Hewage, Liqaa Nawaf, Imtiaz Ali Khan, Zainab Alkhalil
 \bibitem{PhishingExample} https://www.egospodarka.pl/art/galeria/39266,Bankowosc-online-a-zabezpieczenia,1,12,1.html. Dostęp 01.10.2021.
 \bibitem{WebScrapping} https://www.imperva.com/learn/application-security/web-scraping-attack. Dostęp 29.09.2021.
@@ -718,6 +722,7 @@ https://www.deepl.com/en/blog/how-does-deepl-work. Dostęp 30.01.2022
 \bibitem{RDP} https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol. Dostęp 02.08.2021.
 \bibitem{Ddos} https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack. Dostęp 24.06.2021.
 \bibitem{3WayHandshake} https://www.sciencedirect.com/topics/computer-science/three-way-handshake. Dostęp 19.09.2021.
+\bibitem{ThreeWayHandshakePicture} https://www.luxoft-training.com/news/building-java-client-server-applications-with-tcp. Dostęp 06.02.2022
 \bibitem{DDosHowItWorks} DoS and DDoS Attacks: Impact, Analysis and Countermeasures, Nikhil Tripathi, Babu Mehtre
 \bibitem{DDosDetection} A novel approach for mitigating the effects of the TCP SYN flood DDoS attacks, Mitko Bogdanowski, Aleksandar Toshevski, Marjan Bogdanoski, Dimitar Bogatinov
 \bibitem{Log4j} https://nvd.nist.gov/vuln/detail/CVE-2021-44228, Dostęp 04.02.2022
@@ -725,12 +730,6 @@ https://www.deepl.com/en/blog/how-does-deepl-work. Dostęp 30.01.2022
 
 \bibitem{sekurak} M. Bentkowski, G. Coldwind , A. Czyż, R. Janicki, J. Kamiński, A. Michalczyk, M. Niezabitowski, M. Piosek, M. Sajdak, G. Trawiński, B. Widła. Bezpieczeństwo aplikacji webowych
 \bibitem{OWASP10} https://owasp.org/www-project-top-ten. Dostęp 10.07.2021.
-
-
-
-
-
-
 
 \end{thebibliography}
 

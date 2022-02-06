@@ -28,4 +28,4 @@
 \contentsline {subsubsection}{\numberline {3.6.1}Opis}{\footnotesize 41}{subsubsection.3.6.1}%
 \contentsline {subsubsection}{\numberline {3.6.2}Implementacja}{\footnotesize 42}{subsubsection.3.6.2}%
 \contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 44}{section.4}%
-\contentsline {section}{Literatura}{\footnotesize 45}{section.4}%
+\contentsline {section}{Literatura}{\footnotesize 46}{section.4}%
