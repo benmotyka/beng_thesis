@@ -1,31 +1,32 @@
 \babel@toc {polish}{}
-\contentsline {section}{\numberline {1}Wprowadzenie}{\footnotesize 5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Cel i zakres pracy}{\footnotesize 5}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Technologie wykorzystane w aplikacji}{\footnotesize 7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}JavaScript}{\footnotesize 7}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}React}{\footnotesize 8}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Node.js}{\footnotesize 9}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}GraphQL}{\footnotesize 10}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}MongoDB}{\footnotesize 11}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}DeepL}{\footnotesize 11}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Zagrożenia bezpieczeństwa}{\footnotesize 13}{section.3}%
-\contentsline {subsection}{\numberline {3.1}SQL Injection}{\footnotesize 14}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Opis}{\footnotesize 14}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Implementacja}{\footnotesize 18}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Phishing}{\footnotesize 21}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Opis}{\footnotesize 21}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Implementacja}{\footnotesize 24}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Podatność XSS}{\footnotesize 26}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Opis}{\footnotesize 26}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Implementacja}{\footnotesize 28}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Ransomware}{\footnotesize 31}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Opis}{\footnotesize 31}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Implementacja}{\footnotesize 32}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Blokada usług}{\footnotesize 36}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Opis}{\footnotesize 36}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Implementacja}{\footnotesize 38}{subsubsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.6}Keylogger}{\footnotesize 41}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Opis}{\footnotesize 41}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Implementacja}{\footnotesize 42}{subsubsection.3.6.2}%
-\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 44}{section.4}%
-\contentsline {section}{Literatura}{\footnotesize 46}{section.4}%
+\contentsline {section}{Wykaz symboli, oznaczeń i skrótów}{\footnotesize 5}{Doc-Start}%
+\contentsline {section}{\numberline {1}Wprowadzenie}{\footnotesize 6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Cel i zakres pracy}{\footnotesize 6}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Technologie wykorzystane w aplikacji}{\footnotesize 8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}JavaScript}{\footnotesize 8}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}React}{\footnotesize 9}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Node.js}{\footnotesize 10}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}GraphQL}{\footnotesize 11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}MongoDB}{\footnotesize 12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}DeepL}{\footnotesize 12}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Zagrożenia bezpieczeństwa}{\footnotesize 14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}SQL Injection}{\footnotesize 15}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Opis}{\footnotesize 15}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Implementacja}{\footnotesize 19}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Phishing}{\footnotesize 22}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Opis}{\footnotesize 22}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Implementacja}{\footnotesize 25}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Podatność XSS}{\footnotesize 27}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Opis}{\footnotesize 27}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Implementacja}{\footnotesize 29}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Ransomware}{\footnotesize 32}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Opis}{\footnotesize 32}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Implementacja}{\footnotesize 33}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Blokada usług}{\footnotesize 37}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Opis}{\footnotesize 37}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Implementacja}{\footnotesize 39}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Keylogger}{\footnotesize 42}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Opis}{\footnotesize 42}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Implementacja}{\footnotesize 43}{subsubsection.3.6.2}%
+\contentsline {section}{\numberline {4}Podsumowanie i wnioski końcowe}{\footnotesize 45}{section.4}%
+\contentsline {section}{Literatura}{\footnotesize 47}{section.4}%

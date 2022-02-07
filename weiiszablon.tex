@@ -56,15 +56,34 @@
 \blankpage
 
 \clearpage
+\section*{Wykaz symboli, oznaczeń i skrótów}
+\addcontentsline{toc}{section}{Wykaz symboli, oznaczeń i skrótów}%
+
+API - 
+
+DOM - 
+
+MVC - 
+
+ORM - 
+
+SQL -
+
+XSS - 
+
+IDS - 
+
+DOS -
+\clearpage
 \section{Wprowadzenie}
 
-W dzisiejszych czasach śmiało można stwierdzić, iż	internet jest istotną częścią codzienności każdego z nas. Ostatnimi laty, stał się on jeszcze bardziej bliskim i niezbędnym narzędziem dla wielu, za sprawą pandemii COVID-19 - sprawiła ona bowiem, że pewne dziedziny życia, takie jak dydaktyka czy praca wykonywana umysłowo, przeszły swoistą transformację. Miejsca, w których spotykali się studenci wraz z wykładowcami, czy pracownicy w biurze, stały się puste. Zastąpiła je komunikacja zdalna -- przez internet. Pandemia spowodowała również, że znacząco zmienił się profil przeciętnego użytkownika Internetu.
+W dzisiejszych czasach śmiało można stwierdzić, iż	internet jest istotną częścią codzienności każdego z nas. Ostatnimi laty, stał się on jeszcze bardziej bliskim i niezbędnym narzędziem dla wielu, za sprawą pandemii COVID-19. Sprawiła ona bowiem, że pewne dziedziny życia, takie jak dydaktyka czy praca wykonywana umysłowo, przeszły swoistą transformację. Miejsca, w których spotykali się studenci wraz z wykładowcami, czy pracownicy w biurze, stały się puste. Zastąpiła je komunikacja zdalna -- przez internet. 
 
-Fakt, iż ludzkość została zmuszona, by przenieść znaczną część swojego funkcjonowania do sieci internet, niesie ze sobą poważne konsekwencje. Szybkie jak do tej pory tempo rozwijania się technologii informatycznych stało się nieporównywalnie bardziej dynamiczne, a co się z tym wiąże, obecne w sieci liczne zagrożenia stały się coraz powszechniejsze i trudniejsze w identyfikacji. 
+Fakt, iż ludzkość została zmuszona, by przenieść znaczną część swojego funkcjonowania do sieci internet, niesie ze sobą poważne konsekwencje. Szybkie jak do tej pory tempo rozwijania się technologii informatycznych stało się nieporównywalnie bardziej dynamiczne, a co się z tym wiąże, obecne w sieci liczne zagrożenia stały się coraz powszechniejsze i trudniejsze w identyfikacji. Pandemia spowodowała również, że znacząco zmienił się profil przeciętnego użytkownika internetu. Poprzez naukę zdalną, uczniowie szkół podstawowych zmuszeni byli do spędzania większej ilości czasu przed ekranami komputerów. Wraz ze zmniejszeniem średniego wieku internauty, zmalała również świadomość dotycząca niebezpieczeństw w sieci, przez co stanowią one większe niż dotychczas zagrożenie. 
 
 \subsection{Cel i zakres pracy}
 
-Celem niniejszej pracy inżynierskiej jest wyeksponowanie, opis oraz implementacja najbardziej pospolitych zagrożeń i luk bezpieczeństwa w Internecie nie tylko z perspektywy zwykłych użytkowników, ale również dla małych i średnich przedsiębiorstw (MMŚP). Na podstawie wiedzy wyniesionej ze studiów stworzona została aplikacja internetowa, zwierająca interaktywne kursy o tematyce cyberbezpieczeństwa z elementami wirtualnej rzeczywistości oraz quizami, podsumowującymi wiedzę kursanta po kursie. Każdy kurs składa się ze slajdów, które podzielić można na podstawowe, zawierający zasadnicze informacje na określony temat i zaawansowane, dla kursantów chcących bardziej zgłębić wybrany obszar. Kurs kończy się quizem jednokrotnego wyboru, na którego końcu zostaje przedstawiony wynik zdającego wraz z prawidłowymi odpowiedziami. Ma on na celu zweryfikowanie i ustrukturyzowanie wiedzy użytkownika po ukończonym szkoleniu. Celem zapewnienia większej dostępności szerszemu gronu odbiorców, aplikacja, wraz z treścią kursów, została w całości przetłumaczona na język angielski.
+Celem niniejszej pracy inżynierskiej jest wyeksponowanie, opis oraz implementacja najbardziej pospolitych zagrożeń i luk bezpieczeństwa w internecie nie tylko z perspektywy zwykłych użytkowników, ale również dla małych i średnich przedsiębiorstw (MMŚP). Na podstawie wiedzy wyniesionej ze studiów stworzona została aplikacja internetowa, zwierająca interaktywne kursy o tematyce cyberbezpieczeństwa z elementami wirtualnej rzeczywistości oraz quizami, podsumowującymi wiedzę kursanta po kursie. Każdy kurs składa się ze slajdów, które podzielić można na podstawowe, zawierający zasadnicze informacje na określony temat i zaawansowane, dla kursantów chcących bardziej zgłębić wybrany obszar. Kurs kończy się quizem jednokrotnego wyboru, na którego końcu zostaje przedstawiony wynik zdającego wraz z prawidłowymi odpowiedziami. Ma on na celu zweryfikowanie i ustrukturyzowanie wiedzy użytkownika po ukończonym szkoleniu. Celem zapewnienia większej dostępności szerszemu gronu odbiorców, aplikacja, wraz z treścią kursów, została w całości przetłumaczona na język angielski.
 
 Treść prezentowana podczas kursów wykorzystuje elementy wirtualnej rzeczywistości (VR) w podstawowym stopniu. Kursy pozwalają użytkownikom symulować sytuacje zagrożeń bezpieczeństwa na wirtualnym komputerze czy telefonie. Nie tylko polepsza to końcowe odczucia kursanta, poprzez dostarczenie mu bardziej wartościowej treści, ale także bezpośrednio wpływa na jakość przyswajanej wiedzy. Zostało bowiem udowodnione, że doświadczanie sytuacji zbliżonych do rzeczywistości poprzez interakcję i immersję polepsza proces uczenia się \cite{VrLearning}. 
 
@@ -92,11 +111,11 @@ Projekt opisany w niniejszej pracy inżynierskiej składa się z dwóch aplikacj
 
 \subsection{JavaScript}
 
-JavaScript to skryptowy język programowania powstały w latach 90. ubiegłego wieku, umożliwiający zaimplementowanie na stronach internetowych logiki. Dzięki temu strona może nie tylko wyświetlać statyczne treści, ale również wykonywać akcję, która stoi za wciśnięciem przycisku, kontrolować multimedia, obsługę dynamicznego tworzenia treści... Język ten pozwala również na takie możliwości jak przechowywanie danych wewnątrz zmiennych, wysyłanie żądań do interfejsów programistycznych (API), zarządzanie strukturą drzewa DOM (ang. Document Object Model). Dzięki swojemu szerokiemu wachlarzowi zastosowań oraz swoistej elastyczności stał się jednym z podstawowych języków programowania w Internecie i od ostatniej dekady znajduje się w pierwszej dziesiątce najpopularniejszych języków programowania. Zgodnie z ankietą przeprowadzoną przez organizację W3Techs, ponad 88\% z miliarda przeanalizowanych stron internetowych opiera się na tej technologii \cite{JavascriptPopularity}. 
+JavaScript to skryptowy język programowania powstały w latach 90. ubiegłego wieku, umożliwiający zaimplementowanie na stronach internetowych logiki biznesowej. Dzięki temu strona może nie tylko wyświetlać statyczne treści, ale również wykonywać akcję po wciśnięciu przycisku, kontrolować multimedia, obsługę dynamicznego tworzenia treści... Język ten pozwala również na takie możliwości jak przechowywanie danych wewnątrz zmiennych, wysyłanie żądań do interfejsów programistycznych (API), zarządzanie strukturą drzewa DOM (ang. Document Object Model). Dzięki swojemu szerokiemu wachlarzowi zastosowań oraz swoistej elastyczności stał się jednym z podstawowych języków programowania w internecie i od ostatniej dekady znajduje się w pierwszej dziesiątce najpopularniejszych języków programowania. Zgodnie z ankietą przeprowadzoną przez organizację W3Techs, ponad 88\% z około miliarda przeanalizowanych stron internetowych opiera się na tej technologii \cite{JavascriptPopularity}. 
 
 Jest to trzecia warstwa standardowych technologii internetowych, do których należą jeszcze HTML i CSS, łącznie określane jako dHTML (ang. dynamic HTML) \cite{JS}. JavaScript jest obecnie jedynym natywnym językiem programowania dla przeglądarek internetowych, a jego składnia przypomina język C. 
 
-Na bazie tego języka zostało utworzonych wiele szkieletów aplikacyjnych - \emph{frameworków} -  które znacznie przyspieszają i ułatwiają proces budowy aplikacji i interfejsów użytkownika. Do najpopularniejszych z nich należą między innymi React, Vue.js czy AngularJS. Mimo iż wszystkie działają w oparciu o ten sam język, to zazwyczaj kierują się innymi myślami przewodnimi i narzucają różne imperatywy. Dla przykładu - React opiera się o zasady projektowania jak najmniejszych komponentów (cząstek kodu) i łączenia ich w jedną całość, podczas gdy AngularJS działa w oparciu o architekturę MVC (Model-View-Controller).
+Na bazie tego języka zostało utworzonych wiele szkieletów aplikacyjnych - \emph{frameworków} -  które znacznie przyspieszają i ułatwiają proces budowy aplikacji i interfejsów użytkownika. Do najpopularniejszych z nich należą między innymi React, Vue.js czy AngularJS. Mimo iż wszystkie działają w oparciu o ten sam język, to zazwyczaj kierują się innymi myślami przewodnimi i narzucają różne imperatywy w programowaniu. Dla przykładu - React opiera się o zasady projektowania jak najmniejszych komponentów (cząstek kodu) i łączenia ich w jedną całość, podczas gdy AngularJS działa w oparciu o architekturę MVC (ang. Model-View-Controller).
 
 \subsubsection{React}
 
@@ -122,11 +141,11 @@ Oprócz zastosowania w implementacji interfejsów użytkownika dla aplikacji int
 
 Z racji rosnącego zainteresowania JavaScript, zaczęto się zastanawiać nad możliwością użycia tego języka programowania poza przeglądarką internetową. W 2008 roku narodziła się idea, dzięki której stworzona została platforma na bazie silnika V8 przeglądarki Google Chrome - Node.js. 
 
-Node.js nie jest serwerem internetowym ani językiem programowania. Jest to wieloplatformowe środowisko uruchomieniowe klasy open source, umożliwiające programistom tworzenie wszelkiego rodzaju narzędzi i aplikacji po stronie serwera w języku JavaScript \cite{NodejsWhatIs}. Aplikacje wykonane w tej technologii mogą być uruchamiane na większości systemów operacyjnych, takich jak Microsoft Windows, Linux, macOS, FreeBSD, OpenBSD itd.
+Node.js nie jest serwerem internetowym ani językiem programowania. Jest to wieloplatformowe środowisko uruchomieniowe klasy open source, umożliwiające programistom tworzenie wszelkiego rodzaju narzędzi i aplikacji po stronie serwera w języku JavaScript \cite{NodejsWhatIs}. Aplikacje wykonane w tej technologii mogą być uruchamiane na większości systemów operacyjnych, takich jak Microsoft Windows, Linux, Unix itd.
 
 Środowisko jest przeznaczone do użytku poza przeglądarką -- działa bezpośrednio na systemie operacyjnym urządzenia, pomijając tym samym wszelkie specyficzne dla przeglądarki internetowej API JavaScript, jednocześnie dodając obsługę tradycyjnych interfejsów systemu operacyjnego takich jak biblioteki HTTP czy systemy plików.
 
-Nieodłącznym elementem Node.js jest aplikacja do zarządzania pakietami -- \emph{npm} (ang. node package manager). Jest to jedno z największych na świecie repozytorium oprogramowania, w którym znajduje się ponad 1 300 000 pakietów. Pakietami nazwać można zarówno frameworki do tworzenia całych aplikacji, takie jak \emph{Express.js} lub \emph{Nest.js}, ale również mniejsze narzędzia, przykładowo \emph{validator}, ułatwiające pracę nad walidowaniem wartości zmiennych.
+Nieodłącznym elementem Node.js jest aplikacja do zarządzania pakietami -- \emph{npm} (ang. node package manager). Jest to jedno z największych na świecie repozytorium oprogramowania, w którym znajduje się ponad 1 300 000 pakietów. Pakietami nazwać można zarówno tzw. frameworki do tworzenia całych aplikacji, takie jak \emph{Express.js} lub \emph{Nest.js}, ale również mniejsze narzędzia, przykładowo \emph{validator}, ułatwiające pracę nad walidowaniem wartości zmiennych.
 
 \emph{Express.js} stworzony został w celu rozszerzenia funkcjonalności środowiska Node.js oraz zaoszczędzenia czasu na powtarzaniu tych samych podstawowych czynności. Ułatwia i automatyzuje skomplikowane operacje związane z systemami API, routingiem, ciasteczkami i nie tylko. Jest powszechnie wykorzystywany w projektach Node.js ze względu na dużą elastyczność (pozwala na przetwarzanie żądań w tzw. warstwie pośredniej), minimalizm i skalowalność.
 
@@ -134,7 +153,7 @@ Nieodłącznym elementem Node.js jest aplikacja do zarządzania pakietami -- \em
 
 GraphQL to język zapytań, który udostępnia wspólny interfejs pomiędzy klientem a serwerem do pobierania i zarządzania danymi. Stworzony został w 2012 roku przez inżynierów Facebooka, w 2015 roku zyskał otwarte źródła. Pozwala stronie klienta i serwera na dostęp do danych z wykorzystaniem mniejszej ilości zasobów niż w tradycyjnym REST API. Istotnym jego elementem jest silne typowanie, dzięki któremu definiowane są typy danych wymienialnych pomiędzy klientem a serwerem. GraphQL skupia się bardziej na pobieraniu elementów, podczas gdy REST używany jest do nadania struktury usługom sieciowym. 
 
-W odróżnieniu od API wykonanego w architekturze REST, GraphQL używa tylko jednej metody HTTP do otrzymywania, wysyłania, aktualizowania czy usuwania danych - metody HTTP POST. W tej metodzie, wysyłanej na jeden, wspólny dla wszystkich zapytań adres (zwyczajowo nazywany /graphql) w ciele żądania przesyłane jest 'query expression', czyli wyrażenie zapytania. Tylko i wyłącznie z ciała żądania można wywnioskować, jakiego rodzaju akcja musi zostać podjęta, oraz na jakie zasoby. Zawsze wybierany jest rodzaj operacji, jaka ma być przetworzona. Dwie najczęściej wykonywane operacje to:
+W odróżnieniu od API wykonanego w architekturze REST, GraphQL używa tylko jednej metody HTTP do otrzymywania, wysyłania, aktualizowania czy usuwania danych - metody HTTP POST. W tej metodzie, wysyłanej na jeden, wspólny dla wszystkich zapytań adres (zwyczajowo nazywany /graphql) w rdzeniu żądania przesyłane jest 'query expression', czyli wyrażenie zapytania. Tylko i wyłącznie z ciała żądania można wywnioskować, jakiego rodzaju akcja musi zostać podjęta, oraz na jakie zasoby. Zawsze wybierany jest rodzaj operacji, jaka ma być przetworzona. Dwie najczęściej wykonywane operacje to:
 \begin{itemize}
 	\item query – jest podstawową operacją, znajdującą się praktycznie w każdej aplikacji. Informuje API, że to zapytanie oczekuje jedynie na odpowiedź, nie wprowadza zmian w bazie. W rezultacie zwracane są dane znajdujące się w żądaniu.
 	\item mutation – operacja rodzaju \textbf{CUD} (\textbf{C}reate, \textbf{U}pdate, \textbf{D}elete), oczekuje specyficznych danych,
@@ -167,7 +186,7 @@ Slajd może być interaktywny, o czym świadczą wskaźniki w kształcie rombu, 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/slide-tutorial}
-	\caption{Przykładowy slajd kursu związanego z tematyką phishingu prezentujący rodzaje ataków phishingowych}
+	\caption{ sla slajd kursu związanego z tematyką phishingu prezentujący rodzaje ataków phishingowych. Źródło: opracowanie własne}
 \end{figure}
 
 \clearpage
@@ -305,26 +324,29 @@ Na bazie przekazanych informacji w poprzednich slajdach oraz w opisie, kursant m
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/sql-slide-screenshot1.png}
-	\caption{Interaktywny slajd przedstawiający budowę omawianej strony}
+	\caption{Interaktywny slajd przedstawiający budowę omawianej strony. Źródło: opracowanie własne}
 	\label{Fig:Interaktywny slajd przedstawiający budowę omawianej strony}
 \end{figure} 
 
 Użytkownicy o zaawansowanym typie konta mogą zdobyć wiedzę na temat serwerów pośredniczących, które są bardzo często wykorzystywane przy tego typu atakach oraz sposobach komunikacji aplikacji działającej po stronie serwera z bazą danych. 
 
-Dzięki tym informacjom, niedostępnym dla kursantów o zwykłym typie konta, są w stanie poszerzyć wiedzę w temacie opisywanej podatności, co bezpośrednio przekłada się na efekty kształcenia. Jednocześnie, aby w pełni zrozumieć treść slajdu dla użytkowników o zaawansowanym typie konta, wymagana jest znajomość opisywanych konceptów w stopniu podstawowym.
+Dzięki tym informacjom, niedostępnym dla kursantów o zwykłym typie konta, są w stanie poszerzyć wiedzę w temacie przedstawianej podatności, co bezpośrednio przekłada się na efekty kształcenia. Jednocześnie, aby w pełni zrozumieć treść slajdu dla użytkowników o zaawansowanym typie konta, wymagana jest znajomość opisywanych konceptów w stopniu podstawowym.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/sql-slide-screenshot3.png}
-	\caption{Slajd przedstawiający działanie serwerów pośredniczących}
+	\caption{Slajd przedstawiający działanie serwerów pośredniczących. Źródło: opracowanie własne}
 	\label{Fig:Interaktywny slajd przedstawiający budowę omawianej strony}
 \end{figure} 
 
-Kluczowym elementem kursu jest analiza kodu aplikacji działającej po stronie serwera, rozpoznanie miejsca, w którym występuje podatność \emph{SQL Injection} oraz próba wykorzystania tej podatności w sytuacji zbliżonej do rzeczywistości.
+Kluczowym elementem kursu jest analiza kodu aplikacji działającej po stronie serwera, rozpoznanie miejsca, w którym występuje podatność \emph{SQL Injection} oraz próba wykorzystania jej w sytuacji zbliżonej do rzeczywistości. Dzięki możliwie najlepiej odwzorowanemu scenariuszowi, kursant może lepiej zobrazować sposób działania podatności.
+
+Poprzez zastosowanie pakietów typu Open Source z repozytorium \emph{npm}, na stronie zaimplementowany został w pełni działający edytor tekstowy, w którym mógł znaleźć się kod źródłowy aplikacji działającej po stronie serwera oraz strony internetowej. 
 
 Zawarta w interaktywnym slajdzie symulacja, pozwala kursantowi na dowolną manipulację danych wejściowych (formularza na stronie internetowej) i jednocześnie prezentuje, w jaki sposób wartość odczytywana jest po stronie serwera. 
 
-Mając na uwadze informacje przekazane w poprzednich slajdach, aby kontynuować, kursant musi samodzielnie wykorzystać podatność \emph{SQL Injection} w opisywanym serwisie.
+Mając na uwadze informacje przekazane w poprzednich slajdach oraz wskazówki w opisie slajdu, aby kontynuować, kursant musi samodzielnie wykorzystać podatność \emph{SQL Injection} w opisywanym serwisie.
+
  
  \begin{figure}[H]
  	\centering
@@ -362,8 +384,7 @@ Ataki przeprowadzone mogą być używając psychologicznej manipulacji wybranych
 		
 	\end{figure}
 	
-	\item Fałszywa strona internetowa - polega na stworzeniu zwodniczo podobnej kopii strony internetowej poprzez tzw. \emph{Web Scrapping} \cite{WebScrapping} której celem jest przejęcie wrażliwych danych lub kradzież tożsamości użytkownika. Adres strony może być rozpowszechniany poprzez wiadomości SMS lub e-mail \cite{WhatIsPhishing}. 
-	
+	\item Fałszywa strona internetowa - polega na stworzeniu zwodniczo podobnej kopii strony internetowej poprzez tzw. \emph{Web Scrapping} \cite{WebScrapping} . Osoba odwiedzająca taką stronę, nie jest w stanie na pierwszy rzut oka odróżnić jej od prawdziwej witryny. Zazwyczaj podstawowe funkcjonalności na sfałszowanym serwisie nie działają, gdyż jego jedynym celem jest przejęcie wrażliwych danych lub kradzież tożsamości użytkownika. Przykładowo, po przesłaniu loginu i hasła, ofiara może zostać przekierowana na zupełnie inną stronę, a dane autoryzacyjne trafią do bazy danych atakującego. Adres strony może być rozpowszechniany poprzez wiadomości phishingowe SMS lub e-mail \cite{WhatIsPhishing}. 
 	
 	\begin{figure}[H]
 		\centering
@@ -390,7 +411,7 @@ Kursanci mogą bezpiecznie doświadczyć, jakie mogą być konsekwencje wejścia
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/phishing-slide-screenshot1.png}
-	\caption{Interaktywny slajd przedstawiający otrzymanie phishingowej wiadomości SMS na wirtualnym smartfonie}
+	\caption{Interaktywny slajd przedstawiający otrzymanie phishingowej wiadomości SMS na wirtualnym smartfonie. Źródło: opracowanie własne}
 	\label{fig:phishing-organisations}
 \end{figure}
 
@@ -399,7 +420,7 @@ Dodatkowo uwypuklone są najistotniejsze elementy ataku, dzięki czemu istnieje 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/phishing-slide-screenshot2.png}
-	\caption{Interaktywny slajd przedstawiający stronę phishingwą na wirtualnym smartfonie}
+	\caption{Interaktywny slajd przedstawiający stronę phishingwą na wirtualnym smartfonie. Źródło: opracowanie własne}
 	\label{fig:phishing-organisations}
 \end{figure}
 
@@ -432,12 +453,12 @@ Opisując XSS nie sposób nie wspomnieć o Regule Tego Samego Pochodzenia (\emph
 	Ataki XSS można podzielić na trzy główne kategorie:
 	
 	\begin{itemize}
-		\item \emph{Reflected XSS} - złośliwy skrypt umieszczony jest w adresie URL. Po wejściu w hiperłącze, ofiara nieświadomie wykonuje wcześniej przygotowany skrypt, rezultatem czego jest wykonanie kodu w przeglądarce.
+		\item \emph{Reflected XSS} - złośliwy skrypt umieszczony jest w adresie URL. Po wejściu w hiperłącze, ofiara nieświadomie wykonuje wcześniej przygotowany skrypt, rezultatem czego jest wykonanie kodu w przeglądarce. Kod umieszczony może zostać w wiadomości e-mail lub w innym serwisie internetowym.
 		\item \emph{Stored XSS} - polega na umieszczeniu skryptu po stronie serwera, przykładowo jako wiadomość w serwisie społecznościowym. Po odczytaniu jej przez ofiarę, automatycznie wykonywany jest wcześniej przygotowany skrypt, co może skutkować wysłaniem ciasteczka sesyjnego innego użytkownika do atakującego, pozwalając mu na umieszczenie skradzionego ciasteczka w przeglądarce i nieautoryzowany dostęp do konta ofiary.
-		\item \emph{DOM Based XSS} - atak ściśle powiązany z modyfikacją struktury DOM. Sama odpowiedź HTTP nie ulega zmianie, jednak kod po stronie klienta zawarty w aplikacji wykonywany jest w inny sposób z powodu modyfikacji, które miały miejsce w DOM.
+		\item \emph{DOM Based XSS} - atak ściśle powiązany z modyfikacją struktury DOM podatnej strony internetowej. Sama odpowiedź HTTP nie ulega zmianie, jednak kod po stronie klienta zawarty w aplikacji wykonywany jest w inny sposób z powodu modyfikacji, które miały miejsce w DOM. Typ ataku szczególnie powszechny w serwisach, które pozwalają użytkownikowi na manipulację zawartości strony. 
 	\end{itemize}
 	
-Przeglądarki internetowe zostały wyposażone wiele narzędzi do walki z tą podatnością, takich jak system wykrywania złośliwego kodu JavaScript. Mechanizm ten składa się z wbudowanego w przeglądarkę komponentu analizy skryptów oraz systemu IDS (ang. Intrusion Detection System), przetwarzającego aktywność po stronie klienta, i porównującego ją ze znanymi złośliwymi skryptami. Dzięki temu systemowi możliwe jest wykrywanie różnego rodzaju ataków XSS. Jednak system ma znaczną wadę: może wykryć tylko sytuacje, których zachowanie jest mu znane -- nie jest odporny na nowe typy ataku \cite{XSSProtection}. 
+Przeglądarki internetowe zostały wyposażone wiele narzędzi do walki z tą podatnością, takich system wykrywania złośliwego kodu JavaScript. Mechanizm ten składa się z wbudowanego w przeglądarkę komponentu analizy skryptów oraz systemu IDS (ang. Intrusion Detection System), przetwarzającego aktywność po stronie klienta, i porównującego ją ze znanymi złośliwymi skryptami. Dzięki temu systemowi możliwe jest wykrywanie różnego rodzaju ataków XSS. Jednak system ma znaczną wadę: może wykryć tylko sytuacje, których zachowanie jest mu znane -- nie jest odporny na nowe typy ataku \cite{XSSProtection}. 
 
 Najczęstszym miejscem, w którym można spotkać tę podatność, są formularze, do których użytkownik wpisuje dane, które mogą następnie być wyświetlane. Jeśli przesłane dane nie zostaną odpowiednio wyczyszczone, atakujący może wstrzyknąć złośliwy skrypt, który następnie zostanie wykonany przez przeglądarkę. Pomimo wielu zabezpieczeń, które są wbudowane w przeglądarki, te nie są w stanie odróżnić czy dany skrypt jest złośliwy, czy nie - dlatego też odporność aplikacji internetowej na tego typu atak stoi przede wszystkim po stronie programistów.
 	
@@ -445,20 +466,20 @@ Najskuteczniejszą ochroną przed atakami XSS jest filtrowanie danych przychodz�
 	
 \subsubsection{Implementacja}
 
-Kurs oprócz opisania cech omawianej podatności pozwala także użytkownikowi na zaznajomienie się z konsekwencjami ataku \emph{Cross-site scripting}. W części interaktywnej kursantowi przedstawiona jest wirtualna strona internetowa podatna na atak Reflected XSS, której główną funkcjonalnością jest wyszukanie znajomych. Poprzez efekt immersji, użytkownik jest w stanie łatwiej przyswoić przekazywane mu informacje, gdyż okoliczności mogą wydawać mu się znajome i dotyczą codziennych sytuacji.
+Kurs oprócz opisania cech omawianej podatności pozwala także użytkownikowi na zaznajomienie się z konsekwencjami ataku \emph{Cross-site scripting}. W części interaktywnej kursantowi przedstawiona jest wirtualna strona internetowa podatna na atak \emph{Reflected XSS}, której główną funkcjonalnością jest wyszukanie znajomych. Poprzez efekt immersji, użytkownik jest w stanie łatwiej przyswoić przekazywane mu informacje, gdyż okoliczności mogą wydawać mu się znajome i dotyczą codziennych sytuacji.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/xss-slide-screenshot1}
-	\caption{Interaktywny slajd przedstawiający podstawowe funkcjonalności wirtualnej strony internetowej}
+	\caption{Interaktywny slajd przedstawiający podstawowe funkcjonalności wirtualnej strony internetowej. Źródło: opracowanie własne}
 \end{figure}
 
-Na bazie informacji zdobytych na wcześniejszych slajdach, w kolejnym interaktywnym ćwiczeniu zadaniem jest wpisanie w pole wyszukiwarki dowolnego elementu HTML. Wyszukanie tagu spowoduje dodanie go do DOM i adresu URL wirtualnego serwisu.
+Na bazie informacji zdobytych na wcześniejszych slajdach, w kolejnym interaktywnym ćwiczeniu zadaniem jest wpisanie w pole wyszukiwarki dowolnego elementu HTML. Wyszukanie tagu spowoduje dodanie go do DOM i adresu URL serwisu.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/xss-slide-screenshot2}
-	\caption{Interaktywny slajd przedstawiający podatność XSS}
+	\caption{Interaktywny slajd przedstawiający podatność XSS. Źródło: opracowanie własne}
 \end{figure}
 
 Dzięki zawartości interaktywnych slajdów kursant ma szansę doświadczyć krok po kroku, w jaki sposób wyszukiwana jest opisywana podatność w serwisie internetowym i jakie mogą być jej efekty końcowe. 
@@ -497,15 +518,15 @@ Istotnym elementem kursu ransomware jest interaktywny slajd, który pozwala uży
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.99\linewidth]{figures/ransomware-slide-screenshot1}
-	\caption{Interaktywny slajd przedstawiający sytuację pobrania ransomware}
+	\caption{Interaktywny slajd przedstawiający sytuację pobrania ransomware. Źródło: opracowanie własne}
 \end{figure}
 
-Po pobraniu ransomware, kursantowi przedstawiony jest widok ekranu, na którym uruchomiony jest system Microsoft Windows 10. Warto zauważyć, że pobrany wcześniej plik znajduje się na liście plików w systemie. Zadaniem użytkownika jest uruchomienie omawianego złośliwego pliku.
+Po pobraniu ransomware, kursantowi przedstawiony jest widok ekranu, na którym uruchomiony jest system Microsoft Windows 10. Warto zauważyć, że pobrany wcześniej załącznik znajduje się na liście plików w systemie, takich jak zdjęcia czy ważne dokumenty. Zadaniem użytkownika jest uruchomienie omawianego złośliwego pliku.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.99\linewidth]{figures/ransomware-slide-screenshot2}
-	\caption{Interaktywny slajd przedstawiający widok urządzenia z systemem operacyjnym Microsoft Windows 10}
+	\caption{Interaktywny slajd przedstawiający widok urządzenia z systemem operacyjnym Microsoft Windows 10. Źródło: opracowanie własne}
 \end{figure}
 
 Zgodnie z opisem slajdu, uruchomienie ransomware będzie skutkowało rozpoczęciem szyfrowania wrażliwych plików na urządzeniu, jednak użytkownikowi przedstawiony zostanie fałszywy dokument. 
@@ -513,16 +534,16 @@ Zgodnie z opisem slajdu, uruchomienie ransomware będzie skutkowało rozpoczęci
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.98\linewidth]{figures/ransomware-slide-screenshot3}
-	\caption{Interaktywny slajd przedstawiający widok urządzenia z systemem operacyjnym Microsoft Windows 10}
+	\caption{Interaktywny slajd przedstawiający widok urządzenia z systemem operacyjnym Microsoft Windows 10. Źródło: opracowanie własne}
 \end{figure}
 
-W kolejnym slajdzie, zauważyć można, że wszystkie ważne dokumenty na urządzeniu zostały zaszyfrowane.
+W kolejnym slajdzie zauważyć można, że wszystkie ważne dokumenty na urządzeniu zostały zaszyfrowane, oraz uruchomione zostało okno ransomware.
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/ransomware-slide-screenshot4}
-	\caption{Interaktywny slajd przedstawiający widok po uruchomieniu ransomware}
+	\includegraphics[width=0.98\linewidth]{figures/ransomware-slide-screenshot4}
+	\caption{Interaktywny slajd przedstawiający widok po uruchomieniu ransomware. Źródło: opracowanie własne}
 \end{figure}
 
 Poprzez możliwie najlepsze odwzorowanie codziennych warunków, z którymi kursant może mieć do czynienia, efekty infekcji ransomware mogą być dużo bardziej przystępne do zrozumienia, niż opis w formie pisemnej. Interaktywne slajdy pozwalają kursantowi wczuć się w role ofiary, dzięki czemu będzie w stanie bezpiecznie zainfekować urządzenie ransomware. 
@@ -573,8 +594,8 @@ Kurs o tematyce blokady usług przedstawia użytkownikowi podstawowe koncepty zw
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/dos-slide-screenshot1}
-	\caption{Slajd przedstawiający różnicę pomiędzy atakiem DOS a DDOS}
+	\includegraphics[width=0.99\linewidth]{figures/dos-slide-screenshot1}
+	\caption{Slajd przedstawiający różnicę pomiędzy atakiem DOS a DDOS. Źródło: opracowanie własne}
 \end{figure}
 
 Szczegółowo omawiane są także typy ataków DDOS i metody ochrony przeciw nim.
@@ -582,8 +603,8 @@ Pozwala to kursantowi na dostrzeżenie skali niebezpieczeństwa, poprzez fakt, �
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/dos-slide-screenshot2}
-	\caption{Slajd przedstawiający typy ataków DDOS}
+	\includegraphics[width=0.99\linewidth]{figures/dos-slide-screenshot2}
+	\caption{Slajd przedstawiający typy ataków DDOS. Źródło: opracowanie własne}
 \end{figure}
 
 Użytkownicy o zaawansowanym typie konta mogą dowiedzieć się o metodach ochrony przeciw atakom DDOS, które w dzisiejszych czasach są stosowane przez zdecydowaną większość usług hostingowych. 
@@ -591,7 +612,7 @@ Użytkownicy o zaawansowanym typie konta mogą dowiedzieć się o metodach ochro
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/dos-slide-screenshot3}
-	\caption{Slajd przedstawiający sposoby wykorzystania sztucznej inteligencji w ochronie przed atakami DDOS}
+	\caption{Slajd przedstawiający sposoby wykorzystania sztucznej inteligencji w ochronie przed atakami DDOS. Źródło: opracowanie własne}
 \end{figure}
 
 
@@ -626,7 +647,7 @@ W kursie związanym z opisywanym zagrożeniem użytkownicy mogą dowiedzieć si�
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/keylogger-slide-screenshot1}
-	\caption{Interaktywny slajd przedstawiający aktualnie działające procesy w wirtualnym systemie}
+	\caption{Interaktywny slajd przedstawiający aktualnie działające procesy w wirtualnym systemie. Źródło: opracowanie własne}
 \end{figure}
 
 Kursanci mogą również zdobyć informacje na temat metod ochrony przed tego typu atakiem, korzystając między innymi z menedżerów haseł, uwierzytelniania dwuskładnikowego czy antywirusa.
@@ -634,7 +655,7 @@ Kursanci mogą również zdobyć informacje na temat metod ochrony przed tego ty
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/keylogger-slide-screenshot2}
-	\caption{Interaktywny slajd przedstawiający aktualnie działające procesy w wirtualnym systemie}
+	\caption{Slajd przedstawiający metody ochrony przeciw keyloggerami. Źródło: opracowanie własne}
 \end{figure}
 
 Kurs prezentuje scenariusz urządzenia zainfekowanego keyloggerem programowym oraz opisuje podstawowe elementy składające się na to zagrożenie. Poprzez udział w tym kursie, użytkownicy mają szansę zaznajomić się z mechanizmami działania keyloggerów oraz ich typami, dzięki czemu istnieje szansa, że będą zwracali większą uwagę na podejrzane procesy działające w tle, czy nieznane urządzenia podłączone do ich komputera w biurze.
@@ -679,7 +700,7 @@ W dzisiejszych czasach, zdecydowana większość szkieletów do tworzenia aplika
 
 \section{Podsumowanie i wnioski końcowe}
 
-W dzisiejszych czasach powszechnej komunikacji zdalnej wiedza na temat zagrożeń w sieci jest bardzo poszukiwana i cenna. Tematyka cyberbezpieczeństwa przechodzi do codzienności, czego dowodem mogą być liczne szkolenia organizowane przez firmy lub komiksy dla dzieci, przedstawiające podstawy tego obszernego zagadnienia \cite{Edukomiks}.
+W czasach powszechnej komunikacji zdalnej wiedza na temat zagrożeń w sieci jest bardzo poszukiwana i cenna. Tematyka cyberbezpieczeństwa przechodzi do codzienności, czego dowodem mogą być liczne szkolenia organizowane przez firmy lub komiksy dla dzieci, przedstawiające podstawy tego obszernego zagadnienia \cite{Edukomiks}.
 
 %Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów komercyjnych, przykładowo w małych i średnich przedsiębiorstwach, do edukacji pracowników zmieniających tryb pracy na zdalny. Istnieje również szansa na utworzenie kursów premium dla zwykłych użytkowników, które dostępne byłyby tylko dla kursantów, którzy zechcą wesprzeć projekt finansowo. Wiedza dostarczana w kursach jest uniwersalna, gdyż podstawowe koncepty zagrożeń oraz metody ochrony przed nimi rzadko są zmienne. W kursach zostały wykorzystane elementy usprawniające naukę, takie jak wykorzystanie wirtualnej rzeczywistości w stopniu podstawowym, interaktywne slajdy, notatnik pozwalający na zapisywanie cennych informacji czy quiz podsumowujący dany kurs i przedstawiający wynik kursanta. Dodatkowo, wykorzystanie narzędzia pozwalającego na przetłumaczenie aplikacji oraz treści kursów, pozwala rozszerzyć grupę docelową na nowe, zagraniczne rynki.
 
@@ -687,7 +708,7 @@ Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów k
 
 Wiedza dostarczana w kursach jest uniwersalna, gdyż podstawowe koncepty zagrożeń oraz metody ochrony przed nimi rzadko są zmienne. W kursach zostały wykorzystane elementy usprawniające naukę, takie jak wykorzystanie wirtualnej rzeczywistości w stopniu podstawowym, interaktywne slajdy, notatnik pozwalający na zapisywanie cennych informacji czy quiz podsumowujący dany kurs i przedstawiający wynik kursanta. Dodatkowo, wykorzystanie narzędzia pozwalającego na przetłumaczenie aplikacji oraz treści kursów, pozwala rozszerzyć grupę docelową na nowe, zagraniczne rynki.
 
-Doświadczenie pisania manuskryptu pracy inżynierskiej, jak i tworzenia aplikacji internetowej przyniosło mi wiele korzyści: nie tylko pogłębiłem wiedzę z zakresu programowania aplikacji webowych i tych działających po stronie serwera, ale również dowiedziałem się wiele informacji z szeroko pojętego zakresu cyberbezpieczeństwa. Poprzez staranne opisanie i zaprezentowanie różnych zagadnień niebezpieczeństw w sieci, wiedza zdobyta podczas studiów, jak i zgłębiania się w literaturę pozwoliła mi na usystematyzowanie i poznanie klasyfikacji opisywanych zagrożeń. 
+Doświadczenie pisania manuskryptu pracy inżynierskiej, jak i tworzenia aplikacji internetowej przyniosło wiele korzyści: nie tylko pogłębiona została wiedza z zakresu programowania aplikacji webowych i tych działających po stronie serwera, ale również wymagane było zapoznanie się z szeroko pojętym zakresem cyberbezpieczeństwa. Poprzez staranne opisanie i zaprezentowanie różnych zagadnień niebezpieczeństw w sieci, wiedza zdobyta podczas studiów, jak i zgłębiania się w literaturę pozwoliła mi na usystematyzowanie i poznanie klasyfikacji opisywanych zagrożeń. 
 
 Jeśli ktoś nadal uważa, że kwestie związane z zagrożeniami w sieci są marginalne, lub obecnie stanowią jedynie mniej istotną część szeroko rozumianej teleinformatyki, a skutki nie mają tak znaczącego wpływu na indywidualne osoby, powinien zwrócić uwagę na niedawną lukę typu 0-day w postaci błędu w oprogramowaniu Log4j, która dotyczyła tysięcy przedsiębiorstw na całym świecie i wywołała panikę w branży technologii teleinformatycznych \cite{Log4j}.
 
