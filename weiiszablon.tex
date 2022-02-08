@@ -57,23 +57,24 @@
 
 \clearpage
 \section*{Wykaz symboli, oznaczeń i skrótów}
-\addcontentsline{toc}{section}{Wykaz symboli, oznaczeń i skrótów}%
+\addcontentsline{toc}{section}{Wykaz symboli, oznaczeń i skrótów}
 
-API - 
+API - (ang. Application Programming Interface) - inferejs programowania aplikacji, zbiór reguł i zasad umożliwiający komunikację pomiędzy aplikacjami, serwisami.
 
-DOM - 
+DOM - (ang. Document Object Model) - interfejs dla plików HTML i XML. Definiuje strukturę dokumentów (np. stron internetowych) w postaci drzewa.
 
-MVC - 
+MVC - (ang. Model-View-Controller) - wzorzec projektowy, powszechnie stosowany w procesie tworzenia oprogramowania. 
 
-ORM - 
+ORM - (ang. Object–relational mapping) - technika pozwalająca na modyfikację i odczyt danych w relacyjnych bazach danych przy użyciu paradygmatu programowania obiektowego.
 
-SQL -
+SQL - (ang. Structured Query Language) - język stworzony specjalnie w celu komunikowania się z relacyjnymi bazami danych i ich modyfikacji.
 
-XSS - 
+XSS - (ang. Cross-site scripting) - jedna z najbardziej niebezpiecznych podatności zagrażająca współczesnym aplikacjom webowym. 
 
-IDS - 
+IDS - (ang. Intrusion Detection System) - narzędzia wykrywające próby ataków na systemy teleinformatyczne.
 
-DOS -
+DOS - (ang. Denial-of-Service) - atak na system lub sieć, mający na celu spowodowanie niedostępności serwera lub infrastruktury. Znany również jako Blokada Usług.
+
 \clearpage
 \section{Wprowadzenie}
 
@@ -111,11 +112,11 @@ Projekt opisany w niniejszej pracy inżynierskiej składa się z dwóch aplikacj
 
 \subsection{JavaScript}
 
-JavaScript to skryptowy język programowania powstały w latach 90. ubiegłego wieku, umożliwiający zaimplementowanie na stronach internetowych logiki biznesowej. Dzięki temu strona może nie tylko wyświetlać statyczne treści, ale również wykonywać akcję po wciśnięciu przycisku, kontrolować multimedia, obsługę dynamicznego tworzenia treści... Język ten pozwala również na takie możliwości jak przechowywanie danych wewnątrz zmiennych, wysyłanie żądań do interfejsów programistycznych (API), zarządzanie strukturą drzewa DOM (ang. Document Object Model). Dzięki swojemu szerokiemu wachlarzowi zastosowań oraz swoistej elastyczności stał się jednym z podstawowych języków programowania w internecie i od ostatniej dekady znajduje się w pierwszej dziesiątce najpopularniejszych języków programowania. Zgodnie z ankietą przeprowadzoną przez organizację W3Techs, ponad 88\% z około miliarda przeanalizowanych stron internetowych opiera się na tej technologii \cite{JavascriptPopularity}. 
+JavaScript to skryptowy język programowania powstały w latach 90. ubiegłego wieku, umożliwiający zaimplementowanie na stronach internetowych logiki biznesowej. Dzięki temu strona może nie tylko wyświetlać statyczne treści, ale również wykonywać akcję po wciśnięciu przycisku, kontrolować multimedia, obsługę dynamicznego tworzenia treści... Język ten pozwala również na takie możliwości jak przechowywanie danych wewnątrz zmiennych, wysyłanie żądań do interfejsów programistycznych (API), zarządzanie strukturą drzewa DOM . Dzięki swojemu szerokiemu wachlarzowi zastosowań oraz swoistej elastyczności stał się jednym z podstawowych języków programowania w internecie i od ostatniej dekady znajduje się w pierwszej dziesiątce najpopularniejszych języków programowania. Zgodnie z ankietą przeprowadzoną przez organizację W3Techs, ponad 88\% z około miliarda przeanalizowanych stron internetowych opiera się na tej technologii \cite{JavascriptPopularity}. 
 
 Jest to trzecia warstwa standardowych technologii internetowych, do których należą jeszcze HTML i CSS, łącznie określane jako dHTML (ang. dynamic HTML) \cite{JS}. JavaScript jest obecnie jedynym natywnym językiem programowania dla przeglądarek internetowych, a jego składnia przypomina język C. 
 
-Na bazie tego języka zostało utworzonych wiele szkieletów aplikacyjnych - \emph{frameworków} -  które znacznie przyspieszają i ułatwiają proces budowy aplikacji i interfejsów użytkownika. Do najpopularniejszych z nich należą między innymi React, Vue.js czy AngularJS. Mimo iż wszystkie działają w oparciu o ten sam język, to zazwyczaj kierują się innymi myślami przewodnimi i narzucają różne imperatywy w programowaniu. Dla przykładu - React opiera się o zasady projektowania jak najmniejszych komponentów (cząstek kodu) i łączenia ich w jedną całość, podczas gdy AngularJS działa w oparciu o architekturę MVC (ang. Model-View-Controller).
+Na bazie tego języka zostało utworzonych wiele szkieletów aplikacyjnych - \emph{frameworków} -  które znacznie przyspieszają i ułatwiają proces budowy aplikacji i interfejsów użytkownika. Do najpopularniejszych z nich należą między innymi React, Vue.js czy AngularJS. Mimo iż wszystkie działają w oparciu o ten sam język, to zazwyczaj kierują się innymi myślami przewodnimi i narzucają różne imperatywy w programowaniu. Dla przykładu - React opiera się o zasady projektowania jak najmniejszych komponentów (cząstek kodu) i łączenia ich w jedną całość, podczas gdy AngularJS działa w oparciu o architekturę MVC.
 
 \subsubsection{React}
 
@@ -131,7 +132,7 @@ Jednym z kluczowych elementów tej biblioteki jest JSX -- JavaScript XML. Rozsze
 
 Zmienne te mogą być odpowiednio renderowane i stylizowane, co zapewnia zorganizowaną i spójną strukturę aplikacji.
 
-Biblioteka ta wprowadza również takie pojęcie jak Wirtualny DOM (ang. Virtual DOM). Jest to replika oryginalnego drzewa DOM (ang. Document Object Model) przechowywana w wirtualnej pamięci. Przy każdej modyfikacji dowolnego komponentu aplikacji, Wirtualny DOM ponownie renderuje cały interfejs użytkownika. Następnie porównywany jest on z obecnym stanem drzewa i aktualizowane są tylko te komponenty, które zmieniły swój stan. React znajduje sposób na wprowadzenie wszystkich zmian w aplikacji, zachowując przy tym jak najmniejszą liczbę odwołań poprzez interfejs DOM. To sprawia, że jest bardzo wydajny i zoptymalizowany.
+Biblioteka ta wprowadza również takie pojęcie jak Wirtualny DOM (ang. Virtual DOM). Jest to replika oryginalnego drzewa DOM przechowywana w wirtualnej pamięci. Przy każdej modyfikacji dowolnego komponentu aplikacji, Wirtualny DOM ponownie renderuje cały interfejs użytkownika. Następnie porównywany jest on z obecnym stanem drzewa i aktualizowane są tylko te komponenty, które zmieniły swój stan. React znajduje sposób na wprowadzenie wszystkich zmian w aplikacji, zachowując przy tym jak najmniejszą liczbę odwołań poprzez interfejs DOM. To sprawia, że jest bardzo wydajny i zoptymalizowany.
 
 Wydawać by się mogło, że omawiana biblioteka, rozszerzając obecne możliwości projektowania interfejsów, może stanowić wyzywanie dla początkujących programistów, ze względu na dość trudną początkową konfigurację projektu oraz zaznajomienie się ze składnią JSX. Jednakże po wykonaniu kilku prostych komponentów, zauważyć można analogię i swoisty standard, który towarzyszy w procesie tworzenia różnorakich elementów interfejsu użytkownika. Za sensem stosowania tej biblioteki przemawiać może badanie firmy Statista, przeprowadzone na programistach aplikacji webowych. React.js zajął w nim pierwsze miejsce, uzyskując popularność w stosowaniu w aplikacjach działających po stronie klienta na poziomie aż 40\% \cite{ReactPopular}.
 
@@ -198,7 +199,7 @@ Wstrzyknięcie SQL to podatność aplikacji webowych polegająca na zmodyfikowan
 
 Ciężko wyobrazić sobie w pełni funkcjonalny serwis internetowy niekorzystający z bazy danych. Proces rejestracji użytkownika, płacenia za zakupy czy zmiana zdjęcia profilowego -- te wszystkie czynności wymagają fizycznego przechowywania informacji. Zazwyczaj realizowane są one poprzez wysłanie odpowiedniego żądania do aplikacji działającej na serwerze, aby ta skomunikowała się z bazą danych i wykonała odpowiednią operację. 
 
-SQL \emph{(ang. Structured Query Language)} to język stworzony specjalnie w celu komunikowania się z relacyjnymi bazami danych. Wykorzystywanie tego języka w celu podstawowych funkcjonalności może wydawać się proste, ze względu na jego przejrzystość oraz deklaratywną strukturę. Pozwala na łatwe zarządzanie, dostęp do informacji oraz tworzenie i modyfikację struktury bazy danych. Używany jest nie tylko przez programistów w procesie tworzenia API, ale także przez administratorów baz danych, celem dokonywania zmian struktury w schematach bazodanowych.
+Wykorzystywanie języka SQL w celu podstawowych funkcjonalności może wydawać się proste, ze względu na jego przejrzystość oraz deklaratywną strukturę. Pozwala na łatwe zarządzanie, dostęp do informacji oraz tworzenie i modyfikację struktury bazy danych. Używany jest nie tylko przez programistów w procesie tworzenia API, ale także przez administratorów baz danych, celem dokonywania zmian struktury w schematach bazodanowych.
 
 Najprostsze zapytanie SQL, wypisujące wszystkie dane z tabeli 'clients' można zapisać w poniższej formie:
 
@@ -291,7 +292,7 @@ Rezultatem zapytania będzie najpierw zwrócenie wszelkich rekordów o określon
 
 Głównym powodem występowania podatności \emph{SQL Injection} jest zbyt mała uwaga poświęcana tworzeniu kwerend bazodanowych przez zespoły programistyczne, w procesie tworzenia aplikacji działających po stronie serwera. Parametry przekazywanego do zapytania powinny być filtrowane pod kątem występowania specjalnych symboli lub pod względem wystąpienia w parametrze określonych znaków, tj. wyłącznie litery i cyfry.
 
-Przy komunikacji z relacyjną bazą danych, dobrym rozwiązaniem może być stosowanie takich narzędzi jak Konstruktora Zapytań (ang. Query Builder) lub ORM (ang. Object-Relational Mapping) pozwala na uproszczenie komunikacji z bazą danych poprzez mapowanie tabel i relacji do obiektów, oraz eliminację możliwości wystąpienia takich luk bezpieczeństwa jak \emph{SQL Injection}. Jako przykład Konstruktora zapytań można podać Knex.js - biblioteka o otwartych źródłach stworzona dla środowiska uruchomieniowego Node.js. Kwerendy tworzone w konstruktorach nie tylko są bezpieczniejsze niż zapytania SQL - są także uniwersalne dla każdego silnika bazodanowego. Konstrukcja zapytań - używając powyżej opisanego konstruktora - przedstawia się następująco:
+Przy komunikacji z relacyjną bazą danych, dobrym rozwiązaniem może być stosowanie takich narzędzi jak Konstruktora Zapytań (ang. Query Builder) lub ORM pozwala na uproszczenie komunikacji z bazą danych poprzez mapowanie tabel i relacji do obiektów, oraz eliminację możliwości wystąpienia takich luk bezpieczeństwa jak \emph{SQL Injection}. Jako przykład Konstruktora zapytań można podać Knex.js - biblioteka o otwartych źródłach stworzona dla środowiska uruchomieniowego Node.js. Kwerendy tworzone w konstruktorach nie tylko są bezpieczniejsze niż zapytania SQL - są także uniwersalne dla każdego silnika bazodanowego. Konstrukcja zapytań - używając powyżej opisanego konstruktora - przedstawia się następująco:
 
 \
 
@@ -431,7 +432,7 @@ Obszar zagrożeń phishingu jest bardzo szeroki i może obejmować różne typy 
 \subsection{Podatność XSS}
 \subsubsection{Opis}
 
-\emph{Cross-site scripting} (XSS) jest jedną z najbardziej niebezpiecznych podatności zagrażających współczesnym aplikacjom webowym. XSS jest atakiem skierowanym na klienta korzystającego serwisu webowego, w przeciwieństwie do np. \emph{SQL Injection}, którego celem jest aplikacja działająca po stronie serwera. \emph{Cross-site scripting} opiera się głównie na wstrzyknięciu do strony internetowej złośliwego skryptu, który, dla przykładu, może odczytać ciasteczka użytkownika lub inne poufne informacje, które przechowuje przeglądarka, wysłać je do atakującego, aby ten -- używając zapisanych w ciasteczkach danych -- mógł zalogować się na konto użytkownika, który nieświadomie uruchomił dany skrypt. % Poprzez ten atak, można również uruchomić Keyloggera (narzędzie do przechwytywania aktywności klawiatury) działającego w przeglądarce, lub całkowicie zmienić zawartość strony internetowej. 
+XSS jest atakiem skierowanym na klienta korzystającego serwisu webowego, w przeciwieństwie do np. \emph{SQL Injection}, którego celem jest aplikacja działająca po stronie serwera. \emph{Cross-site scripting} opiera się głównie na wstrzyknięciu do strony internetowej złośliwego skryptu, który, dla przykładu, może odczytać ciasteczka użytkownika lub inne poufne informacje, które przechowuje przeglądarka, wysłać je do atakującego, aby ten -- używając zapisanych w ciasteczkach danych -- mógł zalogować się na konto użytkownika, który nieświadomie uruchomił dany skrypt. % Poprzez ten atak, można również uruchomić Keyloggera (narzędzie do przechwytywania aktywności klawiatury) działającego w przeglądarce, lub całkowicie zmienić zawartość strony internetowej. 
 
 W raporcie przygotowanym w 2017 roku przez Wordfence, komercyjną organizację zajmującą się zabezpieczaniem stron internetowych przed wszelkimi niebezpieczeństwami, wynika, iż ten typ podatności stanowi blisko połowę wszystkich podatności w sieci.
 
@@ -455,10 +456,10 @@ Opisując XSS nie sposób nie wspomnieć o Regule Tego Samego Pochodzenia (\emph
 	\begin{itemize}
 		\item \emph{Reflected XSS} - złośliwy skrypt umieszczony jest w adresie URL. Po wejściu w hiperłącze, ofiara nieświadomie wykonuje wcześniej przygotowany skrypt, rezultatem czego jest wykonanie kodu w przeglądarce. Kod umieszczony może zostać w wiadomości e-mail lub w innym serwisie internetowym.
 		\item \emph{Stored XSS} - polega na umieszczeniu skryptu po stronie serwera, przykładowo jako wiadomość w serwisie społecznościowym. Po odczytaniu jej przez ofiarę, automatycznie wykonywany jest wcześniej przygotowany skrypt, co może skutkować wysłaniem ciasteczka sesyjnego innego użytkownika do atakującego, pozwalając mu na umieszczenie skradzionego ciasteczka w przeglądarce i nieautoryzowany dostęp do konta ofiary.
-		\item \emph{DOM Based XSS} - atak ściśle powiązany z modyfikacją struktury DOM podatnej strony internetowej. Sama odpowiedź HTTP nie ulega zmianie, jednak kod po stronie klienta zawarty w aplikacji wykonywany jest w inny sposób z powodu modyfikacji, które miały miejsce w DOM. Typ ataku szczególnie powszechny w serwisach, które pozwalają użytkownikowi na manipulację zawartości strony. 
+		\item \emph{DOM Based XSS} - atak ściśle powiązany z modyfikacją struktury DOM podatnej strony internetowej. Sama odpowiedź HTTP nie ulega zmianie, jednak kod po stronie klienta zawarty w aplikacji wykonywany jest w inny sposób z powodu modyfikacji, które miały miejsce w DOM. Typ ataku szczególnie powszechny w serwisach, które pozwalają użytkownikowi na manipulację zawartości strony, przykładowo poprzez dodanie komentarza. 
 	\end{itemize}
 	
-Przeglądarki internetowe zostały wyposażone wiele narzędzi do walki z tą podatnością, takich system wykrywania złośliwego kodu JavaScript. Mechanizm ten składa się z wbudowanego w przeglądarkę komponentu analizy skryptów oraz systemu IDS (ang. Intrusion Detection System), przetwarzającego aktywność po stronie klienta, i porównującego ją ze znanymi złośliwymi skryptami. Dzięki temu systemowi możliwe jest wykrywanie różnego rodzaju ataków XSS. Jednak system ma znaczną wadę: może wykryć tylko sytuacje, których zachowanie jest mu znane -- nie jest odporny na nowe typy ataku \cite{XSSProtection}. 
+Przeglądarki internetowe zostały wyposażone wiele narzędzi do walki z tą podatnością, takich system wykrywania złośliwego kodu JavaScript. Mechanizm ten składa się z wbudowanego w przeglądarkę komponentu analizy skryptów oraz systemu IDS, przetwarzającego aktywność po stronie klienta, i porównującego ją ze znanymi złośliwymi skryptami. Dzięki temu systemowi możliwe jest wykrywanie różnego rodzaju ataków XSS. Jednak system ma znaczną wadę: może wykryć tylko sytuacje, których zachowanie jest mu znane -- nie jest odporny na nowe typy ataku \cite{XSSProtection}. 
 
 Najczęstszym miejscem, w którym można spotkać tę podatność, są formularze, do których użytkownik wpisuje dane, które mogą następnie być wyświetlane. Jeśli przesłane dane nie zostaną odpowiednio wyczyszczone, atakujący może wstrzyknąć złośliwy skrypt, który następnie zostanie wykonany przez przeglądarkę. Pomimo wielu zabezpieczeń, które są wbudowane w przeglądarki, te nie są w stanie odróżnić czy dany skrypt jest złośliwy, czy nie - dlatego też odporność aplikacji internetowej na tego typu atak stoi przede wszystkim po stronie programistów.
 	
@@ -551,7 +552,7 @@ Poprzez możliwie najlepsze odwzorowanie codziennych warunków, z którymi kursa
 \clearpage
 \subsection{Blokada usług}
 \subsubsection{Opis}
-Celem Blokady usług (ang. Denial Of Service, DOS) są zazwyczaj serwisy internetowe małych i średnich przedsiębiorstw. Atak ten polega na wykonaniu tak wielu żądań do serwera w jednostkowym czasie, aby ten przestał odpowiadać. Są relatywnie proste w wykonaniu i mogą być powodem poważnych strat dla sieci i systemów komputerowych. Większa część ataków typu \emph{Flood} odbywa się w oparciu o luki w protokole TCP, co prowadzi do takich ataków jak \emph{TCP SYN Flood DoS} \cite{Ddos}.
+Celem Blokady usług (DOS) są zazwyczaj serwisy internetowe małych i średnich przedsiębiorstw. Atak ten polega na wykonaniu tak wielu żądań do serwera w jednostkowym czasie, aby ten przestał odpowiadać. Są relatywnie proste w wykonaniu i mogą być powodem poważnych strat dla sieci i systemów komputerowych. Większa część ataków typu \emph{Flood} odbywa się w oparciu o luki w protokole TCP, co prowadzi do takich ataków jak \emph{TCP SYN Flood DoS} \cite{Ddos}.
 
 Rodzaj DOS może różnić się w zależności od warstwy modelu OSI, na której wysyłane są pakiety. Do głównych rodzajów tego ataku zaliczyć można: SYN Flood, HTTP Flood, Smurf Attack. W momencie, w którym klient chce nawiązać połączenie z serwerem, obie maszyny sekwencyjnie wymieniają zestaw komunikatów, znany także jako uzgadnianie trój-etapowe - \emph{3-Way Handshake} \cite{3WayHandshake}. 
 
@@ -708,8 +709,15 @@ Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów k
 
 Wiedza dostarczana w kursach jest uniwersalna, gdyż podstawowe koncepty zagrożeń oraz metody ochrony przed nimi rzadko są zmienne. W kursach zostały wykorzystane elementy usprawniające naukę, takie jak wykorzystanie wirtualnej rzeczywistości w stopniu podstawowym, interaktywne slajdy, notatnik pozwalający na zapisywanie cennych informacji czy quiz podsumowujący dany kurs i przedstawiający wynik kursanta. Dodatkowo, wykorzystanie narzędzia pozwalającego na przetłumaczenie aplikacji oraz treści kursów, pozwala rozszerzyć grupę docelową na nowe, zagraniczne rynki.
 
-Doświadczenie pisania manuskryptu pracy inżynierskiej, jak i tworzenia aplikacji internetowej przyniosło wiele korzyści: nie tylko pogłębiona została wiedza z zakresu programowania aplikacji webowych i tych działających po stronie serwera, ale również wymagane było zapoznanie się z szeroko pojętym zakresem cyberbezpieczeństwa. Poprzez staranne opisanie i zaprezentowanie różnych zagadnień niebezpieczeństw w sieci, wiedza zdobyta podczas studiów, jak i zgłębiania się w literaturę pozwoliła mi na usystematyzowanie i poznanie klasyfikacji opisywanych zagrożeń. 
+Doświadczenie pisania manuskryptu pracy inżynierskiej, jak i tworzenia aplikacji internetowej przyniosło wiele korzyści: nie tylko pogłębiona została wiedza z zakresu programowania aplikacji webowych i tych działających po stronie serwera, ale również wymagane było zapoznanie się z szeroko pojętym zakresem cyberbezpieczeństwa. Poprzez staranne opisanie i zaprezentowanie różnych zagadnień niebezpieczeństw w sieci, wiedza zdobyta podczas studiów, jak i zgłębiania się w literaturę została odpowiednio usystematyzowana. Do wyników pracy zaliczyć można:
+\begin{itemize}
 
+\item naukę technologii programistycznych w celu stworzenia strony internetowej i aplikacji działającej po stronie serwera,
+\item zapoznanie się z literaturą i systematyką zagrożeń w sieci oraz atakami na systemy teleinformatyczne,
+\item szczegółowy opis wybranych niebezpieczeństw,
+\item utworzenie systemu klasy e-learning,
+\item przygotowanie treści szkoleniowych z elementami interakcji i wirtualnej rzeczywistości.
+\end{itemize}
 Jeśli ktoś nadal uważa, że kwestie związane z zagrożeniami w sieci są marginalne, lub obecnie stanowią jedynie mniej istotną część szeroko rozumianej teleinformatyki, a skutki nie mają tak znaczącego wpływu na indywidualne osoby, powinien zwrócić uwagę na niedawną lukę typu 0-day w postaci błędu w oprogramowaniu Log4j, która dotyczyła tysięcy przedsiębiorstw na całym świecie i wywołała panikę w branży technologii teleinformatycznych \cite{Log4j}.
 
 \clearpage
