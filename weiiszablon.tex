@@ -61,6 +61,10 @@
 
 API - (ang. Application Programming Interface) - inferejs programowania aplikacji, zbiór reguł i zasad umożliwiający komunikację pomiędzy aplikacjami, serwisami.
 
+HTML - (ang. Hypertext Markup Language) - język znaczników wykorzystywany do tworzenia dokumentów, które mogą być wyświetlane w przeglądarce internetowej.
+
+CSS - (ang. Cascading Style Sheets) - język arkusza stylów używany do opisywania dokumentu napisanego w języku znaczników, przykładowo HTML.
+
 DOM - (ang. Document Object Model) - interfejs dla plików HTML i XML. Definiuje strukturę dokumentów (np. stron internetowych) w postaci drzewa.
 
 MVC - (ang. Model-View-Controller) - wzorzec projektowy, powszechnie stosowany w procesie tworzenia oprogramowania. 
@@ -74,6 +78,16 @@ XSS - (ang. Cross-site scripting) - jedna z najbardziej niebezpiecznych podatno�
 IDS - (ang. Intrusion Detection System) - narzędzia wykrywające próby ataków na systemy teleinformatyczne.
 
 DOS - (ang. Denial-of-Service) - atak na system lub sieć, mający na celu spowodowanie niedostępności serwera lub infrastruktury. Znany również jako Blokada Usług.
+
+UX - (ang. User Experience) - sposób interakcji, doświadczenia użytkownika z systemem.
+
+VR - (ang. Virtual Reality) - sposób wykorzystywania technologii informatycznych celem zasymulowania sytuacji z rzeczywistości.
+
+HTTP - (ang. Hypertext Transfer Protocol) - protokół umożliwiający enkodowanie i przesyłanie informacji pomiędzy klientem (przeglądarką) a serwerem webowym.
+
+REST - (ang. Representational state transfer) - styl architektury oprogramowania standaryzujący sposób komunikacji pomiędzy systemami.
+
+URL - (ang. Uniform Resource Locator) - odniesienie do zasobu internetowego, który określa jego lokalizację w sieci komputerowej.
 
 \clearpage
 \section{Wprowadzenie}
@@ -101,7 +115,7 @@ Dzięki temu, że powyższa idea została zrealizowana w formie aplikacji klasy 
 
 \section{Technologie wykorzystane w aplikacji}
 
-Projekt opisany w niniejszej pracy inżynierskiej składa się z dwóch aplikacji. Pierwsza z nich -- aplikacja działająca po stronie klienta -- została wykonana z użyciem biblioteki React. Jej głównym przeznaczeniem jest warstwa graficzna (tzw. UX, ang. User Experience), z którą użytkownik wchodzi w interakcję. Jest odpowiedzialna za dynamikę strony i wyświetlane na niej treści. Przesyła również informacje od użytkownika do drugiej aplikacji -- API -- która działa stronie serwera i komunikuje się z nierelacyjną bazą danych MongoDB. Opisane API zostało wykonane w technologii GraphQL, w oparciu o środowisko uruchomieniowe Node.js i bibliotekę Express. Architekturę systemu można przedstawić następującym diagramem:
+Projekt opisany w niniejszej pracy inżynierskiej składa się z dwóch aplikacji. Pierwsza z nich -- aplikacja działająca po stronie klienta -- została wykonana z użyciem biblioteki React. Jej głównym przeznaczeniem jest warstwa graficzna (UX) z którą użytkownik wchodzi w interakcję. Jest odpowiedzialna za dynamikę strony i wyświetlane na niej treści. Przesyła również informacje od użytkownika do drugiej aplikacji -- API -- która działa stronie serwera i komunikuje się z nierelacyjną bazą danych MongoDB. Opisane API zostało wykonane w technologii GraphQL, w oparciu o środowisko uruchomieniowe Node.js i bibliotekę Express. Architekturę systemu można przedstawić następującym diagramem:
 
 \begin{figure}[H]
 	\centering
