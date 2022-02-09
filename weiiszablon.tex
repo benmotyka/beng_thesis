@@ -61,33 +61,37 @@
 
 API - (ang. Application Programming Interface) - inferejs programowania aplikacji, zbiór reguł i zasad umożliwiający komunikację pomiędzy aplikacjami, serwisami.
 
-HTML - (ang. Hypertext Markup Language) - język znaczników wykorzystywany do tworzenia dokumentów, które mogą być wyświetlane w przeglądarce internetowej.
-
 CSS - (ang. Cascading Style Sheets) - język arkusza stylów używany do opisywania dokumentu napisanego w języku znaczników, przykładowo HTML.
 
 DOM - (ang. Document Object Model) - interfejs dla plików HTML i XML. Definiuje strukturę dokumentów (np. stron internetowych) w postaci drzewa.
+
+DOS - (ang. Denial-of-Service) - atak na system lub sieć, mający na celu spowodowanie niedostępności serwera lub infrastruktury. Znany również jako Blokada Usług.
+
+HTML - (ang. Hypertext Markup Language) - język znaczników wykorzystywany do tworzenia dokumentów, które mogą być wyświetlane w przeglądarce internetowej.
+
+HTTP - (ang. Hypertext Transfer Protocol) - protokół umożliwiający enkodowanie i przesyłanie informacji pomiędzy klientem (przeglądarką) a serwerem webowym.
+
+IDS - (ang. Intrusion Detection System) - narzędzia wykrywające próby ataków na systemy teleinformatyczne.
+
+MMŚP - sektor mikro, małych i średnich przedsiębiorstw
 
 MVC - (ang. Model-View-Controller) - wzorzec projektowy, powszechnie stosowany w procesie tworzenia oprogramowania. 
 
 ORM - (ang. Object–relational mapping) - technika pozwalająca na modyfikację i odczyt danych w relacyjnych bazach danych przy użyciu paradygmatu programowania obiektowego.
 
-SQL - (ang. Structured Query Language) - język stworzony specjalnie w celu komunikowania się z relacyjnymi bazami danych i ich modyfikacji.
-
-XSS - (ang. Cross-site scripting) - jedna z najbardziej niebezpiecznych podatności zagrażająca współczesnym aplikacjom webowym. 
-
-IDS - (ang. Intrusion Detection System) - narzędzia wykrywające próby ataków na systemy teleinformatyczne.
-
-DOS - (ang. Denial-of-Service) - atak na system lub sieć, mający na celu spowodowanie niedostępności serwera lub infrastruktury. Znany również jako Blokada Usług.
-
-UX - (ang. User Experience) - sposób interakcji, doświadczenia użytkownika z systemem.
-
-VR - (ang. Virtual Reality) - sposób wykorzystywania technologii informatycznych celem zasymulowania sytuacji z rzeczywistości.
-
-HTTP - (ang. Hypertext Transfer Protocol) - protokół umożliwiający enkodowanie i przesyłanie informacji pomiędzy klientem (przeglądarką) a serwerem webowym.
+PDF - (ang. Portable Document Format) - ustandaryzowany format plików służący do prezentacji treści tekstowo-graficznych
 
 REST - (ang. Representational state transfer) - styl architektury oprogramowania standaryzujący sposób komunikacji pomiędzy systemami.
 
+SQL - (ang. Structured Query Language) - język stworzony specjalnie w celu komunikowania się z relacyjnymi bazami danych i ich modyfikacji.
+
 URL - (ang. Uniform Resource Locator) - odniesienie do zasobu internetowego, który określa jego lokalizację w sieci komputerowej.
+
+UX - (ang. User Experience) - sposób interakcji, doświadczenia użytkownika z systemem.\\
+
+VR - (ang. Virtual Reality) - sposób wykorzystywania technologii informatycznych celem zasymulowania sytuacji z rzeczywistości.
+
+XSS - (ang. Cross-site scripting) - jedna z najbardziej niebezpiecznych podatności zagrażająca współczesnym aplikacjom webowym. 
 
 \clearpage
 \section{Wprowadzenie}
@@ -98,18 +102,11 @@ Fakt, iż ludzkość została zmuszona, by przenieść znaczną część swojego
 
 \subsection{Cel i zakres pracy}
 
-Celem niniejszej pracy inżynierskiej jest wyeksponowanie, opis oraz implementacja najbardziej pospolitych zagrożeń i luk bezpieczeństwa w internecie nie tylko z perspektywy zwykłych użytkowników, ale również dla małych i średnich przedsiębiorstw (MMŚP). Na podstawie wiedzy wyniesionej ze studiów stworzona została aplikacja internetowa, zwierająca interaktywne kursy o tematyce cyberbezpieczeństwa z elementami wirtualnej rzeczywistości oraz quizami, podsumowującymi wiedzę kursanta po kursie. Każdy kurs składa się ze slajdów, które podzielić można na podstawowe, zawierający zasadnicze informacje na określony temat i zaawansowane, dla kursantów chcących bardziej zgłębić wybrany obszar. Kurs kończy się quizem jednokrotnego wyboru, na którego końcu zostaje przedstawiony wynik zdającego wraz z prawidłowymi odpowiedziami. Ma on na celu zweryfikowanie i ustrukturyzowanie wiedzy użytkownika po ukończonym szkoleniu. Celem zapewnienia większej dostępności szerszemu gronu odbiorców, aplikacja, wraz z treścią kursów, została w całości przetłumaczona na język angielski.
+Celem niniejszej pracy inżynierskiej jest wyeksponowanie, opis oraz implementacja najbardziej pospolitych zagrożeń i luk bezpieczeństwa w internecie nie tylko z perspektywy zwykłych użytkowników, ale również dla małych i średnich przedsiębiorstw. Na podstawie wiedzy wyniesionej ze studiów stworzona została aplikacja internetowa, zwierająca interaktywne kursy o tematyce cyberbezpieczeństwa z elementami wirtualnej rzeczywistości oraz quizami, podsumowującymi wiedzę kursanta po kursie. Każdy kurs składa się ze slajdów, które podzielić można na podstawowe, zawierający zasadnicze informacje na określony temat i zaawansowane, dla kursantów chcących bardziej zgłębić wybrany obszar. Kurs kończy się quizem jednokrotnego wyboru, na którego końcu zostaje przedstawiony wynik zdającego wraz z prawidłowymi odpowiedziami. Ma on na celu zweryfikowanie i ustrukturyzowanie wiedzy użytkownika po ukończonym szkoleniu. Celem zapewnienia większej dostępności szerszemu gronu odbiorców, aplikacja, wraz z treścią kursów, została w całości przetłumaczona na język angielski.
 
-Treść prezentowana podczas kursów wykorzystuje elementy wirtualnej rzeczywistości (VR) w podstawowym stopniu. Kursy pozwalają użytkownikom symulować sytuacje zagrożeń bezpieczeństwa na wirtualnym komputerze czy telefonie. Nie tylko polepsza to końcowe odczucia kursanta, poprzez dostarczenie mu bardziej wartościowej treści, ale także bezpośrednio wpływa na jakość przyswajanej wiedzy. Zostało bowiem udowodnione, że doświadczanie sytuacji zbliżonych do rzeczywistości poprzez interakcję i immersję polepsza proces uczenia się \cite{VrLearning}. 
+Treść prezentowana podczas kursów wykorzystuje elementy VR w podstawowym stopniu. Kursy pozwalają użytkownikom symulować sytuacje zagrożeń bezpieczeństwa na wirtualnym komputerze czy telefonie. Nie tylko polepsza to końcowe odczucia kursanta, poprzez dostarczenie mu bardziej wartościowej treści, ale także bezpośrednio wpływa na jakość przyswajanej wiedzy. Zostało bowiem udowodnione, że doświadczanie sytuacji zbliżonych do rzeczywistości poprzez interakcję i immersję polepsza proces uczenia się \cite{VrLearning}. 
 
-Dzięki temu, że powyższa idea została zrealizowana w formie aplikacji klasy e-learning wraz z elementami wirtualnej rzeczywistości, istnieje realna szansa na zwiększenie świadomości społecznej, edukację oraz poprawę zabezpieczeń systemów teleinformatycznych i infrastruktury sieciowej. W zakres pracy wlicza się takie zagadnienia jak:
-\begin{itemize}
-\item Przegląd, dokumentacja i implementacja zagrożeń i luk bezpieczeństwa w sieci. 
-\item Przygotowanie i wyselekcjonowanie najważniejszych elementów dla kursantów.
-\item Stworzenie aplikacji e-learningowej przy użyciu technologii opisanych w kolejnym rozdziale. Użytkownicy będą mogli wziąć udział w interaktywnej prezentacji każdego z zagrożeń, wraz z weryfikacją efektów kształcenia.
-\item Zasugerowanie potencjalnych rozwiązań w odniesieniu do opisanych cyberzagrożeń.
-\item Przedstawienie wniosków płynących z powyższych oraz dalszych planów na rozwój projektu.\\
-\end{itemize} 
+Dzięki temu, że powyższa idea została zrealizowana w formie aplikacji klasy e-learning wraz z elementami wirtualnej rzeczywistości, istnieje realna szansa na zwiększenie świadomości społecznej, edukację oraz poprawę zabezpieczeń systemów teleinformatycznych i infrastruktury sieciowej.
 
 \clearpage
 
@@ -120,13 +117,13 @@ Projekt opisany w niniejszej pracy inżynierskiej składa się z dwóch aplikacj
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/app-architecture}
-	\caption{Architektura systemu}
+	\caption{Architektura systemu. Źródło: opracowanie własne}
 	\label{fig:system-architecture}
 \end{figure}
 
 \subsection{JavaScript}
 
-JavaScript to skryptowy język programowania powstały w latach 90. ubiegłego wieku, umożliwiający zaimplementowanie na stronach internetowych logiki biznesowej. Dzięki temu strona może nie tylko wyświetlać statyczne treści, ale również wykonywać akcję po wciśnięciu przycisku, kontrolować multimedia, obsługę dynamicznego tworzenia treści... Język ten pozwala również na takie możliwości jak przechowywanie danych wewnątrz zmiennych, wysyłanie żądań do interfejsów programistycznych (API), zarządzanie strukturą drzewa DOM . Dzięki swojemu szerokiemu wachlarzowi zastosowań oraz swoistej elastyczności stał się jednym z podstawowych języków programowania w internecie i od ostatniej dekady znajduje się w pierwszej dziesiątce najpopularniejszych języków programowania. Zgodnie z ankietą przeprowadzoną przez organizację W3Techs, ponad 88\% z około miliarda przeanalizowanych stron internetowych opiera się na tej technologii \cite{JavascriptPopularity}. 
+JavaScript to skryptowy język programowania powstały w latach 90. ubiegłego wieku, umożliwiający zaimplementowanie na stronach internetowych logiki biznesowej. Dzięki temu strona może nie tylko wyświetlać statyczne treści, ale również wykonywać akcję po wciśnięciu przycisku, kontrolować multimedia, obsługę dynamicznego tworzenia treści... Język ten pozwala również na takie możliwości jak przechowywanie danych wewnątrz zmiennych, wysyłanie żądań do interfejsów programistycznych (API), zarządzanie strukturą drzewa DOM. Dzięki swojemu szerokiemu wachlarzowi zastosowań oraz swoistej elastyczności stał się jednym z podstawowych języków programowania w internecie i od ostatniej dekady znajduje się w pierwszej dziesiątce najpopularniejszych języków programowania. Zgodnie z ankietą przeprowadzoną przez organizację W3Techs, ponad 88\% z około miliarda przeanalizowanych stron internetowych opiera się na tej technologii \cite{JavascriptPopularity}. 
 
 Jest to trzecia warstwa standardowych technologii internetowych, do których należą jeszcze HTML i CSS, łącznie określane jako dHTML (ang. dynamic HTML) \cite{JS}. JavaScript jest obecnie jedynym natywnym językiem programowania dla przeglądarek internetowych, a jego składnia przypomina język C. 
 
@@ -192,7 +189,7 @@ DeepL to narzędzie stworzone przez firmę DeepL SE. Ten z pozoru zwyczajny tran
 \clearpage
 \section{Zagrożenia bezpieczeństwa}
 
-Zagrożenia opisywane w poniższych podrozdziałach są jednymi z najbardziej niebezpiecznych nie tylko z perspektywy zwykłych użytkowników (phishing, keylogger, ransomware), ale także dla małych i średnich przedsiębiorstw (MMŚP). Warto jednak mieć na uwadze, że opisywane zagrożenia stanowią jedynie małą część wszystkich niebezpieczeństw w sieci.
+Zagrożenia opisywane w poniższych podrozdziałach są jednymi z najbardziej niebezpiecznych nie tylko z perspektywy zwykłych użytkowników (phishing, keylogger, ransomware), ale także dla MMŚP. Warto jednak mieć na uwadze, że opisywane zagrożenia stanowią jedynie małą część wszystkich niebezpieczeństw w sieci.
 
 Każde z opisanych w niniejszej pracy zagrożeń jest rozszerzone w postaci interaktywnego kursu w aplikacji internetowej. W skład kursu wchodzą slajdy, które dzielą się na zaawansowane -- dla użytkowników chcących bardziej zgłębić temat -- oraz podstawowe, dostępne dla wszystkich kursantów. 
 
@@ -366,7 +363,7 @@ Mając na uwadze informacje przekazane w poprzednich slajdach oraz wskazówki w 
  \begin{figure}[H]
  	\centering
  	\includegraphics[width=1\linewidth]{figures/sql-slide-screenshot2.png}
- 	\caption{Interaktywny slajd przedstawiający kod źródłowy aplikacji działającej po stronie serwera}
+ 	\caption{Interaktywny slajd przedstawiający kod źródłowy aplikacji działającej po stronie serwera.  Źródło: opracowanie własne}
  \end{figure} 
  
 Opisywany kurs nie wyczerpuje wszystkich przykładów dla zagrożenia \emph{SQL Injection}. Mając na uwadze skomplikowaną naturę tego niebezpieczeństwa i konieczność posiadania podstawowej wiedzy na temat opisywanych zagadnień (bazy danych, język SQL, działanie serwerów webowych) w celu pełnego zrozumienia idei stojącej za tym zagrożeniem, większa ilość informacji mogłaby wydawać się przytłaczająca. 
@@ -719,18 +716,21 @@ W czasach powszechnej komunikacji zdalnej wiedza na temat zagrożeń w sieci jes
 
 %Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów komercyjnych, przykładowo w małych i średnich przedsiębiorstwach, do edukacji pracowników zmieniających tryb pracy na zdalny. Istnieje również szansa na utworzenie kursów premium dla zwykłych użytkowników, które dostępne byłyby tylko dla kursantów, którzy zechcą wesprzeć projekt finansowo. Wiedza dostarczana w kursach jest uniwersalna, gdyż podstawowe koncepty zagrożeń oraz metody ochrony przed nimi rzadko są zmienne. W kursach zostały wykorzystane elementy usprawniające naukę, takie jak wykorzystanie wirtualnej rzeczywistości w stopniu podstawowym, interaktywne slajdy, notatnik pozwalający na zapisywanie cennych informacji czy quiz podsumowujący dany kurs i przedstawiający wynik kursanta. Dodatkowo, wykorzystanie narzędzia pozwalającego na przetłumaczenie aplikacji oraz treści kursów, pozwala rozszerzyć grupę docelową na nowe, zagraniczne rynki.
 
-Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów komercyjnych, przykładowo w małych i średnich przedsiębiorstwach, do edukacji pracowników zmieniających tryb pracy na zdalny. W aplikacji zaimplementowana została funkcjonalność pobierania zawartości kursów w formacie \emph{pdf}, jednak jest ona dostępna tylko dla kursantów, którzy zechcą wesprzeć projekt finansowo. W przyszłości mogą zostać również dodanie kursy z dostępem wyłącznie dla użytkowników o typie konta premium. 
+Stworzony materiał szkoleniowy ma potencjał do bycia wykorzystanym do celów komercyjnych, przykładowo w małych i średnich przedsiębiorstwach, do edukacji pracowników zmieniających tryb pracy na zdalny. W aplikacji zaimplementowana została funkcjonalność pobierania zawartości kursów w formacie \emph{PDF}, jednak jest ona dostępna tylko dla kursantów, którzy zechcą wesprzeć projekt finansowo. W przyszłości mogą zostać również dodanie kursy z dostępem wyłącznie dla użytkowników o typie konta premium. 
 
 Wiedza dostarczana w kursach jest uniwersalna, gdyż podstawowe koncepty zagrożeń oraz metody ochrony przed nimi rzadko są zmienne. W kursach zostały wykorzystane elementy usprawniające naukę, takie jak wykorzystanie wirtualnej rzeczywistości w stopniu podstawowym, interaktywne slajdy, notatnik pozwalający na zapisywanie cennych informacji czy quiz podsumowujący dany kurs i przedstawiający wynik kursanta. Dodatkowo, wykorzystanie narzędzia pozwalającego na przetłumaczenie aplikacji oraz treści kursów, pozwala rozszerzyć grupę docelową na nowe, zagraniczne rynki.
 
 Doświadczenie pisania manuskryptu pracy inżynierskiej, jak i tworzenia aplikacji internetowej przyniosło wiele korzyści: nie tylko pogłębiona została wiedza z zakresu programowania aplikacji webowych i tych działających po stronie serwera, ale również wymagane było zapoznanie się z szeroko pojętym zakresem cyberbezpieczeństwa. Poprzez staranne opisanie i zaprezentowanie różnych zagadnień niebezpieczeństw w sieci, wiedza zdobyta podczas studiów, jak i zgłębiania się w literaturę została odpowiednio usystematyzowana. Do wyników pracy zaliczyć można:
 \begin{itemize}
 
-\item naukę technologii programistycznych w celu stworzenia strony internetowej i aplikacji działającej po stronie serwera,
+\item naukę technologii programistycznych (React.js, Node.js, GraphQL, MongoDB) w celu stworzenia strony internetowej i aplikacji działającej po stronie serwera,
 \item zapoznanie się z literaturą i systematyką zagrożeń w sieci oraz atakami na systemy teleinformatyczne,
-\item szczegółowy opis wybranych niebezpieczeństw,
+\item szczegółową dokumentację i implementację wybranych niebezpieczeństw,
 \item utworzenie systemu klasy e-learning,
-\item przygotowanie treści szkoleniowych z elementami interakcji i wirtualnej rzeczywistości.
+\item przygotowanie treści szkoleniowych z elementami interakcji i wirtualnej rzeczywistości,
+\item zasugerowanie potencjalnych rozwiązań w odniesieniu do opisanych cyberzagrożeń,
+\item przedstawienie wniosków płynących z powyższych oraz dalszych planów na rozwój projektu.\\
+
 \end{itemize}
 Jeśli ktoś nadal uważa, że kwestie związane z zagrożeniami w sieci są marginalne, lub obecnie stanowią jedynie mniej istotną część szeroko rozumianej teleinformatyki, a skutki nie mają tak znaczącego wpływu na indywidualne osoby, powinien zwrócić uwagę na niedawną lukę typu 0-day w postaci błędu w oprogramowaniu Log4j, która dotyczyła tysięcy przedsiębiorstw na całym świecie i wywołała panikę w branży technologii teleinformatycznych \cite{Log4j}.
 
